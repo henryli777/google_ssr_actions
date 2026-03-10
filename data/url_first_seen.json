@@ -1340,5 +1340,6 @@
   "https://s1.byte33.com/api/v1/client/subscribe?token=d104bfd507d33ae78a8c7c50a2c143d2": "2026-03-09",
   "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc": "2026-03-10",
   "https://www.example1.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449": "2026-03-10",
-  "https://www.example2.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449": "2026-03-10"
+  "https://www.example2.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449": "2026-03-10",
+  "https://s3.bbdmfetch.com/api/v1/client/subscribe?token=478bde0f641540cf14aee4d3dd86b021": "2026-03-11"
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-10T15:58:56.375910",
+  "timestamp": "2026-03-10T18:44:18.955638",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,17 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 12,
+  "total_urls": 9,
+  "original_urls": 20,
   "urls": [
-    "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc&flag=shadowrocket."
+    "https://s3.bbdmfetch.com/api/v1/client/subscribe?token=478bde0f641540cf14aee4d3dd86b021",
+    "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc&flag=shadowrocket.",
+    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=deac465224921e593d9940b2c6ed2ccd",
+    "https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de",
+    "https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=d4a71a1bb3106aa544c4251eeae790cf",
+    "https://dash.djjc.cfd/api/v1/client/subscribe?token=142a6ec1275a6d8b7951070321651532",
+    "https://s1.byte33.com/api/v1/client/subscribe?token=d104bfd507d33ae78a8c7c50a2c143d2",
+    "https://www.example1.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449",
+    "https://www.example2.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449"
   ]
 }
