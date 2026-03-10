@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-10T06:45:22.837810",
+  "timestamp": "2026-03-10T12:56:21.878412",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 12,
   "urls": [
-    "https://linka.lmscunb.cc:2087/api/v1/client/subscribe?token=b4da67e825a15d5cadd67c3c5d590448"
+    "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc&flag=shadowrocket."
   ]
 }

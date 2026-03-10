@@ -1281,10 +1281,10 @@
   },
   {
     "date": "2026-03-10",
-    "google_added": 56,
+    "google_added": 53,
     "github_added": 3,
-    "new_total": 2,
-    "removed_total": 1,
-    "alive_total": 59
+    "new_total": 0,
+    "removed_total": 3,
+    "alive_total": 56
   }
 ]
