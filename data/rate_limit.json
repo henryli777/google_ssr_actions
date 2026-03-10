@@ -7206,16 +7206,16 @@
     "next_allowed_at": 1772216065.2670748
   },
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=8827a7d0e22de79b46fd5003b1cc0ca7": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1773092019.9428031,
-    "next_allowed_at": 1773178419.9428031
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773264866.6924145
   },
   "https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=f8fb5683f0cf6f938bccf053c55ead62": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1773092019.9428031,
-    "next_allowed_at": 1773178419.9428031
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773264866.6924145
   },
   "https://2025.youzizizi.top/api/v1/client/subscribe?token=e220eb4434c516f052bd4c7441f80e8f": {
     "hits": 8,
@@ -7260,27 +7260,33 @@
     "next_allowed_at": 1773205134.7454727
   },
   "https://drfytjmjhggnrgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=c6a97f3cc9cce1e509edb11986063d8e": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1773168404.2632468,
-    "next_allowed_at": 1773175604.2632468
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773192866.6924145
   },
   "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1773168404.2632468,
-    "next_allowed_at": 1773172004.2632468
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773185666.6924145
   },
   "https://www.example2.com/api/v1/client/subscribe?token=69c60b0748abcdefg8850f33449": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1773168404.2632468,
-    "next_allowed_at": 1773172004.2632468
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773185666.6924145
   },
   "https://s3.bbdmfetch.com/api/v1/client/subscribe?token=478bde0f641540cf14aee4d3dd86b021": {
+    "hits": 2,
+    "last_reason": "http 403",
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773180266.6924145
+  },
+  "https://platform.djjc.cfd/api/v1/client/subscribe?token=7b7beb3a13f6aac12987c68d8bc36692": {
     "hits": 1,
     "last_reason": "http 403",
-    "last_at": 1773168404.2632468,
-    "next_allowed_at": 1773169304.2632468
+    "last_at": 1773178466.6924145,
+    "next_allowed_at": 1773179366.6924145
   }
 }
