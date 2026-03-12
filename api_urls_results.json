@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-12T01:53:26.162072",
+  "timestamp": "2026-03-12T12:55:31.566618",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,11 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 3,
-  "original_urls": 3,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://s1.byte16.com/api/v1/client/subscribe?token=614c989cedbe2ef941db02a0838541c2",
-    "https://s1.byte16.com/api/v1/client/subscribe?token=c18d894bf6d6d11522f7afe0c7b1aeb9",
-    "https://fgqf2k.xdffastgo.online/api/v1/client/subscribe?token=43c1f7955e412f9969d46e07e9bccc8b"
+    "https://your-provider.com/api/v1/client/subscribe?token=xxxxx"
   ]
 }
