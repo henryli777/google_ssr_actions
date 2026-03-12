@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-12T12:55:31.566618",
+  "timestamp": "2026-03-12T15:58:36.646169",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,18 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 1,
+  "total_urls": 10,
+  "original_urls": 10,
   "urls": [
-    "https://your-provider.com/api/v1/client/subscribe?token=xxxxx"
+    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=deac465224921e593d9940b2c6ed2ccd",
+    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=ee10a45e406c021f79cce0a5f8b0e7fd",
+    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d8304343ae7c3ef2fae9f0769ac277dd",
+    "https://onlysub.mjurl.com/api/v1/client/subscribe?token=0317efa61070761545d7f4c909ffdff5",
+    "https://s1.byte77.com/api/v1/client/subscribe?token=6e45a26c8dc60b9801ac0e65e643477d",
+    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=866d80b875952eb6cc89a967411eac48",
+    "https://s1.byte77.com/api/v1/client/subscribe?token=dd991771414daacc756eb417015a978a",
+    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=1b48cf2fa8dc9f82320ae4eee0ced146",
+    "https://mojie.app/api/v1/client/subscribe?token=bd5c3115c5f1c932a7a0a1fa902f597c",
+    "https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=82dea9d68fec6221abfd43e520270ee2"
   ]
 }
