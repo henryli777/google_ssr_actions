@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T21:31:44.464594",
+  "timestamp": "2026-03-14T01:50:45.381695",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,21 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 13,
-  "original_urls": 13,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de",
-    "https://s1.byte77.com/api/v1/client/subscribe?token=dd991771414daacc756eb417015a978a",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d4b300c93235ecfce231dfa75b29a01d",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=ee10a45e406c021f79cce0a5f8b0e7fd",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=fd0546e618b1652da470d0f0b1cee055",
-    "https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=82dea9d68fec6221abfd43e520270ee2",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d7018ad16c4881f931129f98692e8112",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d8304343ae7c3ef2fae9f0769ac277dd",
-    "https://mojie.app/api/v1/client/subscribe?token=8b0804cf83dd8f2ddb1d25ae3480a0fa",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=1b48cf2fa8dc9f82320ae4eee0ced146",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=9e4703d7f3f756631007285cd9e6cb17",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=866d80b875952eb6cc89a967411eac48",
-    "https://sub3.7878787878.top/api/v1/client/subscribe?token=9209f2e3a5a86d7e9afba7b4af42568a"
+    "https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de"
   ]
 }
