@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T04:42:14.331784",
+  "timestamp": "2026-03-14T06:42:53.872084",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 3,
+  "original_urls": 4,
   "urls": [
     "https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de"
   ]
