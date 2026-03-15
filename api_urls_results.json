@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T21:25:31.791218",
+  "timestamp": "2026-03-15T02:07:39.413778",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
+  "total_urls": 2,
   "original_urls": 4,
   "urls": [
-    "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=f859cede6c813621c9f9886a8772aab6"
+    "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=f859cede6c813621c9f9886a8772aab6",
+    "https://your-provider.com/api/v1/client/subscribe?token=xxxxx"
   ]
 }
