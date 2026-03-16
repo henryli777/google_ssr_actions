@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-15T21:27:06.401241",
+  "timestamp": "2026-03-16T05:13:48.911632",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,22 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 14,
-  "original_urls": 25,
+  "total_urls": 1,
+  "original_urls": 2,
   "urls": [
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=1b48cf2fa8dc9f82320ae4eee0ced146",
-    "https://1343763932-2ducwnqrch.eu-frankfurt.tencentscf.com/api/v1/client/subscribe?token=3e5491f63328b9a5427f3daac800020e",
-    "https://mojie.app/api/v1/client/subscribe?token=6946bbd30385d2e1a77b88025463a40e",
-    "https://mojie.app/api/v1/client/subscribe?token=dfc645ef2d5071e1ad263d15f6f22a0a",
-    "http://154.17.23.118:3385/api/v1/client/subscribe?token=8465a38a35b10035f83923ed136e52d1",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d8304343ae7c3ef2fae9f0769ac277dd",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=fd0546e618b1652da470d0f0b1cee055",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d7018ad16c4881f931129f98692e8112",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=9e4703d7f3f756631007285cd9e6cb17",
-    "https://sub3.7878787878.top/api/v1/client/subscribe?token=9209f2e3a5a86d7e9afba7b4af42568a",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=d4b300c93235ecfce231dfa75b29a01d",
-    "https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=866d80b875952eb6cc89a967411eac48",
-    "https://mojie.app/api/v1/client/subscribe?token=8b0804cf83dd8f2ddb1d25ae3480a0fa",
     "https://xsus.jolqx.cn/api/v1/client/subscribe?token=00506d5069a735b2144ef04ec5d4dc77"
   ]
 }

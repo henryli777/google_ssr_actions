@@ -1329,10 +1329,10 @@
   },
   {
     "date": "2026-03-16",
-    "google_added": 46,
+    "google_added": 57,
     "github_added": 4,
-    "new_total": 0,
-    "removed_total": 14,
-    "alive_total": 50
+    "new_total": 14,
+    "removed_total": 3,
+    "alive_total": 61
   }
 ]
