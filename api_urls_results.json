@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-17T16:04:26.184082",
+  "timestamp": "2026-03-17T19:00:05.416206",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 3,
+  "original_urls": 3,
   "urls": [
-    "https://mojie.app/api/v1/client/subscribe?token=8b0804cf83dd8f2ddb1d25ae3480a0fa"
+    "https://www.carpetpacific.com/blanket/api/v1/client/subscribe?token=5d443661ceea88f64d1508e171fdc40b",
+    "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw",
+    "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw1"
   ]
 }
