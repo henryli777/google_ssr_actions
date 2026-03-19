@@ -7434,10 +7434,10 @@
     "next_allowed_at": 1774011789.9445562
   },
   "https://djjc.cfd/api/v1/client/subscribe?token=01fb9d2fc294a0a85e9ba284e431f9b0": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1773839333.6644685,
-    "next_allowed_at": 1773925733.6644685
+    "last_at": 1773935789.63248,
+    "next_allowed_at": 1774022189.63248
   },
   "https://mojie.app/api/v1/client/subscribe?token=8b080": {
     "hits": 8,
@@ -7482,15 +7482,15 @@
     "next_allowed_at": 1773953744.1726024
   },
   "https://sync.drtacs.vip/api/v1/client/subscribe?token=5dc5388ad13ef73db334f5db0a3b6c3d": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1773903518.6724603,
-    "next_allowed_at": 1773932318.6724603
+    "last_at": 1773935789.63248,
+    "next_allowed_at": 1773993389.63248
   },
   "https://sync.drtacs.vip/api/v1/client/subscribe?token=d01dd45749adf98191d4293aa03a7f04": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1773903518.6724603,
-    "next_allowed_at": 1773932318.6724603
+    "last_at": 1773935789.63248,
+    "next_allowed_at": 1773993389.63248
   }
 }
