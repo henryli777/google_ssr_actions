@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-21T09:30:06.522958",
+  "timestamp": "2026-03-21T12:43:05.211554",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 4,
   "urls": [
     "https://apiok1.apistencent.com/api/v1/client/subscribe?token=585050c1147c8b78cfdb36af12dadf99"
   ]
