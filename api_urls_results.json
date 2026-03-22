@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-22T09:30:30.994542",
+  "timestamp": "2026-03-22T12:45:10.305379",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 3,
+  "original_urls": 5,
   "urls": [
+    "https://cf3.6881004.xyz/api/v1/client/subscribe?token=23c0f747b3b216625ba87fb17f1b10bd",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=fa5edc251d0c8749211dac53aca3b2dd",
     "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=d534e08d90d575686d74a54e872339c2"
   ]
 }
