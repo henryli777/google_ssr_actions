@@ -7434,10 +7434,10 @@
     "next_allowed_at": 1774378514.1737113
   },
   "https://djjc.cfd/api/v1/client/subscribe?token=01fb9d2fc294a0a85e9ba284e431f9b0": {
-    "hits": 12,
+    "hits": 13,
     "last_reason": "http 403",
-    "last_at": 1774214842.4348316,
-    "next_allowed_at": 1774301242.4348316
+    "last_at": 1774301833.1634164,
+    "next_allowed_at": 1774388233.1634164
   },
   "https://mojie.app/api/v1/client/subscribe?token=8b080": {
     "hits": 12,
@@ -7548,10 +7548,10 @@
     "next_allowed_at": 1774349714.1737113
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=fa5edc251d0c8749211dac53aca3b2dd": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1774292114.1737113,
-    "next_allowed_at": 1774295714.1737113
+    "last_at": 1774301833.1634164,
+    "next_allowed_at": 1774309033.1634164
   },
   "https://your-subscription-link.com/api/v1/client/subscribe?token=xxx": {
     "hits": 7,
@@ -7566,15 +7566,15 @@
     "next_allowed_at": 1774261112.3826325
   },
   "https://sep.bbdmfetch.com/api/v1/client/subscribe?token=c5e103999712643f8136783d0a52d8e2": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1774292114.1737113,
-    "next_allowed_at": 1774293914.1737113
+    "last_at": 1774301833.1634164,
+    "next_allowed_at": 1774305433.1634164
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=6835b09aa18a76f248983bf78500226d": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1774292114.1737113,
-    "next_allowed_at": 1774293014.1737113
+    "last_at": 1774301833.1634164,
+    "next_allowed_at": 1774303633.1634164
   }
 }
