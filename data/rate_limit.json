@@ -450,10 +450,10 @@
     "next_allowed_at": 1774414501.311446
   },
   "https://qingcha.win/api/v1/client/subscribe?token=89e22b9e9b39a570ffe5caa44398c3d8": {
-    "hits": 157,
+    "hits": 158,
     "last_reason": "http 403",
-    "last_at": 1774292114.1737113,
-    "next_allowed_at": 1774378514.1737113
+    "last_at": 1774388392.2873764,
+    "next_allowed_at": 1774474792.2873764
   },
   "https://qingcha.win/api/v1/client/subscribe?token=c35d37388aaf8d58e7bd94757ae782dd": {
     "hits": 164,
@@ -7434,10 +7434,10 @@
     "next_allowed_at": 1774465385.2248688
   },
   "https://djjc.cfd/api/v1/client/subscribe?token=01fb9d2fc294a0a85e9ba284e431f9b0": {
-    "hits": 13,
+    "hits": 14,
     "last_reason": "http 403",
-    "last_at": 1774301833.1634164,
-    "next_allowed_at": 1774388233.1634164
+    "last_at": 1774388392.2873764,
+    "next_allowed_at": 1774474792.2873764
   },
   "https://mojie.app/api/v1/client/subscribe?token=8b080": {
     "hits": 13,
