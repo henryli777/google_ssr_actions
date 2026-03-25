@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T21:37:35.630637",
+  "timestamp": "2026-03-25T04:53:15.065030",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,21 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 13,
-  "original_urls": 13,
+  "total_urls": 1,
+  "original_urls": 2,
   "urls": [
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=896e5fead6d595f5a5689b90b3c26998",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=a4d60bf9292e142c4efb5762fb9da180",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=23468c2c9a5697fb91ad322e45d18638",
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=d3482519768d4a2bc602550ad87619fc",
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=a433f9ca72176ae47c25aa8334336f84",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=5967bfeb1966add9388c97c168c9534d",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=4a1f08ccc9331a8c737446538d1a28e1",
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=806fdecf268b2c55ca18fc610d27f2e4",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=bd907085034e6aba39234037b30ac7a7",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=ca1fa676b94f6302108c7597d1de3eae",
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=15341c9085f2654401fa4b6778b959c0",
-    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=98e3ae2cb54154b63d7360c2a35e1a0a",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=dfb1122e73c12d4e27a649c515e09426"
+    "https://example.com/api/v1/client/subscribe?token=xxx"
   ]
 }
