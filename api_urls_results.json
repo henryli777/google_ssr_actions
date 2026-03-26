@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T18:54:41.966903",
+  "timestamp": "2026-03-26T10:00:03.321576",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 4,
   "urls": [
-    "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=a6615107773954b64afb1478c1598a9f"
+    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=354fdb4ddb27ae85e7af7d9b262f515b"
   ]
 }
