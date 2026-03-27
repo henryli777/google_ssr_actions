@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-26T21:30:41.470629",
+  "timestamp": "2026-03-27T02:06:54.288443",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,13 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 5,
-  "original_urls": 9,
+  "total_urls": 1,
+  "original_urls": 4,
   "urls": [
-    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=354fdb4ddb27ae85e7af7d9b262f515b",
-    "https://example.com/api/v1/client/subscribe?token=xxx",
-    "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=da9b3e5e8eb32d34e258275d38b6fc24",
-    "https://mojie.app/api/v1/client/subscribe?token=40d2f150df63a84e42c7c636b5884988",
-    "https://su.gwzxwk.com/api/v1/client/subscribe?token=c2c077c5c497219a9564844bbd6395a3"
+    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=354fdb4ddb27ae85e7af7d9b262f515b"
   ]
 }
