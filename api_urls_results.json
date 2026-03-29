@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-29T15:29:44.549470",
+  "timestamp": "2026-03-29T18:39:25.009388",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,17 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 2,
+  "total_urls": 9,
+  "original_urls": 9,
   "urls": [
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=5c4d77cb18fb61d420ebf1cb8eb2883b"
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=5c4d77cb18fb61d420ebf1cb8eb2883b",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=9299aa5a3b1500f22bd6cfb396d5b5f3",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=763463f982967df53ca3a3f6ea3c2b4a",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=dfb1122e73c12d4e27a649c515e09426",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=9f10323936c22442ca476fb578543789",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=79d2e747646dd9987126227d2d482d62",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=a4d60bf9292e142c4efb5762fb9da180",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=7a6fa8d3743ae712d956c7a0471f1a24"
   ]
 }
