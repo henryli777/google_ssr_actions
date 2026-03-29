@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-29T12:51:49.619902",
+  "timestamp": "2026-03-29T15:29:44.549470",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 2,
   "urls": [
     "https://suba.f2vip.net/api/v1/client/subscribe?token=5c4d77cb18fb61d420ebf1cb8eb2883b"
   ]

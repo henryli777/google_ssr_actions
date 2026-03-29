@@ -1433,10 +1433,10 @@
   },
   {
     "date": "2026-03-29",
-    "google_added": 72,
+    "google_added": 78,
     "github_added": 2,
-    "new_total": 3,
-    "removed_total": 7,
-    "alive_total": 74
+    "new_total": 7,
+    "removed_total": 1,
+    "alive_total": 80
   }
 ]
