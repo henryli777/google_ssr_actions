@@ -1457,10 +1457,10 @@
   },
   {
     "date": "2026-04-01",
-    "google_added": 75,
+    "google_added": 71,
     "github_added": 3,
-    "new_total": 10,
-    "removed_total": 2,
-    "alive_total": 78
+    "new_total": 2,
+    "removed_total": 6,
+    "alive_total": 74
   }
 ]
