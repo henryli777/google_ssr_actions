@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T07:10:20.711337",
+  "timestamp": "2026-04-01T18:59:02.534668",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 1,
   "urls": [
-    "https://link.dingyueapi.net/api/v1/client/subscribe?token=9201914e4667c14c671162e9cb02f765"
+    "https://example.com/api/v1/client/subscribe?token=abc123"
   ]
 }
