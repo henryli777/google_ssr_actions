@@ -522,10 +522,10 @@
     "next_allowed_at": 1775501012.7585962
   },
   "https://qufanfan.info/api/v1/client/subscribe?token=00d1eff0820cffa7b904f3ed0dcee8d9": {
-    "hits": 121,
+    "hits": 122,
     "last_reason": "http 403",
-    "last_at": 1775278280.0578148,
-    "next_allowed_at": 1775364680.0578148
+    "last_at": 1775424714.8100905,
+    "next_allowed_at": 1775511114.8100905
   },
   "https://www.djjc.cfd/api/v1/client/subscribe?token=eb6fb117e1c1cbe8041e0e0a00935b85": {
     "hits": 178,
@@ -4440,10 +4440,10 @@
     "next_allowed_at": 1775501012.7585962
   },
   "https://subtwo.arisaka.io/api/v1/client/subscribe?token=6ab4a8c0c632f45ecd35b75fa3bfcefe": {
-    "hits": 101,
+    "hits": 102,
     "last_reason": "http 403",
-    "last_at": 1775278280.0578148,
-    "next_allowed_at": 1775364680.0578148
+    "last_at": 1775424714.8100905,
+    "next_allowed_at": 1775511114.8100905
   },
   "https://webget.yfjc.xyz/api/v1/client/subscribe?token=c47cb593f47fcca611769f614c27b6d3": {
     "hits": 153,
@@ -6792,10 +6792,10 @@
     "next_allowed_at": 1775459097.724441
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1d288a4a4f9fb273ceacf18248cacdaf": {
-    "hits": 64,
+    "hits": 65,
     "last_reason": "body-hint",
-    "last_at": 1775268020.2279725,
-    "next_allowed_at": 1775354420.2279725
+    "last_at": 1775424714.8100905,
+    "next_allowed_at": 1775511114.8100905
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=8612313108bf43a14f033ab1bdcd1cce": {
     "hits": 65,
@@ -7798,5 +7798,11 @@
     "last_reason": "http 403",
     "last_at": 1775393826.4609852,
     "next_allowed_at": 1775480226.4609852
+  },
+  "https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f&flag=clash": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1775424714.8100905,
+    "next_allowed_at": 1775425614.8100905
   }
 }
