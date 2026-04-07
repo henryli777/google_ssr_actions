@@ -1445,5 +1445,6 @@
   "https://xxx.com/api/v1/client/subscribe?token=xxx": "2026-04-06",
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f": "2026-04-06",
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=1ca9d969c9dd42139d4b90bd5d234fdb": "2026-04-07",
-  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=dfe7fc6ddc394a2de18d3c9a052408d0": "2026-04-07"
+  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=dfe7fc6ddc394a2de18d3c9a052408d0": "2026-04-07",
+  "https://login.yfjc.xyz/api/v1/client/subscribe?token=123": "2026-04-07"
 }
