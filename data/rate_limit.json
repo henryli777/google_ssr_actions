@@ -6612,10 +6612,10 @@
     "next_allowed_at": 1775675001.8861802
   },
   "https://bj.mfsyw.cn/api/v1/client/subscribe?token=41cbd904c3ab780e31e146b27cd68b5b": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1775578317.4471533,
-    "next_allowed_at": 1775607117.4471533
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775671878.465766
   },
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=dafad1181ebfcc83ba7a50a2de798474": {
     "hits": 79,
@@ -7812,94 +7812,94 @@
     "next_allowed_at": 1775684598.128306
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=15341c9085f2654401fa4b6778b959c0": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=806fdecf268b2c55ca18fc610d27f2e4": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=896e5fead6d595f5a5689b90b3c26998": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=a433f9ca72176ae47c25aa8334336f84": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=a6615107773954b64afb1478c1598a9f": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=d3482519768d4a2bc602550ad87619fc": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=d534e08d90d575686d74a54e872339c2": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=e71fa4b4da968cf8481e92dd9b1ea927": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1775546128.7041457,
-    "next_allowed_at": 1775603728.7041457
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775700678.465766
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=67ad39b2cfc81168a697aeb2a3821300": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=7a227fd56a15f5bf688388408e4a6c16": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=99cb584ebce444815075f222b72e1741": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=a622299cd0f5f9fd8027f5c34d882465": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=cff1dcd5f0b4d05a6e9db542cc8fc3a8": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=cc833e586787464bcf090be25e2da69f": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=cd154c6f991822fbc34d05dc3fc3b84a": {
-    "hits": 3,
-    "last_reason": "body-hint",
-    "last_at": 1775556570.388183,
-    "next_allowed_at": 1775560170.388183
+    "hits": 4,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775621478.465766
   },
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f": {
     "hits": 7,
@@ -7920,9 +7920,15 @@
     "next_allowed_at": 1775626998.128306
   },
   "https://login.yfjc.xyz/api/v1/client/subscribe?token=123": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1775598198.128306,
-    "next_allowed_at": 1775605398.128306
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775628678.465766
+  },
+  "https://novc.f6net.net/api/v1/client/subscribe?token=01d090eb7236373c08a95f5f689bf411": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1775614278.465766,
+    "next_allowed_at": 1775615178.465766
   }
 }
