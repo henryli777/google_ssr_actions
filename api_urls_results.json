@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T19:13:49.200939",
+  "timestamp": "2026-04-08T21:39:56.140281",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 2,
   "urls": [
-    "https://novc.f6net.net/api/v1/client/subscribe?token=99cb584ebce444815075f222b72e1741"
+    "https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f"
   ]
 }
