@@ -1092,10 +1092,10 @@
     "next_allowed_at": 1775959467.344533
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3e483a7b7f0caaca3fa8a947495b0d92": {
-    "hits": 167,
+    "hits": 168,
     "last_reason": "body-hint",
-    "last_at": 1774588086.7072768,
-    "next_allowed_at": 1774674486.7072768
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3f8d8451ab75ef2ec25cc312c97c2a98": {
     "hits": 167,
@@ -2454,22 +2454,22 @@
     "next_allowed_at": 1775959467.344533
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=0a4a698fc35693d87cd59064970f7e6a": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=0de9c75b670d8296665c0bbbb9d71f34": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1278469ff73194b8bb6b24cebc3ad629": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=134b5ac2e2680ab102fb79ba63fa0490": {
     "hits": 72,
@@ -2496,10 +2496,10 @@
     "next_allowed_at": 1775998550.4277642
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1c9718cbabdf65c8253df50a9d8ef50b": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1e31f2d5fffcb61d39da79f9b0e837b8": {
     "hits": 72,
@@ -2574,16 +2574,16 @@
     "next_allowed_at": 1775986846.9184067
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=61e468b495a137375edef1fa51de7bfb": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775805988.9596508,
-    "next_allowed_at": 1775892388.9596508
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=63a5117fded4db1b781089b8196deb3d": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=74543b07e52587e4735d1cfd590a6f94": {
     "hits": 72,
@@ -2646,10 +2646,10 @@
     "next_allowed_at": 1775959467.344533
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=b7dfbe2e03178fe7b799323f46782bc0": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=c0cc5e97cdefb9f547c81b88955b8f08": {
     "hits": 71,
@@ -2664,10 +2664,10 @@
     "next_allowed_at": 1775922874.8463247
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=cbbb11535d2dbb3111b2112898e543e3": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775805988.9596508,
-    "next_allowed_at": 1775892388.9596508
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=ccd457a49fff474627bc21ae8752f292": {
     "hits": 71,
@@ -2706,10 +2706,10 @@
     "next_allowed_at": 1775922874.8463247
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=e0825eeba92c059e149c75adcb8227c4": {
-    "hits": 71,
+    "hits": 72,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=e427523c79e11f993a3a95115b7646b7": {
     "hits": 72,
@@ -6792,10 +6792,10 @@
     "next_allowed_at": 1775986846.9184067
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1d288a4a4f9fb273ceacf18248cacdaf": {
-    "hits": 69,
+    "hits": 70,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=8612313108bf43a14f033ab1bdcd1cce": {
     "hits": 70,
@@ -6810,10 +6810,10 @@
     "next_allowed_at": 1775943503.828489
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=b250dfdf6adc4269a2720d132ebaebd7": {
-    "hits": 70,
+    "hits": 71,
     "last_reason": "body-hint",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=e46d0151e2b5ed9237e0e86160ae8431": {
     "hits": 71,
@@ -7902,10 +7902,10 @@
     "next_allowed_at": 1775922874.8463247
   },
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f": {
-    "hits": 10,
+    "hits": 11,
     "last_reason": "http 403",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=1ca9d969c9dd42139d4b90bd5d234fdb": {
     "hits": 10,
@@ -7920,10 +7920,10 @@
     "next_allowed_at": 1775969738.807471
   },
   "https://login.yfjc.xyz/api/v1/client/subscribe?token=123": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1775826449.8030412,
-    "next_allowed_at": 1775912849.8030412
+    "last_at": 1775921680.8967614,
+    "next_allowed_at": 1776008080.8967614
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=01d090eb7236373c08a95f5f689bf411": {
     "hits": 9,
