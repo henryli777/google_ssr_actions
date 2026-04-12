@@ -1449,5 +1449,6 @@
   "https://login.yfjc.xyz/api/v1/client/subscribe?token=123": "2026-04-07",
   "https://provider.example.com/api/v1/client/subscribe?token=xxx": "2026-04-10",
   "https://tc.adfgawidhioawjd.site/api/v1/client/subscribe?token=27e47a943040e7d25adac3ea482d6f1a": "2026-04-11",
-  "https://suba.f2vip.net/api/v1/client/subscribe?token=ebe5cc145d4563c57d69d14f6dc55079": "2026-04-12"
+  "https://suba.f2vip.net/api/v1/client/subscribe?token=ebe5cc145d4563c57d69d14f6dc55079": "2026-04-12",
+  "https://service.example.com/api/v1/client/subscribe?token=abc123xyz": "2026-04-12"
 }
