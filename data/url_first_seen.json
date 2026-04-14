@@ -1452,5 +1452,6 @@
   "https://suba.f2vip.net/api/v1/client/subscribe?token=ebe5cc145d4563c57d69d14f6dc55079": "2026-04-12",
   "https://service.example.com/api/v1/client/subscribe?token=abc123xyz": "2026-04-12",
   "https://proxyinfo.net/api/v1/client/subscribe?token=6e3e33eac30afd8a7036067874dc5566": "2026-04-12",
-  "https://example.com/api/v1/client/subscribe?token=xxxxx": "2026-04-13"
+  "https://example.com/api/v1/client/subscribe?token=xxxxx": "2026-04-13",
+  "https://example.com/api/v1/client/subscribe?token=xxx&flag=shadowrocket": "2026-04-14"
 }
