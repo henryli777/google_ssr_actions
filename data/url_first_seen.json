@@ -1465,5 +1465,6 @@
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=e960f34012590c8fd184e9277c112403": "2026-04-15",
   "https://your-domain/api/v1/client/subscribe?token=xxx": "2026-04-15",
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=1da6538770cb2bde323d95c919a505ca": "2026-04-15",
-  "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx": "2026-04-16"
+  "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx": "2026-04-16",
+  "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=1f7d1a413c0d66084515a82dbc48cd81": "2026-04-17"
 }

@@ -6816,10 +6816,10 @@
     "next_allowed_at": 1776376370.2665718
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=e46d0151e2b5ed9237e0e86160ae8431": {
-    "hits": 75,
+    "hits": 76,
     "last_reason": "body-hint",
-    "last_at": 1776269156.9269335,
-    "next_allowed_at": 1776355556.9269335
+    "last_at": 1776366698.5739484,
+    "next_allowed_at": 1776453098.5739484
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=ff47c7c9748b5e785f439c51c2b9d657": {
     "hits": 75,
@@ -6834,10 +6834,10 @@
     "next_allowed_at": 1776403913.9773288
   },
   "https://osaip.ftcos.click/api/v1/client/subscribe?token=30ffa0f1f58a7482906553af1374f1c7": {
-    "hits": 44,
+    "hits": 45,
     "last_reason": "http 403",
-    "last_at": 1776269156.9269335,
-    "next_allowed_at": 1776355556.9269335
+    "last_at": 1776366698.5739484,
+    "next_allowed_at": 1776453098.5739484
   },
   "https://moes.lnaspiring.com/Moe233-Subs/qwbm/api/v1/client/subscribe?token=e4a48770537e9e47347439adefb34ac9": {
     "hits": 42,
@@ -7968,10 +7968,10 @@
     "next_allowed_at": 1776393019.5258389
   },
   "https://your-domain/api/v1/client/subscribe?token=xxx": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "body-hint",
-    "last_at": 1776306619.5258389,
-    "next_allowed_at": 1776364219.5258389
+    "last_at": 1776366698.5739484,
+    "next_allowed_at": 1776453098.5739484
   },
   "https://sovql.xn--fiq63fnvb6zglxgxnhmdz73nrmhul7ax10cca.com/api/v1/client/subscribe?token=902ed448c347d7b3ad38cddcafcf228a": {
     "hits": 5,
@@ -7980,10 +7980,10 @@
     "next_allowed_at": 1776371057.876272
   },
   "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1776356657.876272,
-    "next_allowed_at": 1776360257.876272
+    "last_at": 1776366698.5739484,
+    "next_allowed_at": 1776373898.5739484
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=ebe5cc145d4563c57d69d14f6dc55079": {
     "hits": 1,
