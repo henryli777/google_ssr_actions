@@ -1437,6 +1437,7 @@
   "https://ymjc.cfd/api/v1/client/subscribe?token=aa85f60fec3af1621b4aaef01b21964a",
   "https://ymjc.cfd/api/v1/client/subscribe?token=c993278e5efcf50ae6ba0ae556f2134a",
   "https://ymjc.cfd/api/v1/client/subscribe?token=f8cc22a9078306f0b66abb0898a73439",
+  "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx",
   "https://your-domain/api/v1/client/subscribe?token=xxx",
   "https://your-subscription-link.com/api/v1/client/subscribe?token=xxx",
   "https://your-subscription-url.com/api/v1/client/subscribe?token=xyz",
