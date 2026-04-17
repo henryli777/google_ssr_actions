@@ -1585,10 +1585,10 @@
   },
   {
     "date": "2026-04-17",
-    "google_added": 47,
+    "google_added": 49,
     "github_added": 3,
     "new_total": 2,
-    "removed_total": 2,
-    "alive_total": 50
+    "removed_total": 0,
+    "alive_total": 52
   }
 ]

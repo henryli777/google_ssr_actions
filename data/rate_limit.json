@@ -2454,16 +2454,16 @@
     "next_allowed_at": 1776403913.9773288
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=0a4a698fc35693d87cd59064970f7e6a": {
-    "hits": 76,
+    "hits": 77,
     "last_reason": "body-hint",
-    "last_at": 1776280568.9723072,
-    "next_allowed_at": 1776366968.9723072
+    "last_at": 1776392796.1820214,
+    "next_allowed_at": 1776479196.1820214
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=0de9c75b670d8296665c0bbbb9d71f34": {
-    "hits": 76,
+    "hits": 77,
     "last_reason": "body-hint",
-    "last_at": 1776280568.9723072,
-    "next_allowed_at": 1776366968.9723072
+    "last_at": 1776392796.1820214,
+    "next_allowed_at": 1776479196.1820214
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1278469ff73194b8bb6b24cebc3ad629": {
     "hits": 77,
@@ -2586,10 +2586,10 @@
     "next_allowed_at": 1776393019.5258389
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=74543b07e52587e4735d1cfd590a6f94": {
-    "hits": 76,
+    "hits": 77,
     "last_reason": "body-hint",
-    "last_at": 1776289970.2665718,
-    "next_allowed_at": 1776376370.2665718
+    "last_at": 1776392796.1820214,
+    "next_allowed_at": 1776479196.1820214
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=787a0bbe099268e50e29377f153967b2": {
     "hits": 76,
@@ -2712,10 +2712,10 @@
     "next_allowed_at": 1776403913.9773288
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=e427523c79e11f993a3a95115b7646b7": {
-    "hits": 76,
+    "hits": 77,
     "last_reason": "body-hint",
-    "last_at": 1776280568.9723072,
-    "next_allowed_at": 1776366968.9723072
+    "last_at": 1776392796.1820214,
+    "next_allowed_at": 1776479196.1820214
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=edb8b658062d02a4c85967ba5d63761f": {
     "hits": 77,
@@ -7980,10 +7980,10 @@
     "next_allowed_at": 1776404668.195166
   },
   "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "body-hint",
-    "last_at": 1776375868.195166,
-    "next_allowed_at": 1776390268.195166
+    "last_at": 1776392796.1820214,
+    "next_allowed_at": 1776421596.1820214
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=ebe5cc145d4563c57d69d14f6dc55079": {
     "hits": 1,
