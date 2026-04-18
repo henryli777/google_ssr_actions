@@ -2496,10 +2496,10 @@
     "next_allowed_at": 1776564548.6110275
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1c9718cbabdf65c8253df50a9d8ef50b": {
-    "hits": 77,
+    "hits": 78,
     "last_reason": "body-hint",
-    "last_at": 1776403749.155452,
-    "next_allowed_at": 1776490149.155452
+    "last_at": 1776517253.4186292,
+    "next_allowed_at": 1776603653.4186292
   },
   "https://sfj.sufujia.top/api/v1/client/subscribe?token=1e31f2d5fffcb61d39da79f9b0e837b8": {
     "hits": 78,
@@ -7926,10 +7926,10 @@
     "next_allowed_at": 1776564548.6110275
   },
   "https://novc.f6net.net/api/v1/client/subscribe?token=01d090eb7236373c08a95f5f689bf411": {
-    "hits": 15,
+    "hits": 16,
     "last_reason": "http 403",
-    "last_at": 1776411122.5288687,
-    "next_allowed_at": 1776497522.5288687
+    "last_at": 1776517253.4186292,
+    "next_allowed_at": 1776603653.4186292
   },
   "https://provider.example.com/api/v1/client/subscribe?token=xxx": {
     "hits": 14,
