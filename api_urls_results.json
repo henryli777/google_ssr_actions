@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T19:05:11.133950",
+  "timestamp": "2026-04-23T21:43:53.289613",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,11 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 3,
-  "original_urls": 11,
+  "total_urls": 2,
+  "original_urls": 10,
   "urls": [
-    "https://www.djjc.cfd/api/v1/client/subscribe?token=a658316a4a7afeb40f009f3a1f571d67",
-    "https://msub.建森电器.com/api/v1/client/subscribe?token=c93efdf8a7948c172c22ca97fa24e788",
-    "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=02150886ea5061434ca377c3edd54cfe"
+    "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=02150886ea5061434ca377c3edd54cfe",
+    "https://msub.建森电器.com/api/v1/client/subscribe?token=c93efdf8a7948c172c22ca97fa24e788"
   ]
 }
