@@ -1,7 +1,10 @@
 [
+  "http://154.17.23.118:3385/api/v1/client/subscribe?token=095865abedb7c19f51745bfc28fa89d8",
   "https://088EA81A-3547-85E0-4AF6-DFCB3C6674AA.372372.xyz/api/v1/client/subscribe?token=d3065c795c0ea07c325756a2515708d9",
   "https://1343763932-2ducwnqrch.eu-frankfurt.tencentscf.com/api/v1/client/subscribe?token=3e5491f63328b9a5427f3daac800020e",
   "https://2.342242.icu/api/v1/client/subscribe?token=fdeba462f4d949718e7137dc6e6d78e8",
+  "https://47.242.128.61:5000/api/v1/client/subscribe?token=41975f235b608d3953afc06cddaa843f",
+  "https://47.242.128.61:5000/api/v1/client/subscribe?token=868ef2ec4b3776d8845675ba8898a2c4",
   "https://52pokemon.sdnlv0.cn/api/v1/client/subscribe?token=52d61987d1b2a30b30520c1ed8aa3484",
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=a6615107773954b64afb1478c1598a9f",
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=d534e08d90d575686d74a54e872339c2",
@@ -27,6 +30,7 @@
   "https://mojie.app/api/v1/client/subscribe?token=6946bbd30385d2e1a77b88025463a40e",
   "https://mojie.app/api/v1/client/subscribe?token=7b2524e8b617290404473801cf17aeed",
   "https://mojie.app/api/v1/client/subscribe?token=8cb2275f0d7ded330fe8bb6df2f735ad",
+  "https://mojie.app/api/v1/client/subscribe?token=8f3d49f0e449452fa3c68b705ea125b8",
   "https://mojie.app/api/v1/client/subscribe?token=954689f4edf6140a66ba50ccbf28dfd9",
   "https://mojie.app/api/v1/client/subscribe?token=bd5c3115c5f1c932a7a0a1fa902f597c",
   "https://mojie.app/api/v1/client/subscribe?token=c8cf82bb480e2421da49217310854e10",
@@ -38,6 +42,7 @@
   "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=6b5e82f942dcefc3be5fda9cb7138ba0",
   "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=9f72ad6100c02fd7af2e1c0fac033b8f",
   "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=b6c1e6751307fdf957987220411ea34c",
+  "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=f6645026ec5b4bf975ea5791b40b0e4a",
   "https://my.bohex-link.work/api/v1/client/subscribe?token=d2efc0fe50b226c08292bc500861c454",
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=1da6538770cb2bde323d95c919a505ca",
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=1e05fabfae3c66124118c412ffcb088a",
@@ -71,5 +76,6 @@
   "https://x1.344211.cc/api/v1/client/subscribe?token=8252720a0320a6faad5eccb23c40569a",
   "https://xsus.jolqx.cn/api/v1/client/subscribe?token=be6ec6f84bac98fc6523a86fe10d1080",
   "https://xsus.jolqx.cn/api/v1/client/subscribe?token=c5fab0a4475da0e0055aeaeac27a935a",
-  "https://xsus.jolqx.cn/api/v1/client/subscribe?token=d3e458b4534322953263f2631d25ed80"
+  "https://xsus.jolqx.cn/api/v1/client/subscribe?token=d3e458b4534322953263f2631d25ed80",
+  "https://zaske.louwangzhiyu.online/api/v1/client/subscribe?token=8ee5c608451e233f891a7ff7e8767437"
 ]
