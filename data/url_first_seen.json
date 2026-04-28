@@ -1497,5 +1497,6 @@
   "https://47.242.128.61:5000/api/v1/client/subscribe?token=41975f235b608d3953afc06cddaa843f": "2026-04-28",
   "https://47.242.128.61:5000/api/v1/client/subscribe?token=868ef2ec4b3776d8845675ba8898a2c4": "2026-04-28",
   "https://mojie.app/api/v1/client/subscribe?token=8f3d49f0e449452fa3c68b705ea125b8": "2026-04-28",
-  "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=f6645026ec5b4bf975ea5791b40b0e4a": "2026-04-28"
+  "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=f6645026ec5b4bf975ea5791b40b0e4a": "2026-04-28",
+  "https://domain.com/api/v1/client/subscribe?token=xxx": "2026-04-28"
 }
