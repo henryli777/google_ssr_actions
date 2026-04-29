@@ -1681,10 +1681,10 @@
   },
   {
     "date": "2026-04-29",
-    "google_added": 58,
+    "google_added": 57,
     "github_added": 2,
     "new_total": 1,
-    "removed_total": 0,
-    "alive_total": 60
+    "removed_total": 2,
+    "alive_total": 59
   }
 ]
