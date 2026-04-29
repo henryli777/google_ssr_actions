@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T16:50:43.190709",
+  "timestamp": "2026-04-29T13:50:46.661767",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
+  "total_urls": 1,
   "original_urls": 2,
   "urls": [
-    "https://download.8886698.xyz/api/v1/client/subscribe?token=3f7e88fc740e2ce4638bcc04a8973415",
-    "https://jsjc.cfd/api/v1/client/subscribe?token=c6589ad8d2d14722608e917144b6b46f"
+    "https://example.com/api/v1/client/subscribe?token=xxx"
   ]
 }
