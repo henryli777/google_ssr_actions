@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T17:29:57.253489",
+  "timestamp": "2026-05-18T19:42:44.990176",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 5,
+  "original_urls": 7,
   "urls": [
-    "https://your_subconverter/api/v1/client/subscribe?token=xxx",
+    "https://your_subconverter/api/v1/client/subscribe?token=xxx&url=encodeURIComponent(your_sub_url).",
     "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b"
   ]
 }
