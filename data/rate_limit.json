@@ -4176,10 +4176,10 @@
     "next_allowed_at": 1779279017.9628425
   },
   "https://fg88.whtjdasha.com/api/v1/client/subscribe?token=7bbd0dbe02bcebb1b94e2cdf7c27770c": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "body-hint",
-    "last_at": 1779159500.3638031,
-    "next_allowed_at": 1779245900.3638031
+    "last_at": 1779245932.350215,
+    "next_allowed_at": 1779332332.350215
   },
   "https://foldjc.top/api/v1/client/subscribe?token=365ace9443f09540a9947eff7a7e2aef": {
     "hits": 1,
