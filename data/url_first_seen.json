@@ -1588,5 +1588,6 @@
   "https://go.xfxssr.me/api/v1/client/subscribe?token=81dab30c5d92844ddc240c7722ef9d29": "2026-05-20",
   "https://go.xfxssr.me/api/v1/client/subscribe?token=b942af5d039edc15b0d6830aee39b54a": "2026-05-20",
   "https://go.xfxssr.me/api/v1/client/subscribe?token=c71061d62b9a818f64190ea88bd53a5e": "2026-05-20",
-  "https://go.xfxssr.me/api/v1/client/subscribe?token=decbca2a48daf99f5b5e490d572d55c1": "2026-05-20"
+  "https://go.xfxssr.me/api/v1/client/subscribe?token=decbca2a48daf99f5b5e490d572d55c1": "2026-05-20",
+  "https://sub.example.com/api/v1/client/subscribe?token=your": "2026-05-21"
 }
