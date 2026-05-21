@@ -7626,10 +7626,10 @@
     "next_allowed_at": 1779462203.2982118
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=5fabee57af1b7bff29d0050a62ad4117": {
-    "hits": 57,
+    "hits": 58,
     "last_reason": "http 403",
-    "last_at": 1779289305.6479158,
-    "next_allowed_at": 1779375705.6479158
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779471344.881272
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=be41afd98a2dfccc23f7476494e3ce2d": {
     "hits": 57,
@@ -8646,70 +8646,70 @@
     "next_allowed_at": 1779300749.0816717
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=0d24dc301ef12f6115f88460bfa236c5": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=14a7e13ba13bafacf132d7caaa844347": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=4bbf4baa9598b3993d4cb62eed49cee5": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=5c481a355120bf99c595bfbd878c359b": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=7784ee022d2a4f85b376cfedff415510": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=784a2de742039f4229483c2b58b235d4": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=7b9e39b0d0a98cd8f99119da7d966824": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=81dab30c5d92844ddc240c7722ef9d29": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=b942af5d039edc15b0d6830aee39b54a": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=c71061d62b9a818f64190ea88bd53a5e": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://sub.example.com/api/v1/client/subscribe?token=your": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779379403.2982118
+    "last_at": 1779384944.881272,
+    "next_allowed_at": 1779392144.881272
   },
   "https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=02c5000650c146a019a713f4c44ff33f": {
     "hits": 1,
