@@ -1873,10 +1873,10 @@
   },
   {
     "date": "2026-05-23",
-    "google_added": 76,
+    "google_added": 63,
     "github_added": 1,
-    "new_total": 25,
-    "removed_total": 1,
-    "alive_total": 77
+    "new_total": 0,
+    "removed_total": 13,
+    "alive_total": 64
   }
 ]

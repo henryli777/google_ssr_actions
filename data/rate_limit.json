@@ -7572,10 +7572,10 @@
     "next_allowed_at": 1779479595.9767132
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=6835b09aa18a76f248983bf78500226d": {
-    "hits": 61,
+    "hits": 62,
     "last_reason": "http 403",
-    "last_at": 1779375803.2982118,
-    "next_allowed_at": 1779462203.2982118
+    "last_at": 1779479056.7393768,
+    "next_allowed_at": 1779565456.7393768
   },
   "https://cn.mfxy.store/api/v1/client/subscribe?token=06b2be5db309c9e8a9d25e6588c0e4cd": {
     "hits": 61,
@@ -7626,10 +7626,10 @@
     "next_allowed_at": 1779556211.1597764
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=5fabee57af1b7bff29d0050a62ad4117": {
-    "hits": 58,
+    "hits": 59,
     "last_reason": "http 403",
-    "last_at": 1779384944.881272,
-    "next_allowed_at": 1779471344.881272
+    "last_at": 1779479056.7393768,
+    "next_allowed_at": 1779565456.7393768
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=be41afd98a2dfccc23f7476494e3ce2d": {
     "hits": 58,
@@ -8718,15 +8718,15 @@
     "next_allowed_at": 1779376703.2982118
   },
   "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d89476014d3d03": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1779469811.1597764,
-    "next_allowed_at": 1779470711.1597764
+    "last_at": 1779479056.7393768,
+    "next_allowed_at": 1779480856.7393768
   },
   "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d89476014d3d03&flag=meta": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1779469811.1597764,
-    "next_allowed_at": 1779470711.1597764
+    "last_at": 1779479056.7393768,
+    "next_allowed_at": 1779480856.7393768
   }
 }
