@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-21T22:18:50.131397",
+  "timestamp": "2026-05-22T02:59:59.786005",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 2,
+  "total_urls": 3,
+  "original_urls": 7,
   "urls": [
-    "https://sub.x2ray.com/api/v1/client/subscribe?token=YOUR"
+    "https://sub.x2ray.com/api/v1/client/subscribe?token=YOUR",
+    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b",
+    "https://your-provider.com/api/v1/client/subscribe?token=xxxxx"
   ]
 }
