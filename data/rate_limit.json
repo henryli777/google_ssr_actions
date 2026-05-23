@@ -2790,10 +2790,10 @@
     "next_allowed_at": 1779649716.9189467
   },
   "https://sub.hx666.pro/api/v1/client/subscribe?token=5e3f5d269857f2b792ff5aae32a10efd": {
-    "hits": 43,
-    "last_reason": "http 403",
-    "last_at": 1771699266.0408058,
-    "next_allowed_at": 1771785666.0408058
+    "hits": 44,
+    "last_reason": "body-hint",
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779659693.89655
   },
   "https://sub.wordvlog.link/api/v1/client/subscribe?token=fb8072549e3a35a2977b6cf78dae142f": {
     "hits": 179,
@@ -7572,10 +7572,10 @@
     "next_allowed_at": 1779574087.6852314
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=6835b09aa18a76f248983bf78500226d": {
-    "hits": 62,
+    "hits": 63,
     "last_reason": "http 403",
-    "last_at": 1779479056.7393768,
-    "next_allowed_at": 1779565456.7393768
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779659693.89655
   },
   "https://cn.mfxy.store/api/v1/client/subscribe?token=06b2be5db309c9e8a9d25e6588c0e4cd": {
     "hits": 62,
@@ -7626,10 +7626,10 @@
     "next_allowed_at": 1779649716.9189467
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=5fabee57af1b7bff29d0050a62ad4117": {
-    "hits": 59,
+    "hits": 60,
     "last_reason": "http 403",
-    "last_at": 1779479056.7393768,
-    "next_allowed_at": 1779565456.7393768
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779659693.89655
   },
   "https://xbd.iftballs.com/api/v1/client/subscribe?token=be41afd98a2dfccc23f7476494e3ce2d": {
     "hits": 59,
@@ -8736,21 +8736,21 @@
     "next_allowed_at": 1779577716.9189467
   },
   "http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=b6e4d915aba333b26c1791cf7e488d77": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1779563316.9189467,
-    "next_allowed_at": 1779570516.9189467
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779587693.89655
   },
   "http://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=e742256318b03821f8eabe1cea0c00bf": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1779563316.9189467,
-    "next_allowed_at": 1779570516.9189467
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779587693.89655
   },
   "https://dad.xiaobaivpn.cyou/api/v1/client/subscribe?token=f83c76fd1de3f536d9b75b320f03cbce": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1779563316.9189467,
-    "next_allowed_at": 1779570516.9189467
+    "last_at": 1779573293.89655,
+    "next_allowed_at": 1779587693.89655
   }
 }
