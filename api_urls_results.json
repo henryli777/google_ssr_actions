@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-24T02:57:21.242458",
+  "timestamp": "2026-05-24T19:14:37.312594",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 1,
   "urls": [
-    "https://2.342242.icu/api/v1/client/subscribe?token=7d0ce274bb37945244ded56cb8efdcaa"
+    "https://139.196.241.76:18181/api/v1/client/subscribe?token=04a5525dc622ff0d6c8b58c8fd718cd1"
   ]
 }
