@@ -8784,15 +8784,27 @@
     "next_allowed_at": 1779778310.8721058
   },
   "https://tc.adfgawidhioawjd.site/api/v1/client/subscribe?token=27e47a943040e7d25adac3ea482d6f1a": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1779746930.1832068,
-    "next_allowed_at": 1779754130.1832068
+    "last_at": 1779764117.7647636,
+    "next_allowed_at": 1779778517.7647636
   },
   "https://tc.adfgawidhioawjd.site/api/v1/client/subscribe?token=574a305a1df2fd4e11958e62af84e530": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1779746930.1832068,
-    "next_allowed_at": 1779754130.1832068
+    "last_at": 1779764117.7647636,
+    "next_allowed_at": 1779778517.7647636
+  },
+  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f015": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1779764117.7647636,
+    "next_allowed_at": 1779765017.7647636
+  },
+  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f01SKU": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1779764117.7647636,
+    "next_allowed_at": 1779765017.7647636
   }
 }
