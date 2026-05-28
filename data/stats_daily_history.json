@@ -1913,10 +1913,10 @@
   },
   {
     "date": "2026-05-28",
-    "google_added": 80,
+    "google_added": 68,
     "github_added": 1,
-    "new_total": 5,
-    "removed_total": 7,
-    "alive_total": 81
+    "new_total": 8,
+    "removed_total": 20,
+    "alive_total": 69
   }
 ]
