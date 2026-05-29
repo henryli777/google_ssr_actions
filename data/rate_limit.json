@@ -2778,10 +2778,10 @@
     "next_allowed_at": 1780094595.8270645
   },
   "https://sub.feishayun.top/api/v1/client/subscribe?token=a940573462f13abfe72e6eb51d0a16ad": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1760669122.231444,
-    "next_allowed_at": 1760670922.231444
+    "last_at": 1780093810.7247977,
+    "next_allowed_at": 1780097410.7247977
   },
   "https://sub.gougou.live/api/v1/client/subscribe?token=002c61fa51ccc991a0e76d3f01120e9b": {
     "hits": 100,
@@ -8820,10 +8820,10 @@
     "next_allowed_at": 1779819380.650961
   },
   "https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=b6c1e6751307fdf957987220411ea34c": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "http 403",
-    "last_at": 1780023492.6958046,
-    "next_allowed_at": 1780081092.6958046
+    "last_at": 1780093810.7247977,
+    "next_allowed_at": 1780180210.7247977
   },
   "https://yyds.emovpn.top/api/v1/client/subscribe?token=e3564accfb797578dc8251fc07207abe": {
     "hits": 1,
