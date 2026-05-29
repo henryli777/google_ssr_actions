@@ -5064,10 +5064,10 @@
     "next_allowed_at": 1780037754.943189
   },
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=0cc8371b8032ef71b80ad60e81cdaae3": {
-    "hits": 15,
+    "hits": 16,
     "last_reason": "body-hint",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
+    "last_at": 1780037799.7788138,
+    "next_allowed_at": 1780124199.7788138
   },
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=2991af1c8cb8cbc402ad3e52b56235d1": {
     "hits": 15,
@@ -5082,16 +5082,16 @@
     "next_allowed_at": 1780037754.943189
   },
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=3152e6f32247426f7940883e92ad40de": {
-    "hits": 15,
-    "last_reason": "body-hint",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
-  },
-  "https://sub.easyinternet.one/api/v1/client/subscribe?token=9604d283712de930c4462a6799762453": {
     "hits": 16,
     "last_reason": "body-hint",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
+    "last_at": 1780037799.7788138,
+    "next_allowed_at": 1780124199.7788138
+  },
+  "https://sub.easyinternet.one/api/v1/client/subscribe?token=9604d283712de930c4462a6799762453": {
+    "hits": 17,
+    "last_reason": "body-hint",
+    "last_at": 1780037799.7788138,
+    "next_allowed_at": 1780124199.7788138
   },
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=b25cfdf979d27ce14bca26a870989e68": {
     "hits": 16,
@@ -5106,10 +5106,10 @@
     "next_allowed_at": 1780037754.943189
   },
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=f84c3d8ec12d0358cf3ded1095ebe95c": {
-    "hits": 15,
+    "hits": 16,
     "last_reason": "body-hint",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
+    "last_at": 1780037799.7788138,
+    "next_allowed_at": 1780124199.7788138
   },
   "https://subscr.easyinternet.one/api/v1/client/subscribe?token=17da3cf33b88e76a58bbc12453247bae": {
     "hits": 16,
@@ -5124,10 +5124,10 @@
     "next_allowed_at": 1780037754.943189
   },
   "https://subscr.easyinternet.one/api/v1/client/subscribe?token=680ea28e57699084ff4f356518c465d8": {
-    "hits": 15,
+    "hits": 16,
     "last_reason": "body-hint",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
+    "last_at": 1780037799.7788138,
+    "next_allowed_at": 1780124199.7788138
   },
   "https://subscr.easyinternet.one/api/v1/client/subscribe?token=a604357595a10e788a95d4f5130662b0": {
     "hits": 15,
