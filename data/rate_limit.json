@@ -5634,10 +5634,10 @@
     "next_allowed_at": 1780094595.8270645
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=80bef547e433a6a522a9e91f09a0ccdd": {
-    "hits": 159,
+    "hits": 160,
     "last_reason": "http 403",
-    "last_at": 1779951354.943189,
-    "next_allowed_at": 1780037754.943189
+    "last_at": 1780056995.3917968,
+    "next_allowed_at": 1780143395.3917968
   },
   "https://fn02.20251117.top/api/v1/client/subscribe?token=0b7f3f358123383778c77cc217beb4a6": {
     "hits": 147,
