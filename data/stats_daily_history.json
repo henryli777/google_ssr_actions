@@ -1929,10 +1929,10 @@
   },
   {
     "date": "2026-05-30",
-    "google_added": 77,
-    "github_added": 0,
-    "new_total": 8,
+    "google_added": 74,
+    "github_added": 1,
+    "new_total": 6,
     "removed_total": 8,
-    "alive_total": 77
+    "alive_total": 75
   }
 ]
