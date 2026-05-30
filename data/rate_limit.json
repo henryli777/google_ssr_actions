@@ -8832,15 +8832,15 @@
     "next_allowed_at": 1780111270.798857
   },
   "https://www.djjc.cfd/api/v1/client/subscribe?token=d1bb6c8bd1f96889eab1aa769a49ab91": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1780147584.073931,
-    "next_allowed_at": 1780151184.073931
+    "last_at": 1780157167.5415206,
+    "next_allowed_at": 1780164367.5415206
   },
   "http://23.145.248.232:13389/api/v1/client/subscribe?token=48c77a925279de459c21bba1d71f30a7": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1780147584.073931,
-    "next_allowed_at": 1780149384.073931
+    "last_at": 1780157167.5415206,
+    "next_allowed_at": 1780160767.5415206
   }
 }
