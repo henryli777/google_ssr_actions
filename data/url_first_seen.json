@@ -1604,5 +1604,8 @@
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f015": "2026-05-26",
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f01SKU": "2026-05-26",
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=0886287d7cd3e49d6a6a8151b1718845": "2026-05-27",
-  "https://www.djjc.cfd/api/v1/client/subscribe?token=d1bb6c8bd1f96889eab1aa769a49ab91": "2026-05-30"
+  "https://www.djjc.cfd/api/v1/client/subscribe?token=d1bb6c8bd1f96889eab1aa769a49ab91": "2026-05-30",
+  "http://23.145.248.232:13389/api/v1/client/subscribe?token=48c77a925279de459c21bba1d71f30a7": "2026-05-30",
+  "https://example.com/api/v1/client/subscribe?token=your": "2026-05-30",
+  "https://xsus.jolqx.cn/api/v1/client/subscribe?token=48c77a925279de459c21bba1d71f30a7": "2026-05-30"
 }
