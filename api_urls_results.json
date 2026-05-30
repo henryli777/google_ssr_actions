@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T12:14:08.144666",
+  "timestamp": "2026-05-30T06:22:25.107666",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 4,
   "urls": [
-    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b"
+    "https://www.djjc.cfd/api/v1/client/subscribe?token=d1bb6c8bd1f96889eab1aa769a49ab91"
   ]
 }
