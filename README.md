@@ -3,7 +3,7 @@
 自动抓取/合并/去重可用订阅 URL，并每 30 分钟通过 GitHub Actions 生成订阅文件并发布到 GitHub Pages。
 
 ## 输出
-- 全量 TXT: `https://liebesu.github.io/google_ssr_actions/sub/all.txt`
+- 全量 TXT: `https://<username>.github.io/<repo>/sub/all.txt`
 - 地区切片: `sub/regions/{hk|sg|jp|tw|us|eu}.txt`
 - 协议切片: `sub/proto/{ss|vmess|vless|trojan|hysteria2}.txt`
 - 源订阅 URL 列表: `sub/urls.txt`
@@ -24,7 +24,7 @@
 
 ## 本地测试（可选）
 ```bash
-python aggregator_cli.py --output-dir dist --max 1200 --dedup --skip-scrape --github-discovery --public-base https://liebesu.github.io/google_ssr_actions
+python aggregator_cli.py --output-dir dist --max 1200 --dedup --skip-scrape --github-discovery --public-base https://<username>.github.io/<repo>
 ```
 
 ## 注意

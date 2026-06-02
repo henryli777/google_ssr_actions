@@ -69,6 +69,7 @@ jobs:
           mkdir -p dist
           # Disable proxy in CI and emit index/health to avoid 404
           export DISABLE_PROXY=1
+          PUBLIC_BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
           # Pass SerpAPI keys as environment variable for backup plan
           if [ -n "${{ secrets.SCRAPER_KEYS }}" ]; then export SCRAPER_KEYS="${{ secrets.SCRAPER_KEYS }}"; fi
           # Pass SerpAPI keys from individual secrets
@@ -88,7 +89,7 @@ jobs:
           if [ -n "${{ vars.AUTH_SHA256 }}" ]; then export AUTH_SHA256="${{ vars.AUTH_SHA256 }}"; fi
           if [ -n "${{ vars.AUTH_USER }}" ]; then export AUTH_USER="${{ vars.AUTH_USER }}"; fi
           if [ -n "${{ secrets.AUTH_USER }}" ]; then export AUTH_USER="${{ secrets.AUTH_USER }}"; fi
-          python aggregator_cli.py --output-dir dist --dedup --public-base https://liebesu.github.io/google_ssr_actions --github-discovery --emit-health --emit-index
+          python aggregator_cli.py --output-dir dist --dedup --public-base "${PUBLIC_BASE}" --github-discovery --emit-health --emit-index
           
           # 确保 dist 目录有内容
           echo "=== 检查 dist 目录内容 ==="
@@ -171,7 +172,8 @@ jobs:
           KT=$(jq -r '.keys_total // 0' /tmp/health.json)
           G=$(jq -r '.google_urls_count // 0' /tmp/health.json)
           GH=$(jq -r '.github_urls_count // 0' /tmp/health.json)
-          MSG="【订阅构建】时间:${BUILD_CN} 下次:${NEXT_CN}%0A源: ${ALIVE}/${TOTAL} (+${NEW}/-${REM})%0ASerpAPI: ${KOK}/${KT} 剩余额度:${QLEFT}/${QCAP}%0A发现: Google ${G} | GitHub ${GH}%0A页面: https://liebesu.github.io/google_ssr_actions/"
+          PAGE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          MSG="【订阅构建】时间:${BUILD_CN} 下次:${NEXT_CN}%0A源: ${ALIVE}/${TOTAL} (+${NEW}/-${REM})%0ASerpAPI: ${KOK}/${KT} 剩余额度:${QLEFT}/${QCAP}%0A发现: Google ${G} | GitHub ${GH}%0A页面: ${PAGE_URL}"
           curl -sS -X POST "${DINGTALK_WEBHOOK}" \
             -H 'Content-Type: application/json' \
             -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"${MSG}\"}}" | cat
@@ -190,5 +192,4 @@ jobs:
         run: |
           echo "Deployment completed successfully"
           echo "Page URL: ${{ steps.deployment.outputs.page_url }}"
-
 

@@ -731,6 +731,21 @@ def _is_good_node(node_line: str) -> bool:
         return indicator_count >= 2
 
 
+TOKEN_SUFFIX_NOISE = ("hysteria2", "trojan", "vmess", "vless", "https", "http", "sub")
+
+
+def strip_token_suffix_noise(token: str) -> str:
+    """Trim common text/protocol suffixes glued to otherwise hex-like tokens."""
+    token_low = token.lower()
+    for suffix in TOKEN_SUFFIX_NOISE:
+        if not token_low.endswith(suffix):
+            continue
+        trimmed = token[: -len(suffix)]
+        if len(trimmed) >= 16 and re.fullmatch(r"[A-Fa-f0-9]{16,64}", trimmed):
+            return trimmed
+    return token
+
+
 def normalize_subscribe_url(raw_url: str) -> Optional[str]:
     """Normalize subscribe URL and drop placeholders.
     - HTML unescape (&amp; -> &)
@@ -762,7 +777,7 @@ def normalize_subscribe_url(raw_url: str) -> Optional[str]:
         token_list = qs.get("token", [])
         if not token_list:
             return None
-        token = token_list[0]
+        token = strip_token_suffix_noise(token_list[0])
         if not re.fullmatch(r"[A-Za-z0-9]+", token):
             return None
         if token.lower() == "xxxx":
@@ -887,8 +902,42 @@ def merge_urls(*url_lists: Iterable[str]) -> List[str]:
         for u in lst:
             if not u:
                 continue
-            dedup.add(u.strip())
+            expanded = extract_subscribe_urls_from_candidate(str(u))
+            if expanded:
+                dedup.update(expanded)
+            else:
+                dedup.add(str(u).strip())
     return list(dedup)
+
+
+SUBSCRIBE_URL_CANDIDATE_RE = re.compile(
+    r"https?://[^\s\"'<>]+?/api/v1/client/subscribe\?token=[A-Za-z0-9]+"
+    r"(?:&(?:amp;)?[A-Za-z0-9_-]+=[A-Za-z0-9._~-]+)*",
+    re.IGNORECASE,
+)
+
+
+def extract_subscribe_urls_from_candidate(raw_value: str) -> List[str]:
+    """Extract normalized subscribe URLs from a clean URL or a noisy search hit."""
+    if not raw_value:
+        return []
+
+    text = html_lib.unescape(str(raw_value).strip())
+    # Search snippets sometimes concatenate multiple URLs without whitespace.
+    # Adding a separator before each URL lets the regex recover each real source.
+    text = re.sub(r"(?i)(?<!^)(?=https?://)", "\n", text)
+
+    candidates = [raw_value]
+    candidates.extend(match.group(0) for match in SUBSCRIBE_URL_CANDIDATE_RE.finditer(text))
+
+    normalized: List[str] = []
+    seen: Set[str] = set()
+    for candidate in candidates:
+        clean = normalize_subscribe_url(candidate)
+        if clean and clean not in seen:
+            seen.add(clean)
+            normalized.append(clean)
+    return normalized
 
 
 def load_candidate_urls(base_dir: str, data_dir: str) -> List[str]:
@@ -904,7 +953,11 @@ def load_candidate_urls(base_dir: str, data_dir: str) -> List[str]:
     results = []
     results_path = os.path.join(base_dir, "api_urls_results.json")
     rjson = read_json(results_path, [])
-    if isinstance(rjson, list):
+    if isinstance(rjson, dict):
+        urls = rjson.get("urls", [])
+        if isinstance(urls, list):
+            results.extend(str(item) for item in urls)
+    elif isinstance(rjson, list):
         # rjson might be list of url strings or objects
         for item in rjson:
             if isinstance(item, str):
@@ -2451,5 +2504,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
