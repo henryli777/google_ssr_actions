@@ -1086,10 +1086,10 @@
     "next_allowed_at": 1780477708.4924557
   },
   "https://1.ni8.app/api/v1/client/subscribe?token=c67f1b49c9d06dc78a2d6295e7772096": {
-    "hits": 208,
+    "hits": 209,
     "last_reason": "body-hint",
-    "last_at": 1778363024.4639652,
-    "next_allowed_at": 1778449424.4639652
+    "last_at": 1780395699.76052,
+    "next_allowed_at": 1780482099.76052
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3e483a7b7f0caaca3fa8a947495b0d92": {
     "hits": 193,
@@ -8862,9 +8862,9 @@
     "next_allowed_at": 1780372661.206275
   },
   "https://sub.joker007.top/api/v1/client/subscribe?token=905feab19d6d89431b721126db5b6c16": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1780391308.4924557,
-    "next_allowed_at": 1780392208.4924557
+    "last_at": 1780395699.76052,
+    "next_allowed_at": 1780397499.76052
   }
 }
