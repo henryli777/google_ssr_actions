@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T23:00:55.960800",
+  "timestamp": "2026-06-03T10:53:48.347943",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 1,
   "urls": [
-    "https://linka.lmscunb.cc:2087/api/v1/client/subscribe?token=4d4f352798492675a9800947f6090f3d"
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
   ]
 }
