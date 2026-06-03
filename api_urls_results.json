@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T20:54:38.023482",
+  "timestamp": "2026-06-03T23:04:42.588928",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,21 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 13,
-  "original_urls": 17,
+  "total_urls": 1,
+  "original_urls": 4,
   "urls": [
-    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=f309fa49dd34238d35990f1462179426",
-    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=b6ed5980d0f6be488e58036b026508a3",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=9a0540695b5a875a7e0afe2f88ce92f9",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=3be63133c0065f30bff8520d9893720a",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=1a36aedd43e2bbd1b193ee2ad9707fcb",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=bcdeb7762bf1f8196f7fd11e3f17bc81",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=93c727bf02da89516ade006719322390",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=e0b9b7b66a6195094c52d63419b736e5",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=2f41fc3e11d8ceb92c9dff8df84768b5",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=c757ed839f8b8a433c66fa218ce38686",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=8c41100713f672870f8223c08f4a6e4a",
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=df3f1a56f5e45a71b80ab6ae012441c6"
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
   ]
 }
