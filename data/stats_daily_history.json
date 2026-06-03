@@ -1961,10 +1961,10 @@
   },
   {
     "date": "2026-06-03",
-    "google_added": 83,
+    "google_added": 80,
     "github_added": 1,
-    "new_total": 3,
-    "removed_total": 0,
-    "alive_total": 84
+    "new_total": 1,
+    "removed_total": 4,
+    "alive_total": 81
   }
 ]
