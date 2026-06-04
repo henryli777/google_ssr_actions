@@ -4746,34 +4746,34 @@
     "next_allowed_at": 1780671393.8814023
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=8d324cec9e8acbc0665020c2230823cd": {
-    "hits": 189,
+    "hits": 190,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=bad3c9deeda196a7c4e1d051fb7dc2c0": {
-    "hits": 192,
+    "hits": 193,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=c5c916cd8c7810789488b7aecd5b22d4": {
-    "hits": 192,
+    "hits": 193,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=dca17f182cb0546b07fe4f53f99cdcf9": {
-    "hits": 193,
+    "hits": 194,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=feb488e3f659d6653c7efa0017c31b5c": {
-    "hits": 193,
+    "hits": 194,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://xn--9kq85xcu6b.com/api/v1/client/subscribe?token=fbf1ad75e903da541be210fe4e4593b0": {
     "hits": 205,
@@ -6420,10 +6420,10 @@
     "next_allowed_at": 1780671393.8814023
   },
   "https://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 23,
+    "hits": 24,
     "last_reason": "body-hint",
-    "last_at": 1780520230.9041488,
-    "next_allowed_at": 1780606630.9041488
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780698110.0183132
   },
   "https://abc.aayjm.com/api/v1/client/subscribe?token=9e56ee66f35cf55a22e105de8638edf1": {
     "hits": 143,
@@ -8952,33 +8952,33 @@
     "next_allowed_at": 1780617902.4914677
   },
   "https://sovql.xn--fiq63fnvb6zglxgxnhmdz73nrmhul7ax10cca.com/api/v1/client/subscribe?token=fe35e3ca41d45135581e965c0a2eef26": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1780603502.4914677,
-    "next_allowed_at": 1780610702.4914677
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780626110.0183132
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=25625ba817498f35bf5f06bf1a3c7e19": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1780603502.4914677,
-    "next_allowed_at": 1780607102.4914677
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780618910.0183132
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=3db06086185009eb0d0b0a6d79bef1c1": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1780603502.4914677,
-    "next_allowed_at": 1780607102.4914677
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780618910.0183132
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=5043e30bd6dd419f4b8f5405f06c202a": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1780603502.4914677,
-    "next_allowed_at": 1780607102.4914677
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780618910.0183132
   },
   "http://gg.gg/11bl3ohttps://catvodtv.github.io/catTV.jsonhttps://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1780603502.4914677,
-    "next_allowed_at": 1780604402.4914677
+    "last_at": 1780611710.0183132,
+    "next_allowed_at": 1780613510.0183132
   }
 }
