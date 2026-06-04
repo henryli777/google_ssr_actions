@@ -1969,10 +1969,10 @@
   },
   {
     "date": "2026-06-04",
-    "google_added": 87,
+    "google_added": 77,
     "github_added": 1,
-    "new_total": 0,
-    "removed_total": 1,
-    "alive_total": 88
+    "new_total": 1,
+    "removed_total": 11,
+    "alive_total": 78
   }
 ]
