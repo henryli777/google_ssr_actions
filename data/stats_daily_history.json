@@ -1982,5 +1982,13 @@
     "new_total": 0,
     "removed_total": 0,
     "alive_total": 81
+  },
+  {
+    "date": "2026-06-06",
+    "google_added": 79,
+    "github_added": 1,
+    "new_total": 0,
+    "removed_total": 1,
+    "alive_total": 80
   }
 ]
