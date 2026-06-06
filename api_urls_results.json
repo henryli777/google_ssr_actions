@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T06:29:02.394639",
+  "timestamp": "2026-06-06T10:52:31.826718",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 2,
   "urls": [
     "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
   ]
