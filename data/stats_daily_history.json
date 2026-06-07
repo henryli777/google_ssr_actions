@@ -1993,10 +1993,10 @@
   },
   {
     "date": "2026-06-07",
-    "google_added": 79,
+    "google_added": 76,
     "github_added": 1,
-    "new_total": 1,
-    "removed_total": 0,
-    "alive_total": 80
+    "new_total": 0,
+    "removed_total": 3,
+    "alive_total": 77
   }
 ]
