@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T11:58:58.052492",
+  "timestamp": "2026-06-09T15:16:37.845507",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 3,
-  "original_urls": 14,
+  "original_urls": 10,
   "urls": [
-    "https://www7th.ga-sub.hair/api/v1/client/subscribe?token=327c174bc48b232d3871c6ffb3f8a25d",
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=5043e30bd6dd419f4b8f5405f06c202a",
     "https://www5.bigairport-thirteenth-sub.com/api/v1/client/subscribe?token=2f861b74d3870ff23abb77a646b60838",
     "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
   ]

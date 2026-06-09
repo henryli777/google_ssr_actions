@@ -9078,21 +9078,21 @@
     "next_allowed_at": 1781064090.5164266
   },
   "https://yfjc.xyz/api/v1/client/subscribe?token=2ac90b3e8b7e5f9838eaab831adba36f": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1781006490.5164266,
-    "next_allowed_at": 1781010090.5164266
+    "last_at": 1781018351.5400407,
+    "next_allowed_at": 1781025551.5400407
   },
   "https://139.196.241.76:18181/api/v1/client/subscribe?token=804c96f20c04afd270e9113617f09583": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1781006490.5164266,
-    "next_allowed_at": 1781008290.5164266
+    "last_at": 1781018351.5400407,
+    "next_allowed_at": 1781021951.5400407
   },
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=094fa83cffcaec3c3ba07ddbd78c2ab6": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1781006490.5164266,
-    "next_allowed_at": 1781007390.5164266
+    "last_at": 1781018351.5400407,
+    "next_allowed_at": 1781020151.5400407
   }
 }
