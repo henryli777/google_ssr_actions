@@ -7,6 +7,7 @@
 - 地区切片: `sub/regions/{hk|sg|jp|tw|us|eu}.txt`
 - 协议切片: `sub/proto/{ss|vmess|vless|trojan|hysteria2}.txt`
 - 源订阅 URL 列表: `sub/urls.txt`
+- Telegram 可用源列表: `sub/telegram_urls.txt`
 
 > 订阅可被 Clash Verge Rev 远程 Profile 使用。建议开启“启动时更新”“定时更新”。
 
@@ -14,6 +15,7 @@
 - `aggregator_cli.py`: 聚合与输出入口（Actions 调用）
 - `requirements_scraper.txt`: 运行依赖
 - `github_search_scraper.py`: 通过 GitHub 搜索页发现含 `api/v1/client/subscribe?token=` 的订阅 URL
+- `telegram_channel_scraper.py`: 通过公开 Telegram Web 预览页发现订阅 URL
 - `data/`: 历史与可用 URL 状态（Actions 自动更新）
   - `history_urls.json`, `live_urls.json`
 - `.github/workflows/build-and-publish-subscriptions.yml`: 定时构建与 Pages 发布
@@ -21,10 +23,11 @@
 ## GitHub Secrets（仓库 Settings → Secrets and variables → Actions）
 - `SCRAPER_KEYS`（必填）：把本地 `keys` 文件内容原样粘贴（多钥一行）
 - `SCRAPER_CONFIG_JSON`（可选）：如需覆盖默认 `scraper_config.json`，粘贴完整 JSON
+- `TELEGRAM_CHANNELS`（可选，Variables）：公开频道名，逗号分隔，例如 `dingyue_Center,other_channel`
 
 ## 本地测试（可选）
 ```bash
-python aggregator_cli.py --output-dir dist --max 1200 --dedup --skip-scrape --github-discovery --public-base https://<username>.github.io/<repo>
+python aggregator_cli.py --output-dir dist --max 1200 --dedup --skip-scrape --github-discovery --telegram-discovery --public-base https://<username>.github.io/<repo>
 ```
 
 ## 注意

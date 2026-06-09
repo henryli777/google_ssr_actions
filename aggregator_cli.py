@@ -52,6 +52,7 @@ sys.path.append(PROJECT_ROOT)
 
 from url_extractor import URLExtractor  # type: ignore
 from github_search_scraper import discover_from_github  # type: ignore
+from telegram_channel_scraper import discover_from_telegram, parse_channels  # type: ignore
 
 
 def read_text_file_lines(path: str) -> List[str]:
@@ -1023,6 +1024,7 @@ def generate_index_html(base_url_paths: Dict[str, str], health: Dict[str, object
         "__KTOTAL__": str(health.get("keys_total", 0)),
         "__GCOUNT__": str(health.get("google_urls_count", 0)),
         "__GHCOUNT__": str(health.get("github_urls_count", 0)),
+        "__TGCOUNT__": str(health.get("telegram_urls_count", 0)),
         "__SS__": str(protocol_counts.get("ss", 0)),
         "__VMESS__": str(protocol_counts.get("vmess", 0)),
         "__VLESS__": str(protocol_counts.get("vless", 0)),
@@ -1058,6 +1060,8 @@ def main():
     parser.add_argument("--public-base", default="", help="Public base URL for Pages, e.g., https://USER.github.io/REPO")
     parser.add_argument("--min-searches-left", type=int, default=5, help="If SerpAPI total remaining below this, skip scrape")
     parser.add_argument("--github-discovery", action="store_true", help="Enable GitHub search discovery channel")
+    parser.add_argument("--telegram-discovery", action="store_true", help="Enable public Telegram channel discovery")
+    parser.add_argument("--telegram-channels", default=os.getenv("TELEGRAM_CHANNELS", "dingyue_Center"), help="Comma/space-separated public Telegram channel names")
     parser.add_argument("--emit-health", action="store_true", help="Emit health.json")
     parser.add_argument("--emit-index", action="store_true", help="Emit index.html")
     args = parser.parse_args()
@@ -1283,6 +1287,7 @@ def main():
     raw_candidates = load_candidate_urls(PROJECT_ROOT, data_dir)
     candidates = [u for u in (normalize_subscribe_url(u) for u in raw_candidates) if u]
     gh_urls: List[str] = []
+    tg_urls: List[str] = []
     if args.github_discovery:
         try:
             gh_urls = discover_from_github(defaults=True)
@@ -1293,6 +1298,18 @@ def main():
                 print("[info] github discovery returned 0 urls")
         except Exception as e:
             print(f"[warn] github discovery failed: {e}")
+    if args.telegram_discovery:
+        try:
+            channels = parse_channels(args.telegram_channels)
+            tg_urls = discover_from_telegram(channels=channels)
+            if tg_urls:
+                tg_norm = [u for u in (normalize_subscribe_url(u) for u in tg_urls) if u]
+                candidates = merge_urls(candidates, tg_norm)
+                print(f"[info] telegram discovery returned {len(tg_norm)} urls from {len(channels)} channels")
+            else:
+                print("[info] telegram discovery returned 0 urls")
+        except Exception as e:
+            print(f"[warn] telegram discovery failed: {e}")
     candidates = sorted(set(candidates))
 
     # Load/prepare rate limit state
@@ -1571,10 +1588,15 @@ def main():
     parse_ok_count = 0
     # Build a set of GitHub-discovered URLs for source tagging
     gh_norm_set: Set[str] = set()
+    tg_norm_set: Set[str] = set()
     try:
         gh_norm_set = set([uu for uu in (normalize_subscribe_url(uu) for uu in gh_urls) if uu]) if gh_urls else set()
     except Exception:
         gh_norm_set = set()
+    try:
+        tg_norm_set = set([uu for uu in (normalize_subscribe_url(uu) for uu in tg_urls) if uu]) if tg_urls else set()
+    except Exception:
+        tg_norm_set = set()
 
     for u in alive_urls:
         meta = {"url": u, "available": True}
@@ -1652,7 +1674,7 @@ def main():
             "id": sid,
             "host": host,
             "provider": provider,
-            "source": ("github" if u in gh_norm_set else "google"),
+            "source": ("telegram" if u in tg_norm_set else ("github" if u in gh_norm_set else "google")),
             "first_seen": first_seen_map.get(u, date_today),
             "first_seen_time": datetime.now(cn_tz).strftime("%H:%M:%S"),
             "detail_page": f"source.html?id={sid}",
@@ -2321,18 +2343,26 @@ def main():
     # 分离GitHub和Google搜索发现的URL（基于 refined 列表）
     github_alive_urls: List[str] = []
     google_alive_urls: List[str] = []
-    if gh_urls:
+    telegram_alive_urls: List[str] = []
+    if gh_urls or tg_urls:
         try:
             gh_set_urls = set([uu for uu in (normalize_subscribe_url(uu) for uu in gh_urls) if uu])
         except Exception:
             gh_set_urls = set()
+        try:
+            tg_set_urls = set([uu for uu in (normalize_subscribe_url(uu) for uu in tg_urls) if uu])
+        except Exception:
+            tg_set_urls = set()
         github_alive_urls = [u for u in refined_alive_urls if u in gh_set_urls]
         write_text(os.path.join(paths["sub"], "github_urls.txt"), "\n".join(github_alive_urls) + ("\n" if github_alive_urls else ""))
-        # Google搜索发现的URL（非GitHub来源，只包含验证可用的）
-        google_alive_urls = [u for u in refined_alive_urls if u not in gh_set_urls]
+        telegram_alive_urls = [u for u in refined_alive_urls if u in tg_set_urls and u not in gh_set_urls]
+        write_text(os.path.join(paths["sub"], "telegram_urls.txt"), "\n".join(telegram_alive_urls) + ("\n" if telegram_alive_urls else ""))
+        # Google搜索发现的URL（非GitHub/Telegram来源，只包含验证可用的）
+        google_alive_urls = [u for u in refined_alive_urls if u not in gh_set_urls and u not in tg_set_urls]
         write_text(os.path.join(paths["sub"], "google_urls.txt"), "\n".join(google_alive_urls) + ("\n" if google_alive_urls else ""))
     else:
         write_text(os.path.join(paths["sub"], "github_urls.txt"), "")
+        write_text(os.path.join(paths["sub"], "telegram_urls.txt"), "")
         write_text(os.path.join(paths["sub"], "google_urls.txt"), "\n".join(refined_alive_urls) + ("\n" if refined_alive_urls else ""))
 
     # Health info
@@ -2381,7 +2411,8 @@ def main():
         "protocol_counts": protocol_counts,
         "region_counts": {region: len(nodes) for region, nodes in classify_nodes_by_region(verified_nodes).items()},
         "github_urls_count": len(github_alive_urls),
-        "google_urls_count": len(google_alive_urls) if google_alive_urls else (len(refined_alive_urls) if not gh_urls else 0),
+        "telegram_urls_count": len(telegram_alive_urls),
+        "google_urls_count": len(google_alive_urls) if (gh_urls or tg_urls) else len(refined_alive_urls),
         "quota_total_left": quota_total_left,
         "quota_total_capacity": quota_total_cap,
         "keys_total": keys_total,
@@ -2406,6 +2437,7 @@ def main():
                 "date": today,
                 "google_added": int(health.get("google_urls_count", 0)),
                 "github_added": int(health.get("github_urls_count", 0)),
+                "telegram_added": int(health.get("telegram_urls_count", 0)),
                 "new_total": int(health.get("sources_new", 0)),
                 "removed_total": int(health.get("sources_removed", 0)),
                 "alive_total": int(health.get("source_alive", 0)),
@@ -2424,12 +2456,13 @@ def main():
                 day_date = day_data.get("date", "")
                 google_added = day_data.get("google_added", 0)
                 github_added = day_data.get("github_added", 0)
+                telegram_added = day_data.get("telegram_added", 0)
                 new_total = day_data.get("new_total", 0)
                 removed_total = day_data.get("removed_total", 0)
                 alive_total = day_data.get("alive_total", 0)
                 
-                # 计算新增总数（Google + GitHub）
-                total_added = google_added + github_added
+                # 计算新增总数（Google + GitHub + Telegram）
+                total_added = google_added + github_added + telegram_added
                 
                 # 计算失效数量（新增 - 净增长）
                 net_growth = new_total - removed_total
@@ -2441,6 +2474,7 @@ def main():
                     "new_added": total_added,    # 新增总数
                     "google_added": google_added,
                     "github_added": github_added,
+                    "telegram_added": telegram_added,
                     "failed_count": failed_count,  # 失效数量
                     "removed_count": removed_total,  # 移除数量
                     "net_growth": net_growth,  # 净增长

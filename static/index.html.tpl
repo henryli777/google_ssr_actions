@@ -564,6 +564,21 @@
               <span class="copy-text">复制</span>
             </button>
           </div>
+          <div class="file-item">
+            <div class="file-info">
+              <div class="file-name">
+                <a href="sub/telegram_urls.txt"><code>telegram_urls.txt</code></a>
+                <span class="file-desc">Telegram发现</span>
+              </div>
+              <div class="file-stats">
+                <span class="count-badge">__TGCOUNT__ 个</span>
+              </div>
+            </div>
+            <button onclick="copyFileUrl('sub/telegram_urls.txt', this)" class="copy-btn">
+              <span class="copy-icon">📋</span>
+              <span class="copy-text">复制</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -698,7 +713,7 @@
           <li>下次更新时间(中国时区)：<b>__NEXT_CN__</b></li>
           <li>源：<b>__ALIVE__/__TOTAL__</b> · 新增 <b>__NEW__</b> · 移除 <b>__REMOVED__</b></li>
           <li>节点：<b>__NODES__</b> · 协议 SS <b>__SS__</b> | VMess <b>__VMESS__</b> | VLESS <b>__VLESS__</b> | Trojan <b>__TROJAN__</b> | HY2 <b>__HY2__</b></li>
-          <li>来源：Google <b>__GCOUNT__</b> | GitHub <b>__GHCOUNT__</b></li>
+          <li>来源：Google <b>__GCOUNT__</b> | GitHub <b>__GHCOUNT__</b> | Telegram <b>__TGCOUNT__</b></li>
         </ul>
         
         <!-- 标注式速度排行显示 -->
@@ -815,8 +830,8 @@
                 const q = (item.quality_score ?? 0);
                 const qColor = q>=80?'#10b981':(q>=60?'#60a5fa':'#f59e0b');
                 const src = (item.source||'').toLowerCase();
-                const pillColor = src==='github'?'#111827': '#0b1220';
-                const pillText = src==='github'?'GitHub':'Google';
+                const pillColor = src==='github'?'#111827':(src==='telegram'?'#1d4ed8':'#0b1220');
+                const pillText = src==='github'?'GitHub':(src==='telegram'?'Telegram':'Google');
                 return '<tr>' +
                   '<td><div style="display:flex;gap:8px;align-items:center">' +
                     '<a href="' + (item.url||'#') + '" target="_blank">源</a>' +
@@ -876,12 +891,13 @@
               const labels = d.map(x=>x.date);
               const google = d.map(x=>x.google_added||0);
               const github = d.map(x=>x.github_added||0);
+              const telegram = d.map(x=>x.telegram_added||0);
               const added = d.map(x=>x.new_total||0);
               const removed = d.map(x=>x.removed_total||0);
               const canvas = document.getElementById('dailyChart');
               const ctx = canvas.getContext('2d');
               // 极简绘制
-              const max = Math.max(1, ...google, ...github, ...added, ...removed);
+              const max = Math.max(1, ...google, ...github, ...telegram, ...added, ...removed);
               const W = canvas.width = canvas.clientWidth;
               const H = canvas.height;
               function plot(series, color, yoff) {
@@ -893,7 +909,7 @@
                 }); ctx.stroke();
               }
               ctx.clearRect(0,0,W,H); ctx.fillStyle='#0b1220'; ctx.fillRect(0,0,W,H);
-              plot(google,'#60a5fa'); plot(github,'#10b981'); plot(added,'#a78bfa'); plot(removed,'#f87171');
+              plot(google,'#60a5fa'); plot(github,'#10b981'); plot(telegram,'#38bdf8'); plot(added,'#a78bfa'); plot(removed,'#f87171');
             } catch(e) {}
           }
           function drawSparkline(canvasId, series, color){
@@ -1281,4 +1297,3 @@
   </div>
 </body>
 </html>
-
