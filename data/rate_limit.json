@@ -9072,9 +9072,15 @@
     "next_allowed_at": 1780898668.9727783
   },
   "https://www5.bigairport-thirteenth-sub.com/api/v1/client/subscribe?token=2f861b74d3870ff23abb77a646b60838": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1780949652.9448447,
-    "next_allowed_at": 1780964052.9448447
+    "last_at": 1780973616.6040123,
+    "next_allowed_at": 1781002416.6040123
+  },
+  "https://yfjc.xyz/api/v1/client/subscribe?token=2ac90b3e8b7e5f9838eaab831adba36f": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1780973616.6040123,
+    "next_allowed_at": 1780974516.6040123
   }
 }

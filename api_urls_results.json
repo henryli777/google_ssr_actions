@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T22:24:54.997988",
+  "timestamp": "2026-06-09T02:51:07.515898",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,7 +13,7 @@
   "total_urls": 2,
   "original_urls": 8,
   "urls": [
-    "https://www7th.ga-sub.hair/api/v1/client/subscribe?token=327c174bc48b232d3871c6ffb3f8a25d",
-    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947",
+    "https://www7th.ga-sub.hair/api/v1/client/subscribe?token=327c174bc48b232d3871c6ffb3f8a25d"
   ]
 }
