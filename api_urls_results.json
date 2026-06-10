@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T15:27:46.626297",
+  "timestamp": "2026-06-10T20:27:29.744931",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,13 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 7,
+  "total_urls": 5,
+  "original_urls": 14,
   "urls": [
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947",
+    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b",
     "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=cb6ab14147606b6a46196983648647cb",
-    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b"
+    "https://38.76.201.181:33333/api/v1/client/subscribe?token=944d242f15f3faaf05db9422a7372a11",
+    "https://38.76.201.181:33333/api/v1/client/subscribe?token=dac81a628a3de41ba78d2a91b1f346fd"
   ]
 }
