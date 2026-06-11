@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-11T10:21:00.341093",
+  "timestamp": "2026-06-11T15:55:03.054283",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 7,
+  "original_urls": 8,
   "urls": [
-    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947",
-    "https://yfjc.xyz/api/v1/client/subscribe?token=711e07af8f1a4f23f6c9fc97748aad07"
+    "https://yfjc.xyz/api/v1/client/subscribe?token=711e07af8f1a4f23f6c9fc97748aad07",
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d8947"
   ]
 }
