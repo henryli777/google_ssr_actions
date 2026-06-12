@@ -2036,11 +2036,11 @@
   },
   {
     "date": "2026-06-12",
-    "google_added": 78,
-    "github_added": 1,
+    "google_added": 79,
+    "github_added": 0,
     "telegram_added": 0,
-    "new_total": 3,
-    "removed_total": 3,
+    "new_total": 1,
+    "removed_total": 1,
     "alive_total": 79
   }
 ]
