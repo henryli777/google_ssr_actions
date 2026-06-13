@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T16:13:00.755032",
+  "timestamp": "2026-06-13T19:21:33.599072",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 4,
+  "total_urls": 1,
+  "original_urls": 3,
   "urls": [
-    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b",
-    "https://example.com/api/v1/client/subscribe?token=ilovechina"
+    "https://mojie.app/api/v1/client/subscribe?token=006960c6444a2e16ac778c67083a4d3b"
   ]
 }
