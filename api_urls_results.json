@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T20:47:54.893052",
+  "timestamp": "2026-06-16T22:52:26.596162",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -14,6 +14,6 @@
   "original_urls": 5,
   "urls": [
     "https://s1.byte16.com/api/v1/client/subscribe?token=a516a83c432bc126c85377f94e365d3a",
-    "https://djjc.cfd/api/v1/client/subscribe?token=6bc7e487af7c88640aa0a6533b4f9903"
+    "https://example.com/api/v1/client/subscribe?token=xxx"
   ]
 }
