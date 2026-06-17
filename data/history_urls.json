@@ -1519,6 +1519,7 @@
   "https://xxcc/api/v1/client/subscribe?token=xxx",
   "https://xxx.com/api/v1/client/subscribe?token=xxx",
   "https://xxx.com/api/v1/client/subscribe?token=xxxxxx",
+  "https://xxx.com/api/v1/client/subscribe?token=xxxxxxxxxxxx",
   "https://xxx.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxxxxxxxxxxx",
   "https://xxx.xxx.xxx/api/v1/client/subscribe?token=xxx",
   "https://xxx.xxx.xxx/api/v1/client/subscribe?token=xxxxxxxxxxxxx",
