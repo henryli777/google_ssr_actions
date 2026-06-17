@@ -1404,10 +1404,10 @@
     "next_allowed_at": 1781714940.688745
   },
   "https://s.gwzxwk.com/api/v1/client/subscribe?token=f7577a5ef586b00d0774112a337c2d1e": {
-    "hits": 104,
-    "last_reason": "http 403",
-    "last_at": 1781524873.8447447,
-    "next_allowed_at": 1781611273.8447447
+    "hits": 105,
+    "last_reason": "body-hint",
+    "last_at": 1781693617.7094786,
+    "next_allowed_at": 1781780017.7094786
   },
   "https://riolu.azure-api.net/api/v1/client/subscribe?token=4881d2ce996e6494d53a0d9598557352": {
     "hits": 234,
@@ -9126,15 +9126,15 @@
     "next_allowed_at": 1781694514.4757729
   },
   "https://s1.byte16.com/api/v1/client/subscribe?token=a516a83c432bc126c85377f94e365d3a": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1781668309.0199938,
-    "next_allowed_at": 1781675509.0199938
+    "last_at": 1781693617.7094786,
+    "next_allowed_at": 1781708017.7094786
   },
   "https://djjc.cfd/api/v1/client/subscribe?token=6bc7e487af7c88640aa0a6533b4f9903": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1781668309.0199938,
-    "next_allowed_at": 1781671909.0199938
+    "last_at": 1781693617.7094786,
+    "next_allowed_at": 1781700817.7094786
   }
 }

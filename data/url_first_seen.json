@@ -1647,5 +1647,6 @@
   "https://dy.yqksj.net/api/v1/client/subscribe?token=xxxxx": "2026-06-14",
   "https://u.yqksj.vip/api/v1/client/subscribe?token=xxxxx": "2026-06-14",
   "https://s1.byte16.com/api/v1/client/subscribe?token=a516a83c432bc126c85377f94e365d3a": "2026-06-17",
-  "https://djjc.cfd/api/v1/client/subscribe?token=6bc7e487af7c88640aa0a6533b4f9903": "2026-06-17"
+  "https://djjc.cfd/api/v1/client/subscribe?token=6bc7e487af7c88640aa0a6533b4f9903": "2026-06-17",
+  "https://example.com/api/v1/client/subscribe?token=abcd1234": "2026-06-17"
 }
