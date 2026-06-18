@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T22:45:16.610854",
+  "timestamp": "2026-06-18T03:38:38.517030",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,17 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 9,
-  "original_urls": 13,
+  "total_urls": 1,
+  "original_urls": 2,
   "urls": [
-    "https://so.vfast.life/api/v1/client/subscribe?token=a8bd2ca8e45b0362e8eed640e4fd6c4e",
-    "https://xxx.com/api/v1/client/subscribe?token=xxxxxxxxxxxx",
-    "https://so.vfast.life/api/v1/client/subscribe?token=32213392d56c6fc6205c2bd8f52ab47a",
-    "https://so.vfast.life/api/v1/client/subscribe?token=8ebf3231bc1a528d8852206116d8261e",
-    "https://so.vfast.life/api/v1/client/subscribe?token=03ea98b5619e7e21f08abbc31d55f7da",
-    "https://so.vfast.life/api/v1/client/subscribe?token=8e3adeb863101f50cf7d005ad7645ee5",
-    "https://so.vfast.life/api/v1/client/subscribe?token=cf1981848f2b27025513501a7fed840e",
-    "https://so.vfast.life/api/v1/client/subscribe?token=e351462be28f4850163c6c40af80d33b",
-    "https://so.vfast.life/api/v1/client/subscribe?token=45f88219f0d043072015960eee75e1ec"
+    "https://xxx.com/api/v1/client/subscribe?token=xxxxxxxxxxxx"
   ]
 }
