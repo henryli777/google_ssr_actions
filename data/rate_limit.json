@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1776876031.631268
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 25,
+    "hits": 26,
     "last_reason": "body-hint",
-    "last_at": 1781796046.5710108,
-    "next_allowed_at": 1781882446.5710108
+    "last_at": 1781889844.4594111,
+    "next_allowed_at": 1781976244.4594111
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 25,
+    "hits": 26,
     "last_reason": "body-hint",
-    "last_at": 1781796046.5710108,
-    "next_allowed_at": 1781882446.5710108
+    "last_at": 1781889844.4594111,
+    "next_allowed_at": 1781976244.4594111
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 79,
@@ -8976,10 +8976,10 @@
     "next_allowed_at": 1781900742.741683
   },
   "http://gg.gg/11bl3ohttps://catvodtv.github.io/catTV.jsonhttps://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1781736464.9345205,
-    "next_allowed_at": 1781822864.9345205
+    "last_at": 1781889844.4594111,
+    "next_allowed_at": 1781976244.4594111
   },
   "https://dash.pqjc.site/api/v1/client/subscribe?token=26367ffdc23aca63e4736c23b0cccae2": {
     "hits": 19,
@@ -9192,15 +9192,15 @@
     "next_allowed_at": 1781895688.461805
   },
   "https://38.76.201.181:33333/api/v1/client/subscribe?token=dac81a628a3de41ba78d2a91b1f346fd": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1781881288.461805,
-    "next_allowed_at": 1781888488.461805
+    "last_at": 1781889844.4594111,
+    "next_allowed_at": 1781904244.4594111
   },
   "https://fgqf2k.xdffastgo.online/api/v1/client/subscribe?token=43c1f7955e412f9969d46e07e9bccc8b": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1781881288.461805,
-    "next_allowed_at": 1781882188.461805
+    "last_at": 1781889844.4594111,
+    "next_allowed_at": 1781891644.4594111
   }
 }
