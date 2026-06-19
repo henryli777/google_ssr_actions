@@ -2099,11 +2099,11 @@
   },
   {
     "date": "2026-06-19",
-    "google_added": 73,
+    "google_added": 68,
     "github_added": 1,
     "telegram_added": 0,
     "new_total": 1,
-    "removed_total": 0,
-    "alive_total": 74
+    "removed_total": 6,
+    "alive_total": 69
   }
 ]
