@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T17:21:41.710700",
+  "timestamp": "2026-06-20T03:24:38.281213",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 1,
   "urls": [
-    "https://your-provider.com/api/v1/client/subscribe?token=xxxxxxxx"
+    "https://djjc.cfd/api/v1/client/subscribe?token=6bc7e487af7c88640aa0a6533b4f9903"
   ]
 }
