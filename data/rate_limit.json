@@ -4704,10 +4704,10 @@
     "next_allowed_at": 1781993117.40417
   },
   "https://xsus.moe/api/v1/client/subscribe?token=4c1f8f412cd5e46a7fa883ef9f08a04c": {
-    "hits": 163,
+    "hits": 164,
     "last_reason": "http 403",
-    "last_at": 1781796046.5710108,
-    "next_allowed_at": 1781882446.5710108
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1782058679.5184038
   },
   "https://pub04.20251020a.top/api/v1/client/subscribe?token=16c299297bca84972869464564f5cc9d": {
     "hits": 183,
@@ -8760,10 +8760,10 @@
     "next_allowed_at": 1782032051.9195771
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=b891d4468bb1282330485394fa1213c0": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1781881288.461805,
-    "next_allowed_at": 1781967688.461805
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1782058679.5184038
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=c37474f28ddc28f2c9c3082e8b387a53": {
     "hits": 8,
@@ -8850,10 +8850,10 @@
     "next_allowed_at": 1782032051.9195771
   },
   "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=3234b173c623c8109e4f274afd012b06": {
-    "hits": 14,
+    "hits": 15,
     "last_reason": "http 403",
-    "last_at": 1781754059.1445885,
-    "next_allowed_at": 1781840459.1445885
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1782058679.5184038
   },
   "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=f4e88887603b3e65712b0bf646130881": {
     "hits": 16,
@@ -9204,15 +9204,27 @@
     "next_allowed_at": 1781974451.9195771
   },
   "http://www.yhcjs5.com/api/v1/client/subscribe?token=c93d9fbb8392294dd1f0155094048ee9": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1781963946.5357654,
-    "next_allowed_at": 1781965746.5357654
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1781975879.5184038
   },
   "https://xsus.jolqx.cn/api/v1/client/subscribe?token=48c77a925279de459c21bba1d71f30a7": {
     "hits": 1,
     "last_reason": "body-hint",
     "last_at": 1781963946.5357654,
     "next_allowed_at": 1781964846.5357654
+  },
+  "https://ransa.niubiliuliuliuwocao.a.kuaivpn.app/api/v1/client/subscribe?token=d59cc66f98204f18da65b8cff1d0f7d8": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1781973179.5184038
+  },
+  "https://www2.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=7e5a87c80eeec492a4f0962caf32e99f": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1781972279.5184038,
+    "next_allowed_at": 1781973179.5184038
   }
 }
