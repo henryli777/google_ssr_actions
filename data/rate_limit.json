@@ -9246,15 +9246,15 @@
     "next_allowed_at": 1782073898.7602084
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=e862add6d6d4571a39207777c12b657e": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1782059498.7602084,
-    "next_allowed_at": 1782066698.7602084
+    "last_at": 1782070145.4360356,
+    "next_allowed_at": 1782084545.4360356
   },
   "https://jsjc.cfd/api/v1/client/subscribe?token=00dc2e4fef44d13ee9c3ef25cac96ad9": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1782059498.7602084,
-    "next_allowed_at": 1782061298.7602084
+    "last_at": 1782070145.4360356,
+    "next_allowed_at": 1782073745.4360356
   }
 }
