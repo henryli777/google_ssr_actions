@@ -2135,11 +2135,11 @@
   },
   {
     "date": "2026-06-23",
-    "google_added": 75,
-    "github_added": 0,
+    "google_added": 70,
+    "github_added": 1,
     "telegram_added": 0,
-    "new_total": 2,
-    "removed_total": 0,
-    "alive_total": 75
+    "new_total": 0,
+    "removed_total": 4,
+    "alive_total": 71
   }
 ]
