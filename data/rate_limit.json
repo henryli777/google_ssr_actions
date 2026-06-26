@@ -9252,10 +9252,10 @@
     "next_allowed_at": 1782579727.4490838
   },
   "https://jsjc.cfd/api/v1/client/subscribe?token=00dc2e4fef44d13ee9c3ef25cac96ad9": {
-    "hits": 10,
+    "hits": 11,
     "last_reason": "http 403",
-    "last_at": 1782407641.4880884,
-    "next_allowed_at": 1782494041.4880884
+    "last_at": 1782503191.3523312,
+    "next_allowed_at": 1782589591.3523312
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=01a2344f958c30ea0b76334e12ebdad6": {
     "hits": 10,
@@ -9342,9 +9342,9 @@
     "next_allowed_at": 1782507727.4490838
   },
   "https://webget.yfjc.xyz/api/v1/client/subscribe?token=c76f8eb472090f934deb85ec4b5f1a21": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1782493327.4490838,
-    "next_allowed_at": 1782495127.4490838
+    "last_at": 1782503191.3523312,
+    "next_allowed_at": 1782506791.3523312
   }
 }
