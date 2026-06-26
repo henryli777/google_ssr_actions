@@ -1684,5 +1684,6 @@
   "https://a001.microunsync.com/api/v1/client/subscribe?token=fcde6a140b8310a74a6456d0994a7ae3": "2026-06-26",
   "https://a001.microunsync.com/api/v1/client/subscribe?token=fcde6a140b8310a74a6456d0994a7ae38": "2026-06-26",
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=ed3c3b592847fdb33b5554126cfa9f7b": "2026-06-26",
-  "https://proxyinfo.net/api/v1/client/subscribe?token=fca3a71186ebce3ff4eaab35aad6ad37": "2026-06-26"
+  "https://proxyinfo.net/api/v1/client/subscribe?token=fca3a71186ebce3ff4eaab35aad6ad37": "2026-06-26",
+  "https://webget.yfjc.xyz/api/v1/client/subscribe?token=c76f8eb472090f934deb85ec4b5f1a21": "2026-06-26"
 }
