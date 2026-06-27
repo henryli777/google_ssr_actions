@@ -9252,10 +9252,10 @@
     "next_allowed_at": 1782674473.447997
   },
   "https://jsjc.cfd/api/v1/client/subscribe?token=00dc2e4fef44d13ee9c3ef25cac96ad9": {
-    "hits": 11,
+    "hits": 12,
     "last_reason": "http 403",
-    "last_at": 1782503191.3523312,
-    "next_allowed_at": 1782589591.3523312
+    "last_at": 1782597804.104432,
+    "next_allowed_at": 1782684204.104432
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=01a2344f958c30ea0b76334e12ebdad6": {
     "hits": 11,
