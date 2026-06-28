@@ -2180,11 +2180,11 @@
   },
   {
     "date": "2026-06-28",
-    "google_added": 67,
-    "github_added": 0,
+    "google_added": 73,
+    "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 8,
-    "alive_total": 67
+    "new_total": 8,
+    "removed_total": 1,
+    "alive_total": 74
   }
 ]
