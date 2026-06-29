@@ -1086,10 +1086,10 @@
     "next_allowed_at": 1782731292.6139991
   },
   "https://1.ni8.app/api/v1/client/subscribe?token=c67f1b49c9d06dc78a2d6295e7772096": {
-    "hits": 213,
+    "hits": 214,
     "last_reason": "body-hint",
-    "last_at": 1782636709.0444396,
-    "next_allowed_at": 1782723109.0444396
+    "last_at": 1782730499.0548835,
+    "next_allowed_at": 1782816899.0548835
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3e483a7b7f0caaca3fa8a947495b0d92": {
     "hits": 218,
@@ -9324,10 +9324,10 @@
     "next_allowed_at": 1782770612.4737964
   },
   "https://guolicheng.cfd/api/v1/client/subscribe?token=a7302892f5eb857735ce5b267184b3ee": {
-    "hits": 10,
+    "hits": 11,
     "last_reason": "http 403",
-    "last_at": 1782636709.0444396,
-    "next_allowed_at": 1782723109.0444396
+    "last_at": 1782730499.0548835,
+    "next_allowed_at": 1782816899.0548835
   },
   "https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=8670d44607198a2578e02af06077b2eb": {
     "hits": 9,
@@ -9346,5 +9346,11 @@
     "last_reason": "http 403",
     "last_at": 1782654285.0475597,
     "next_allowed_at": 1782740685.0475597
+  },
+  "https://hsy.zcamaf.com/api/v1/client/subscribe?token=e74fc421853933a2071020b196a80176": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1782730499.0548835,
+    "next_allowed_at": 1782731399.0548835
   }
 }
