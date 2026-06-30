@@ -2207,11 +2207,11 @@
   },
   {
     "date": "2026-07-01",
-    "google_added": 72,
+    "google_added": 71,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 0,
-    "alive_total": 72
+    "new_total": 1,
+    "removed_total": 2,
+    "alive_total": 71
   }
 ]
