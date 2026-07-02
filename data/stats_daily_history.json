@@ -2216,11 +2216,11 @@
   },
   {
     "date": "2026-07-02",
-    "google_added": 71,
+    "google_added": 73,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 9,
-    "removed_total": 2,
-    "alive_total": 71
+    "new_total": 2,
+    "removed_total": 0,
+    "alive_total": 73
   }
 ]
