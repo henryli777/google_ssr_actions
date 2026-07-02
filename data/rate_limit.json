@@ -5862,10 +5862,10 @@
     "next_allowed_at": 1783106579.5797865
   },
   "https://B.top/smjc/api/v1/client/subscribe?token=B": {
-    "hits": 139,
+    "hits": 140,
     "last_reason": "body-hint",
-    "last_at": 1781993232.4799304,
-    "next_allowed_at": 1782079632.4799304
+    "last_at": 1783030068.1460695,
+    "next_allowed_at": 1783116468.1460695
   },
   "https://www.yfjc.xyz/api/v1/client/subscribe?token=37aaba46d9133e0ac31264e516b11f99": {
     "hits": 182,
@@ -6450,10 +6450,10 @@
     "next_allowed_at": 1783106579.5797865
   },
   "https://abc.xhonor.top:9066/v2b/qy/api/v1/client/subscribe?token=49b76e0ba6e393baac2efd36faa0d99e": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1774011472.7576528,
-    "next_allowed_at": 1774013272.7576528
+    "last_at": 1783030068.1460695,
+    "next_allowed_at": 1783033668.1460695
   },
   "https://dy.dhh.gay/api/v1/client/subscribe?token=5a525ca1b6ef742cae9a4955d8fccf10": {
     "hits": 168,
@@ -7494,10 +7494,10 @@
     "next_allowed_at": 1783106579.5797865
   },
   "https://abc.xhonor.top:9066/v2b/km/api/v1/client/subscribe?token=5fc737a1ec908b63fe1bed88449ba286": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1778595580.4539487,
-    "next_allowed_at": 1778597380.4539487
+    "last_at": 1783030068.1460695,
+    "next_allowed_at": 1783033668.1460695
   },
   "https://1343763932-2ducwnqrch.eu-frankfurt.tencentscf.com/api/v1/client/subscribe?token=3e5491f63328b9a5427f3daac800020e": {
     "hits": 10,
@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1776876031.631268
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 36,
+    "hits": 37,
     "last_reason": "body-hint",
-    "last_at": 1782926122.8183677,
-    "next_allowed_at": 1783012522.8183677
+    "last_at": 1783030068.1460695,
+    "next_allowed_at": 1783116468.1460695
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 36,
+    "hits": 37,
     "last_reason": "body-hint",
-    "last_at": 1782926122.8183677,
-    "next_allowed_at": 1783012522.8183677
+    "last_at": 1783030068.1460695,
+    "next_allowed_at": 1783116468.1460695
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 92,
