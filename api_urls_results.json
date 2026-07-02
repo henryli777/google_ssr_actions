@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T10:52:38.446201",
+  "timestamp": "2026-07-02T16:48:40.962189",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 1,
   "urls": [
-    "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=0474d749307c6ad131db7fd8458c6a6e"
+    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=b6ed5980d0f6be488e58036b026508a3"
   ]
 }
