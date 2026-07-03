@@ -2225,11 +2225,11 @@
   },
   {
     "date": "2026-07-03",
-    "google_added": 73,
+    "google_added": 71,
     "github_added": 0,
     "telegram_added": 0,
     "new_total": 0,
-    "removed_total": 0,
-    "alive_total": 73
+    "removed_total": 2,
+    "alive_total": 71
   }
 ]
