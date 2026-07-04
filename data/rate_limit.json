@@ -9352,5 +9352,11 @@
     "last_reason": "http 403",
     "last_at": 1783087260.6181083,
     "next_allowed_at": 1783173660.6181083
+  },
+  "https://47.242.128.61:5000/api/v1/client/subscribe?token=cd6b2ec043fd28b2da0ded9edd4f0b7d": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1783162518.734472,
+    "next_allowed_at": 1783163418.734472
   }
 }
