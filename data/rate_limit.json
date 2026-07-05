@@ -9360,9 +9360,21 @@
     "next_allowed_at": 1783307142.1297271
   },
   "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=4248c4f4a5f3aa240757177ee134e410": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1783249542.1297271,
-    "next_allowed_at": 1783278342.1297271
+    "last_at": 1783278973.1293948,
+    "next_allowed_at": 1783336573.1293948
+  },
+  "https://sub3.7878787878.top/api/v1/client/subscribe?token=6503784ef836827b00f86dec46210cbd": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1783278973.1293948,
+    "next_allowed_at": 1783279873.1293948
+  },
+  "https://sub3.7878787878.top/api/v1/client/subscribe?token=9209f2e3a5a86d7e9afba7b4af42568a": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1783278973.1293948,
+    "next_allowed_at": 1783279873.1293948
   }
 }
