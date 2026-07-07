@@ -2270,11 +2270,11 @@
   },
   {
     "date": "2026-07-08",
-    "google_added": 83,
+    "google_added": 81,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 14,
-    "removed_total": 1,
-    "alive_total": 84
+    "new_total": 0,
+    "removed_total": 2,
+    "alive_total": 82
   }
 ]
