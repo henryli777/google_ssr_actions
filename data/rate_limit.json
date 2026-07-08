@@ -7776,10 +7776,10 @@
     "next_allowed_at": 1776876031.631268
   },
   "https://xxx.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxxxxxxxxxxx": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1776874231.631268,
-    "next_allowed_at": 1776876031.631268
+    "last_at": 1783489875.7875504,
+    "next_allowed_at": 1783493475.7875504
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
     "hits": 41,
