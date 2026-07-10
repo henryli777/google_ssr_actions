@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T11:49:26.886378",
+  "timestamp": "2026-07-10T14:17:28.848996",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 4,
   "urls": [
     "https://yfjc.xyz/api/v1/client/subscribe?token=7d7ad74e076f90503003175007ff3791"
   ]
