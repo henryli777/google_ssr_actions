@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T22:20:18.110401",
+  "timestamp": "2026-07-10T02:43:23.448316",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 3,
+  "original_urls": 3,
   "urls": [
-    "https://so.vfast.life/api/v1/client/subscribe?token=a8bd2ca8e45b0362e8eed640e4fd6c4e"
+    "https://so.vfast.life/api/v1/client/subscribe?token=a8bd2ca8e45b0362e8eed640e4fd6c4e",
+    "https://skyfd.chuna.nulaiha.aasxuan.yfftftf.shop/api/v1/client/subscribe?token=40940e3409d620fc16178d3450a36c3c",
+    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=4248c4f4a5f3aa240757177ee134e410"
   ]
 }
