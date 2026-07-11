@@ -4440,10 +4440,10 @@
     "next_allowed_at": 1783779593.125471
   },
   "https://subtwo.arisaka.io/api/v1/client/subscribe?token=6ab4a8c0c632f45ecd35b75fa3bfcefe": {
-    "hits": 164,
+    "hits": 165,
     "last_reason": "body-hint",
-    "last_at": 1783665911.7506573,
-    "next_allowed_at": 1783752311.7506573
+    "last_at": 1783775697.591108,
+    "next_allowed_at": 1783862097.591108
   },
   "https://webget.yfjc.xyz/api/v1/client/subscribe?token=c47cb593f47fcca611769f614c27b6d3": {
     "hits": 242,
@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1783493475.7875504
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 43,
+    "hits": 44,
     "last_reason": "body-hint",
-    "last_at": 1783684310.0662024,
-    "next_allowed_at": 1783770710.0662024
+    "last_at": 1783775697.591108,
+    "next_allowed_at": 1783862097.591108
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 43,
+    "hits": 44,
     "last_reason": "body-hint",
-    "last_at": 1783684310.0662024,
-    "next_allowed_at": 1783770710.0662024
+    "last_at": 1783775697.591108,
+    "next_allowed_at": 1783862097.591108
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 99,
@@ -9696,15 +9696,15 @@
     "next_allowed_at": 1783478618.6307533
   },
   "https://yfjc.xyz/api/v1/client/subscribe?token=7d7ad74e076f90503003175007ff3791": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1783736804.5650754,
-    "next_allowed_at": 1783765604.5650754
+    "last_at": 1783775697.591108,
+    "next_allowed_at": 1783833297.591108
   },
   "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1783764923.6068227,
-    "next_allowed_at": 1783772123.6068227
+    "last_at": 1783775697.591108,
+    "next_allowed_at": 1783790097.591108
   }
 }
