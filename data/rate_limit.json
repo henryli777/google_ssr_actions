@@ -2274,10 +2274,10 @@
     "next_allowed_at": 1779375705.6479158
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=d4985576dd91f013f646b8b436ece788": {
-    "hits": 17,
+    "hits": 18,
     "last_reason": "body-hint",
-    "last_at": 1779289305.6479158,
-    "next_allowed_at": 1779375705.6479158
+    "last_at": 1783764923.6068227,
+    "next_allowed_at": 1783851323.6068227
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=d7096344a577d0e7d16c3051a3902adc": {
     "hits": 17,
@@ -9702,9 +9702,9 @@
     "next_allowed_at": 1783765604.5650754
   },
   "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1783756407.7167954,
-    "next_allowed_at": 1783760007.7167954
+    "last_at": 1783764923.6068227,
+    "next_allowed_at": 1783772123.6068227
   }
 }
