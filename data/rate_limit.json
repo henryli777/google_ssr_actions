@@ -3132,10 +3132,10 @@
     "next_allowed_at": 1760670922.231444
   },
   "https://times1733632330.subxiandan.top:9604/v2b/paopaogou/api/v1/client/subscribe?token=4aa2ae5b6cdee6d54a0295ccc4aa0ec5": {
-    "hits": 128,
+    "hits": 129,
     "last_reason": "body-hint",
-    "last_at": 1779826563.536123,
-    "next_allowed_at": 1779912963.536123
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783948585.2825835
   },
   "https://unear.icu/api/v1/client/subscribe?token=1e248a7ea4e084a82d08da00cd1f7f89": {
     "hits": 2,
@@ -5202,10 +5202,10 @@
     "next_allowed_at": 1783871754.043123
   },
   "https://times1732354453.subxiandan.top:9604/v2b/paopaogou/api/v1/client/subscribe?token=37d12277eda32b574c8baea612911ee8": {
-    "hits": 128,
+    "hits": 129,
     "last_reason": "body-hint",
-    "last_at": 1779826563.536123,
-    "next_allowed_at": 1779912963.536123
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783948585.2825835
   },
   "https://lansecs.top/api/v1/client/subscribe?token=11462a7219951d3afc94": {
     "hits": 66,
@@ -7464,16 +7464,16 @@
     "next_allowed_at": 1779536851.4595008
   },
   "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw": {
-    "hits": 104,
+    "hits": 105,
     "last_reason": "http 403",
-    "last_at": 1783756407.7167954,
-    "next_allowed_at": 1783842807.7167954
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783948585.2825835
   },
   "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw1": {
-    "hits": 104,
+    "hits": 105,
     "last_reason": "http 403",
-    "last_at": 1783756407.7167954,
-    "next_allowed_at": 1783842807.7167954
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783948585.2825835
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=89102b4372f59d05f8c9a1422478f9a1": {
     "hits": 113,
@@ -8976,10 +8976,10 @@
     "next_allowed_at": 1783871754.043123
   },
   "http://gg.gg/11bl3ohttps://catvodtv.github.io/catTV.jsonhttps://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 16,
+    "hits": 17,
     "last_reason": "http 403",
-    "last_at": 1783756407.7167954,
-    "next_allowed_at": 1783842807.7167954
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783948585.2825835
   },
   "https://dash.pqjc.site/api/v1/client/subscribe?token=26367ffdc23aca63e4736c23b0cccae2": {
     "hits": 40,
@@ -9706,5 +9706,17 @@
     "last_reason": "body-hint",
     "last_at": 1783835851.6879008,
     "next_allowed_at": 1783893451.6879008
+  },
+  "https://times1749793443.subsizhan.top:9602/v2b/chunqiu/api/v1/client/subscribe?token=6a469acea14b30c014e851200432aa39": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783863085.2825835
+  },
+  "https://times1781529889.subtangniu.top:9606/v2b/catnet/api/v1/client/subscribe?token=eeec0a3b684bc97a03e902710a7cbf8e": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1783862185.2825835,
+    "next_allowed_at": 1783863085.2825835
   }
 }
