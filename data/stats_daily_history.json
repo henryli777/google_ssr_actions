@@ -2315,11 +2315,11 @@
   },
   {
     "date": "2026-07-13",
-    "google_added": 75,
+    "google_added": 66,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 1,
-    "removed_total": 0,
-    "alive_total": 76
+    "new_total": 0,
+    "removed_total": 9,
+    "alive_total": 67
   }
 ]
