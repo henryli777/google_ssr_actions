@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T06:14:07.135264",
+  "timestamp": "2026-07-13T11:59:43.708891",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,12 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 4,
+  "original_urls": 11,
   "urls": [
+    "https://ransa.niubiliuliuliuwocao.a.kuaivpn.app/api/v1/client/subscribe?token=35fbc85672b3c3e49de4dc37161c5b67",
+    "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=cc593c1e04d128ea0cb23a89b504149c",
+    "https://yfjc.xyz/api/v1/client/subscribe?token=7d7ad74e076f90503003175007ff3791",
     "https://xxx.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
