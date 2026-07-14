@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T02:10:23.527823",
+  "timestamp": "2026-07-14T21:56:33.994515",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 1,
   "urls": [
-    "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=cc593c1e04d128ea0cb23a89b504149c"
+    "https://panel.soyetty.com/api/v1/client/subscribe?token=xxxxxxxx"
   ]
 }
