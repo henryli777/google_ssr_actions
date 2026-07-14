@@ -1086,10 +1086,10 @@
     "next_allowed_at": 1784049250.5903366
   },
   "https://1.ni8.app/api/v1/client/subscribe?token=c67f1b49c9d06dc78a2d6295e7772096": {
-    "hits": 227,
+    "hits": 228,
     "last_reason": "body-hint",
-    "last_at": 1783923388.4605632,
-    "next_allowed_at": 1784009788.4605632
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3e483a7b7f0caaca3fa8a947495b0d92": {
     "hits": 232,
@@ -1110,10 +1110,10 @@
     "next_allowed_at": 1784093375.2319517
   },
   "https://app.lwjyj.com/api/v1/client/subscribe?token=a487984eee4196625ba8e75b362b7467": {
-    "hits": 255,
+    "hits": 256,
     "last_reason": "body-hint",
-    "last_at": 1783923388.4605632,
-    "next_allowed_at": 1784009788.4605632
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://ch.cukug.website/api/v1/client/subscribe?token=e70216c706fa6895d838cd5dd11b94ab": {
     "hits": 268,
@@ -2244,10 +2244,10 @@
     "next_allowed_at": 1781044039.4162896
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=899925529ee257c0c9eefa428c8c2921": {
-    "hits": 17,
+    "hits": 18,
     "last_reason": "body-hint",
-    "last_at": 1779289305.6479158,
-    "next_allowed_at": 1779375705.6479158
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=956ad01bbc5e7501eaf8331a6836c355": {
     "hits": 17,
@@ -5526,10 +5526,10 @@
     "next_allowed_at": 1784093375.2319517
   },
   "https://fn02.20251117.top/api/v1/client/subscribe?token=44ca326d8256056ba1a8130f328013d7": {
-    "hits": 188,
+    "hits": 189,
     "last_reason": "body-hint",
-    "last_at": 1783923388.4605632,
-    "next_allowed_at": 1784009788.4605632
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://fn02.20251117.top/api/v1/client/subscribe?token=4ea995fff607a515b30de00a5b7cb446": {
     "hits": 192,
@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1783493475.7875504
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 45,
+    "hits": 46,
     "last_reason": "body-hint",
-    "last_at": 1783909961.457234,
-    "next_allowed_at": 1783996361.457234
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 45,
+    "hits": 46,
     "last_reason": "body-hint",
-    "last_at": 1783909961.457234,
-    "next_allowed_at": 1783996361.457234
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 100,
@@ -9324,10 +9324,10 @@
     "next_allowed_at": 1784093375.2319517
   },
   "https://guolicheng.cfd/api/v1/client/subscribe?token=a7302892f5eb857735ce5b267184b3ee": {
-    "hits": 24,
+    "hits": 25,
     "last_reason": "http 403",
-    "last_at": 1783923388.4605632,
-    "next_allowed_at": 1784009788.4605632
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=8670d44607198a2578e02af06077b2eb": {
     "hits": 23,
@@ -9696,10 +9696,10 @@
     "next_allowed_at": 1783478618.6307533
   },
   "https://yfjc.xyz/api/v1/client/subscribe?token=7d7ad74e076f90503003175007ff3791": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1783923388.4605632,
-    "next_allowed_at": 1784009788.4605632
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784102464.7112975
   },
   "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c": {
     "hits": 9,
@@ -9730,5 +9730,11 @@
     "last_reason": "http 403",
     "last_at": 1783995165.3999286,
     "next_allowed_at": 1784023965.3999286
+  },
+  "https://47.242.128.61:5000/api/v1/client/subscribe?token=41975f235b608d3953afc06cddaa843f": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1784016064.7112975,
+    "next_allowed_at": 1784016964.7112975
   }
 }
