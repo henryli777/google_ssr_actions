@@ -2351,11 +2351,11 @@
   },
   {
     "date": "2026-07-17",
-    "google_added": 74,
+    "google_added": 75,
     "github_added": 1,
     "telegram_added": 0,
     "new_total": 1,
-    "removed_total": 1,
-    "alive_total": 75
+    "removed_total": 0,
+    "alive_total": 76
   }
 ]
