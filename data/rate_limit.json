@@ -2778,10 +2778,10 @@
     "next_allowed_at": 1784427094.8959718
   },
   "https://sub.feishayun.top/api/v1/client/subscribe?token=a940573462f13abfe72e6eb51d0a16ad": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "body-hint",
-    "last_at": 1783171255.9453614,
-    "next_allowed_at": 1783257655.9453614
+    "last_at": 1784401309.084271,
+    "next_allowed_at": 1784487709.084271
   },
   "https://sub.gougou.live/api/v1/client/subscribe?token=002c61fa51ccc991a0e76d3f01120e9b": {
     "hits": 146,
@@ -6306,10 +6306,10 @@
     "next_allowed_at": 1784427094.8959718
   },
   "https://nVx81Q0ouJA21x8U.xn--fiqs8s40dz2j.com/api/v1/client/subscribe?token=1f6xxxxxxxxxxx": {
-    "hits": 148,
+    "hits": 149,
     "last_reason": "body-hint",
-    "last_at": 1781983458.6369932,
-    "next_allowed_at": 1782069858.6369932
+    "last_at": 1784401309.084271,
+    "next_allowed_at": 1784487709.084271
   },
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9a68e380047ce9f24f68833bc897c6c": {
     "hits": 189,
@@ -6648,10 +6648,10 @@
     "next_allowed_at": 1784427094.8959718
   },
   "https://sudusub.com/api/v1/client/subscribe?token=25fcda2927b343be205b47ca4d1ad551": {
-    "hits": 170,
+    "hits": 171,
     "last_reason": "http 403",
-    "last_at": 1784304943.2585466,
-    "next_allowed_at": 1784391343.2585466
+    "last_at": 1784401309.084271,
+    "next_allowed_at": 1784487709.084271
   },
   "https://519nz.tdwj.net:108/api/v1/client/subscribe?token=a763f55d16e1c1860a681d89e1ae6f23": {
     "hits": 126,
