@@ -1086,10 +1086,10 @@
     "next_allowed_at": 1784427094.8959718
   },
   "https://1.ni8.app/api/v1/client/subscribe?token=c67f1b49c9d06dc78a2d6295e7772096": {
-    "hits": 231,
+    "hits": 232,
     "last_reason": "body-hint",
-    "last_at": 1784285226.5690145,
-    "next_allowed_at": 1784371626.5690145
+    "last_at": 1784380218.1689694,
+    "next_allowed_at": 1784466618.1689694
   },
   "https://app.jisovpn.site/api/v1/client/subscribe?token=3e483a7b7f0caaca3fa8a947495b0d92": {
     "hits": 236,
@@ -1110,10 +1110,10 @@
     "next_allowed_at": 1784447258.381345
   },
   "https://app.lwjyj.com/api/v1/client/subscribe?token=a487984eee4196625ba8e75b362b7467": {
-    "hits": 259,
+    "hits": 260,
     "last_reason": "body-hint",
-    "last_at": 1784285226.5690145,
-    "next_allowed_at": 1784371626.5690145
+    "last_at": 1784380218.1689694,
+    "next_allowed_at": 1784466618.1689694
   },
   "https://ch.cukug.website/api/v1/client/subscribe?token=e70216c706fa6895d838cd5dd11b94ab": {
     "hits": 272,
@@ -5526,10 +5526,10 @@
     "next_allowed_at": 1784411623.4462354
   },
   "https://fn02.20251117.top/api/v1/client/subscribe?token=44ca326d8256056ba1a8130f328013d7": {
-    "hits": 192,
+    "hits": 193,
     "last_reason": "body-hint",
-    "last_at": 1784285226.5690145,
-    "next_allowed_at": 1784371626.5690145
+    "last_at": 1784380218.1689694,
+    "next_allowed_at": 1784466618.1689694
   },
   "https://fn02.20251117.top/api/v1/client/subscribe?token=4ea995fff607a515b30de00a5b7cb446": {
     "hits": 196,
@@ -9324,10 +9324,10 @@
     "next_allowed_at": 1784447258.381345
   },
   "https://guolicheng.cfd/api/v1/client/subscribe?token=a7302892f5eb857735ce5b267184b3ee": {
-    "hits": 28,
+    "hits": 29,
     "last_reason": "http 403",
-    "last_at": 1784285226.5690145,
-    "next_allowed_at": 1784371626.5690145
+    "last_at": 1784380218.1689694,
+    "next_allowed_at": 1784466618.1689694
   },
   "https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=8670d44607198a2578e02af06077b2eb": {
     "hits": 27,
@@ -9696,10 +9696,10 @@
     "next_allowed_at": 1783478618.6307533
   },
   "https://yfjc.xyz/api/v1/client/subscribe?token=7d7ad74e076f90503003175007ff3791": {
-    "hits": 13,
+    "hits": 14,
     "last_reason": "http 403",
-    "last_at": 1784285226.5690145,
-    "next_allowed_at": 1784371626.5690145
+    "last_at": 1784380218.1689694,
+    "next_allowed_at": 1784466618.1689694
   },
   "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c": {
     "hits": 13,
