@@ -9870,9 +9870,9 @@
     "next_allowed_at": 1784565643.1227221
   },
   "https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=31220a0020e858d75d31984a0758f35c": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1784584855.3015127,
-    "next_allowed_at": 1784585755.3015127
+    "last_at": 1784600839.911602,
+    "next_allowed_at": 1784602639.911602
   }
 }
