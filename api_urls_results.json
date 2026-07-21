@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T21:58:25.884143",
+  "timestamp": "2026-07-21T05:48:26.166926",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 5,
   "urls": [
-    "https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=31220a0020e858d75d31984a0758f35c"
+    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=63daf679f23c779995266165b4c20334"
   ]
 }
