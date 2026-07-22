@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1783493475.7875504
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 52,
+    "hits": 53,
     "last_reason": "body-hint",
-    "last_at": 1784632112.6631217,
-    "next_allowed_at": 1784718512.6631217
+    "last_at": 1784737271.7600336,
+    "next_allowed_at": 1784823671.7600336
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 52,
+    "hits": 53,
     "last_reason": "body-hint",
-    "last_at": 1784632112.6631217,
-    "next_allowed_at": 1784718512.6631217
+    "last_at": 1784737271.7600336,
+    "next_allowed_at": 1784823671.7600336
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 104,
