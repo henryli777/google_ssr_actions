@@ -9886,5 +9886,17 @@
     "last_reason": "http 403",
     "last_at": 1784773855.2175827,
     "next_allowed_at": 1784860255.2175827
+  },
+  "https://ran.ranhaha.zdjzhejshsxintaid.kuaivpn.app/api/v1/client/subscribe?token=5d6efa9d5da65c1c9b9d507bdb2e9f46": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1784786037.6967514,
+    "next_allowed_at": 1784786937.6967514
+  },
+  "https://skyfd.chuna.nulaiha.aasxuan.yfftftf.shop/api/v1/client/subscribe?token=40940e3409d620fc16178d3450a36c3c": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1784786037.6967514,
+    "next_allowed_at": 1784786937.6967514
   }
 }
