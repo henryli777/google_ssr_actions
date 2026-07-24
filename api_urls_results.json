@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T11:02:34.974084",
+  "timestamp": "2026-07-24T13:37:56.795703",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,16 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 8,
+  "original_urls": 12,
   "urls": [
-    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c"
+    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
+    "https://www5.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=0bac18c0a494f001f862e200217a926e",
+    "https://12sub.yylxjichangonline.top/api/v1/client/subscribe?token=2a34d84d83f8d3c91d5ff86440fded97",
+    "https://2025.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
+    "https://dash.hctxse.cc/api/v1/client/subscribe?token=834bc61657b8fbcac2d3eaeea4c4dd9b",
+    "https://sf.342242.icu/api/v1/client/subscribe?token=84280e4dde33f78a4b5f21fa7e28fd61",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04"
   ]
 }
