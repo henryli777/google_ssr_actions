@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T22:03:04.300534",
+  "timestamp": "2026-07-25T02:24:35.356909",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,17 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 9,
+  "original_urls": 26,
   "urls": [
-    "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf"
+    "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29",
+    "https://订阅域名/api/v1/client/subscribe?token=xxx",
+    "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf",
+    "https://www5.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=0bac18c0a494f001f862e200217a926e",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
+    "https://dahaiyun.com/api/v1/client/subscribe?token=55563e0efd26442ece33c9985faf6d42",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35chttps://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63ddhttps://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04"
   ]
 }
