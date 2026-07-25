@@ -1797,5 +1797,6 @@
   "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd": "2026-07-25",
   "https://114.514.19.19:8100/api/v1/client/subscribe?token=xx": "2026-07-25",
   "https://114.514.19.19:8100/api/v1/client/subscribe?token=xxx": "2026-07-25",
-  "https://domain.xyz/api/v1/client/subscribe?token=xxx": "2026-07-25"
+  "https://domain.xyz/api/v1/client/subscribe?token=xxx": "2026-07-25",
+  "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf&flag=shadowrocket": "2026-07-25"
 }
