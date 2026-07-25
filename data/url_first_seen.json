@@ -1798,5 +1798,6 @@
   "https://114.514.19.19:8100/api/v1/client/subscribe?token=xx": "2026-07-25",
   "https://114.514.19.19:8100/api/v1/client/subscribe?token=xxx": "2026-07-25",
   "https://domain.xyz/api/v1/client/subscribe?token=xxx": "2026-07-25",
-  "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf&flag=shadowrocket": "2026-07-25"
+  "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf&flag=shadowrocket": "2026-07-25",
+  "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456": "2026-07-25"
 }

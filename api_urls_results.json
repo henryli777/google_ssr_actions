@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T10:25:27.408175",
+  "timestamp": "2026-07-25T13:18:36.869581",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 7,
+  "total_urls": 3,
+  "original_urls": 8,
   "urls": [
-    "https://订阅域名/api/v1/client/subscribe?token=xxx",
-    "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29"
+    "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29",
+    "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456",
+    "https://订阅域名/api/v1/client/subscribe?token=xxx"
   ]
 }
