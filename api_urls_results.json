@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T19:03:05.804219",
+  "timestamp": "2026-07-25T21:53:35.482750",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 2,
+  "original_urls": 5,
   "urls": [
-    "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456"
+    "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456",
+    "https://910.tsss123.cc/api/v1/client/subscribe?token=b1469d8ca924e852b4f8a7a11cd11386"
   ]
 }
