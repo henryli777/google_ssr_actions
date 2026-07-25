@@ -1794,5 +1794,8 @@
   "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf": "2026-07-25",
   "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29": "2026-07-25",
   "https://dahaiyun.com/api/v1/client/subscribe?token=55563e0efd26442ece33c9985faf6d42": "2026-07-25",
-  "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd": "2026-07-25"
+  "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd": "2026-07-25",
+  "https://114.514.19.19:8100/api/v1/client/subscribe?token=xx": "2026-07-25",
+  "https://114.514.19.19:8100/api/v1/client/subscribe?token=xxx": "2026-07-25",
+  "https://domain.xyz/api/v1/client/subscribe?token=xxx": "2026-07-25"
 }

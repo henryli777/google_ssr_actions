@@ -8640,10 +8640,10 @@
     "next_allowed_at": 1784977498.3075836
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=60b3ce987e0dd7144703c6b8b6dd9553": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1784921013.2316551,
-    "next_allowed_at": 1784949813.2316551
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1785015870.157851
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=0d24dc301ef12f6115f88460bfa236c5": {
     "hits": 65,
@@ -9900,10 +9900,10 @@
     "next_allowed_at": 1784786937.6967514
   },
   "https://sf.342242.icu/api/v1/client/subscribe?token=84280e4dde33f78a4b5f21fa7e28fd61": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "http 403",
-    "last_at": 1784891098.3075836,
-    "next_allowed_at": 1784948698.3075836
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1785044670.157851
   },
   "https://13sub.yylxjichangonline.top/api/v1/client/subscribe?token=bd1347522ab62841e09b": {
     "hits": 6,
@@ -9924,15 +9924,33 @@
     "next_allowed_at": 1784960820.9406877
   },
   "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=7e01a4b33ce52e10a219282cb2ebd66e": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "http 403",
-    "last_at": 1784946420.9406877,
-    "next_allowed_at": 1784953620.9406877
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1784972670.157851
   },
   "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd": {
+    "hits": 2,
+    "last_reason": "http 403",
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1784960070.157851
+  },
+  "https://114.514.19.19:8100/api/v1/client/subscribe?token=xx": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1784959170.157851
+  },
+  "https://114.514.19.19:8100/api/v1/client/subscribe?token=xxx": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1784959170.157851
+  },
+  "https://domain.xyz/api/v1/client/subscribe?token=xxx": {
     "hits": 1,
     "last_reason": "http 403",
-    "last_at": 1784946420.9406877,
-    "next_allowed_at": 1784947320.9406877
+    "last_at": 1784958270.157851,
+    "next_allowed_at": 1784959170.157851
   }
 }
