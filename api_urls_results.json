@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T10:43:25.391648",
+  "timestamp": "2026-07-26T19:06:59.715526",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,14 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 6,
+  "original_urls": 6,
   "urls": [
-    "https://910.tsss123.cc/api/v1/client/subscribe?token=b1469d8ca924e852b4f8a7a11cd11386"
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04",
+    "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
+    "https://www5.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=0bac18c0a494f001f862e200217a926e",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
+    "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=7e01a4b33ce52e10a219282cb2ebd66e",
+    "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29"
   ]
 }
