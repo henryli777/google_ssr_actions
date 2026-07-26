@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T21:53:35.482750",
+  "timestamp": "2026-07-26T02:30:35.175154",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,17 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 5,
+  "total_urls": 9,
+  "original_urls": 14,
   "urls": [
     "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63dd",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04",
+    "https://www5.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=0bac18c0a494f001f862e200217a926e",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35chttps://ymjc.cfd/api/v1/client/subscribe?token=34ca2387e001b5e579a34f76187d63ddhttps://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
+    "https://dahaiyun.com/api/v1/client/subscribe?token=55563e0efd26442ece33c9985faf6d42",
+    "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=45da79a7b5d10d9ebae4fcd3f40e1e3b",
     "https://910.tsss123.cc/api/v1/client/subscribe?token=b1469d8ca924e852b4f8a7a11cd11386"
   ]
 }
