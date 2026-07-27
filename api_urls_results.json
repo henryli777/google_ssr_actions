@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T12:19:29.708965",
+  "timestamp": "2026-07-27T16:56:19.806946",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,14 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 6,
-  "original_urls": 6,
+  "total_urls": 2,
+  "original_urls": 3,
   "urls": [
-    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
-    "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
-    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
-    "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=7e01a4b33ce52e10a219282cb2ebd66e",
-    "https://23333.youzizizi.top/api/v1/client/subscribe?token=125aedb81e9cef8a004d55b504204f29",
-    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04"
+    "https://suba.f2vip.net/api/v1/client/subscribe?token=10b8630b112a47dd945ed05d89e85cd0",
+    "http://103.36.135.125:8123/api/v1/client/subscribe?token=2a6d47a7472af6c6c29d7bc56a859ebf"
   ]
 }
