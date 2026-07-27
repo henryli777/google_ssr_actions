@@ -1802,5 +1802,6 @@
   "https://api.xxyun-example.com/api/v1/client/subscribe?token=abc123xyz456": "2026-07-25",
   "https://910.tsss123.cc/api/v1/client/subscribe?token=b1469d8ca924e852b4f8a7a11cd11386": "2026-07-26",
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=45da79a7b5d10d9ebae4fcd3f40e1e3b": "2026-07-26",
-  "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587": "2026-07-27"
+  "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587": "2026-07-27",
+  "https://domain.com/api/v1/client/subscribe?token=xxxxxx": "2026-07-27"
 }
