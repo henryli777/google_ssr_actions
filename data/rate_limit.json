@@ -522,10 +522,10 @@
     "next_allowed_at": 1785257925.045418
   },
   "https://qufanfan.info/api/v1/client/subscribe?token=00d1eff0820cffa7b904f3ed0dcee8d9": {
-    "hits": 214,
+    "hits": 215,
     "last_reason": "http 403",
-    "last_at": 1785071813.720131,
-    "next_allowed_at": 1785158213.720131
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://www.djjc.cfd/api/v1/client/subscribe?token=eb6fb117e1c1cbe8041e0e0a00935b85": {
     "hits": 283,
@@ -4806,10 +4806,10 @@
     "next_allowed_at": 1779298811.453429
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=0b88ff6430a45e3b974a9579d0fdb372": {
-    "hits": 17,
+    "hits": 18,
     "last_reason": "body-hint",
-    "last_at": 1783020179.5797865,
-    "next_allowed_at": 1783106579.5797865
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=9224f2d3660837fcdfffa696ae4e59f3": {
     "hits": 14,
@@ -7782,16 +7782,16 @@
     "next_allowed_at": 1783493475.7875504
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb": {
-    "hits": 57,
+    "hits": 58,
     "last_reason": "body-hint",
-    "last_at": 1785103194.8384714,
-    "next_allowed_at": 1785189594.8384714
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://aga0601.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=980570e303e2d3955c24b03b17ed62eb&flag=clash": {
-    "hits": 57,
+    "hits": 58,
     "last_reason": "body-hint",
-    "last_at": 1785103194.8384714,
-    "next_allowed_at": 1785189594.8384714
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://suba.f2vip.net/api/v1/client/subscribe?token=29a63c2d45a665719d17851f624bb1c6": {
     "hits": 105,
@@ -9204,10 +9204,10 @@
     "next_allowed_at": 1785266742.153916
   },
   "http://www.yhcjs5.com/api/v1/client/subscribe?token=c93d9fbb8392294dd1f0155094048ee9": {
-    "hits": 36,
+    "hits": 37,
     "last_reason": "http 403",
-    "last_at": 1785071813.720131,
-    "next_allowed_at": 1785158213.720131
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://xsus.jolqx.cn/api/v1/client/subscribe?token=48c77a925279de459c21bba1d71f30a7": {
     "hits": 7,
@@ -9216,10 +9216,10 @@
     "next_allowed_at": 1785032868.7930734
   },
   "https://ransa.niubiliuliuliuwocao.a.kuaivpn.app/api/v1/client/subscribe?token=d59cc66f98204f18da65b8cff1d0f7d8": {
-    "hits": 40,
+    "hits": 41,
     "last_reason": "http 403",
-    "last_at": 1785103194.8384714,
-    "next_allowed_at": 1785189594.8384714
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785291298.1922235
   },
   "https://www2.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=7e5a87c80eeec492a4f0962caf32e99f": {
     "hits": 41,
@@ -9966,10 +9966,10 @@
     "next_allowed_at": 1785266742.153916
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=45da79a7b5d10d9ebae4fcd3f40e1e3b": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1785092966.2553139,
-    "next_allowed_at": 1785121766.2553139
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785262498.1922235
   },
   "https://dahaiyun.com/api/v1/client/subscribe?token=55563e0efd26442ece33c9985faf6d42": {
     "hits": 7,
@@ -9984,15 +9984,21 @@
     "next_allowed_at": 1785247610.2682028
   },
   "https://13sub.yylxjichangonline.top/api/v1/client/subscribe?token=bd1347522ab62841e09bee3880ab0df1": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1785180342.153916,
-    "next_allowed_at": 1785194742.153916
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785233698.1922235
   },
   "https://domain.com/api/v1/client/subscribe?token=xxxxxx": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1785180342.153916,
-    "next_allowed_at": 1785194742.153916
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785233698.1922235
+  },
+  "https://huaikhwang.central-world.org/api/v1/client/subscribe?token=9d8a424bce7f4048591a70fe058ed1cc": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1785204898.1922235,
+    "next_allowed_at": 1785205798.1922235
   }
 }
