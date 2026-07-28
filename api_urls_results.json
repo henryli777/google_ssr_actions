@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T02:12:31.720837",
+  "timestamp": "2026-07-28T05:45:00.346329",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,12 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 4,
-  "original_urls": 12,
+  "total_urls": 2,
+  "original_urls": 5,
   "urls": [
-    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
-    "https://huaikhwang.central-world.org/api/v1/client/subscribe?token=9d8a424bce7f4048591a70fe058ed1cc",
-    "https://suba.f2vip.net/api/v1/client/subscribe?token=10b8630b112a47dd945ed05d89e85cd0",
-    "http://103.36.135.125:8123/api/v1/client/subscribe?token=2a6d47a7472af6c6c29d7bc56a859ebf"
+    "http://103.36.135.125:8123/api/v1/client/subscribe?token=2a6d47a7472af6c6c29d7bc56a859ebf",
+    "https://huaikhwang.central-world.org/api/v1/client/subscribe?token=9d8a424bce7f4048591a70fe058ed1cc"
   ]
 }
