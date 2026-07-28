@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T05:45:00.346329",
+  "timestamp": "2026-07-28T08:29:16.301336",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,17 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 5,
+  "total_urls": 9,
+  "original_urls": 14,
   "urls": [
-    "http://103.36.135.125:8123/api/v1/client/subscribe?token=2a6d47a7472af6c6c29d7bc56a859ebf",
-    "https://huaikhwang.central-world.org/api/v1/client/subscribe?token=9d8a424bce7f4048591a70fe058ed1cc"
+    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
+    "https://huaikhwang.central-world.org/api/v1/client/subscribe?token=9d8a424bce7f4048591a70fe058ed1cc",
+    "https://www.yywhale.com/api/v1/client/subscribe?token=dad4c8fee8e1ba586800cf76ea6eada1",
+    "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
+    "https://sf.342242.icu/api/v1/client/subscribe?token=84280e4dde33f78a4b5f21fa7e28fd61",
+    "https://link123.52pokemon99.cc/api/v1/client/subscribe?token=7e01a4b33ce52e10a219282cb2ebd66e",
+    "https://2025.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04"
   ]
 }
