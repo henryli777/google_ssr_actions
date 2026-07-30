@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T02:04:57.616781",
+  "timestamp": "2026-07-30T08:21:14.850534",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 2,
+  "total_urls": 3,
+  "original_urls": 6,
   "urls": [
-    "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
+    "https://12sub.yylxjichangonline.top/api/v1/client/subscribe?token=2a34d84d83f8d3c91d5ff86440fded97",
+    "https://2026.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
     "https://ymjc.cfd/api/v1/client/subscribe?token=26f4ed87ca0fe7b1a59317c70c24f35c"
   ]
 }
