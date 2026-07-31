@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T06:10:28.776028",
+  "timestamp": "2026-07-31T11:27:49.821653",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 2,
+  "original_urls": 5,
   "urls": [
-    "https://2026.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
-    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c"
+    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
+    "https://example.com/api/v1/client/subscribe?token=xxxxxxxx"
   ]
 }
