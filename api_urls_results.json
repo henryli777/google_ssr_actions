@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T02:31:10.333005",
+  "timestamp": "2026-08-01T05:53:28.835181",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,11 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 3,
-  "original_urls": 3,
+  "total_urls": 2,
+  "original_urls": 4,
   "urls": [
-    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04",
-    "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587",
-    "https://www5.bigairport-eleventh-sub.com/api/v1/client/subscribe?token=0bac18c0a494f001f862e200217a926e"
+    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=7b500bea4f0846172de01a028d86cb04"
   ]
 }
