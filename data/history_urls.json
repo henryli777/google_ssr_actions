@@ -548,6 +548,7 @@
   "https://example.com/api/v1/client/subscribe?token=YOUR",
   "https://example.com/api/v1/client/subscribe?token=abc123",
   "https://example.com/api/v1/client/subscribe?token=abcd1234",
+  "https://example.com/api/v1/client/subscribe?token=abcdef123456",
   "https://example.com/api/v1/client/subscribe?token=abcdefg",
   "https://example.com/api/v1/client/subscribe?token=ilovechina",
   "https://example.com/api/v1/client/subscribe?token=xxx",
