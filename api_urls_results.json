@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T13:13:22.688378",
+  "timestamp": "2026-08-01T15:59:45.941591",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,20 +13,20 @@
   "total_urls": 15,
   "original_urls": 48,
   "urls": [
-    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5bd237d1ab92b907e1e7d5e5cb3&flag=meta.",
-    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5b",
-    "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=4a4d0189598386f07fd07b758caf07a8",
+    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5bd237d1ab92b907e1e7d5e5cb3",
+    "https://oxdtangx.top/api/v1/client/subscribe?token=c1109458818af0000f77fde6107bf958",
     "http://proxy.chaiqiang.online/api/v1/client/subscribe?token=5ad9eb37a214c866938c8cc361ec0e58",
     "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc&flag=shadowrocket",
+    "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=4a4d0189598386f07fd07b758caf07a8",
     "https://d.waka.plus/api/v1/client/subscribe?token=e631109e9f745c9ca140e43b82a831d8",
+    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5b",
     "https://f-sub.xn--8pr28c250c1edz9a.xn--fiqs8s/api/v1/client/subscribe?token=ca03c034b7f44ed2924576087f11ce1a",
     "https://fastestcloud.xyz/api/v1/client/subscribe?token=9a77ccbaea1432897c190630371fafef",
-    "https://oxdtangx.top/api/v1/client/subscribe?token=c1109458818af0000f77fde6107bf958",
+    "https://login.yfjc.xyz/api/v1/client/subscribe?token=7d3ff3d4d1406caba9bba31b4f97c64a",
     "https://vot.278986.xyz/api/v1/client/subscribe?token=dea4a912d6ca3a46d9e37d68d6ee3e9a",
     "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f01",
-    "https://www.xfeie.cc/api/v1/client/subscribe?token=9db8c799d9c111e39946dd3f767d2bee",
-    "https://login.yfjc.xyz/api/v1/client/subscribe?token=641b21e166a350692cb411548f76a6bf",
     "https://nn8qozmu.nn8qozmu.top/api/v1/client/subscribe?token=3d1e5caa58c84c7094dc709770d3ab7d",
+    "https://login.yfjc.xyz/api/v1/client/subscribe?token=641b21e166a350692cb411548f76a6bf",
     "https://s3.bbdmfetch.com/api/v1/client/subscribe?token=478bde0f641540cf14aee4d3dd86b021"
   ]
 }
