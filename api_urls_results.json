@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T02:29:29.566273",
+  "timestamp": "2026-08-02T05:54:41.478566",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,17 +13,17 @@
   "total_urls": 12,
   "original_urls": 48,
   "urls": [
-    "http://proxy.chaiqiang.online/api/v1/client/subscribe?token=5ad9eb37a214c866938c8cc361ec0e58",
-    "https://fastestcloud.xyz/api/v1/client/subscribe?token=9a77ccbaea1432897c190630371fafef",
-    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5bd237d1ab92b907e1e7d5e5cb3",
-    "https://f-sub.xn--8pr28c250c1edz9a.xn--fiqs8s/api/v1/client/subscribe?token=ca03c034b7f44ed2924576087f11ce1a",
-    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5b",
     "https://s3.bbdmfetch.com/api/v1/client/subscribe?token=478bde0f641540cf14aee4d3dd86b021",
     "https://gates.djjc.cfd/api/v1/client/subscribe?token=20e4022da395be900d222fbe6bdb56dc&flag=shadowrocket",
+    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5bd237d1ab92b907e1e7d5e5cb3&flag=meta",
+    "https://f-sub.xn--8pr28c250c1edz9a.xn--fiqs8s/api/v1/client/subscribe?token=ca03c034b7f44ed2924576087f11ce1a",
+    "https://fastestcloud.xyz/api/v1/client/subscribe?token=9a77ccbaea1432897c190630371fafef",
+    "http://proxy.chaiqiang.online/api/v1/client/subscribe?token=5ad9eb37a214c866938c8cc361ec0e58",
     "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=4a4d0189598386f07fd07b758caf07a8",
     "https://d.waka.plus/api/v1/client/subscribe?token=e631109e9f745c9ca140e43b82a831d8",
+    "https://pqjc.site/api/v1/client/subscribe?token=0d41f5b",
     "https://www.xfeie.cc/api/v1/client/subscribe?token=9db8c799d9c111e39946dd3f767d2bee",
-    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=1f7d1a413c0d66084515a82dbc48cd81",
-    "https://login.yfjc.xyz/api/v1/client/subscribe?token=641b21e166a350692cb411548f76a6bf"
+    "https://login.yfjc.xyz/api/v1/client/subscribe?token=641b21e166a350692cb411548f76a6bf",
+    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=1f7d1a413c0d66084515a82dbc48cd81"
   ]
 }
