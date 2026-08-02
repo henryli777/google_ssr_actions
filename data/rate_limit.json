@@ -5730,10 +5730,10 @@
     "next_allowed_at": 1785736625.2269545
   },
   "https://dash.boboch.it.com/api/v1/client/subscribe?token=ad80a81805cd0af79e5c5174fad26271": {
-    "hits": 86,
+    "hits": 87,
     "last_reason": "body-hint",
-    "last_at": 1785572309.8011823,
-    "next_allowed_at": 1785658709.8011823
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785745284.6566136
   },
   "https://bajie.info/api/v1/client/subscribe?token=daa72902be44adf70953cc27efc26824": {
     "hits": 216,
@@ -8640,10 +8640,10 @@
     "next_allowed_at": 1785736625.2269545
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=60b3ce987e0dd7144703c6b8b6dd9553": {
-    "hits": 14,
+    "hits": 15,
     "last_reason": "http 403",
-    "last_at": 1785572309.8011823,
-    "next_allowed_at": 1785658709.8011823
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785745284.6566136
   },
   "https://go.xfxssr.me/api/v1/client/subscribe?token=0d24dc301ef12f6115f88460bfa236c5": {
     "hits": 73,
@@ -10344,27 +10344,27 @@
     "next_allowed_at": 1785664625.2269545
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=124e1f57c9950905c7538625ce003c99": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1785650225.2269545,
-    "next_allowed_at": 1785657425.2269545
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785673284.6566136
   },
   "https://114514.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1785650225.2269545,
-    "next_allowed_at": 1785652025.2269545
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785662484.6566136
   },
   "https://2025.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1785650225.2269545,
-    "next_allowed_at": 1785652025.2269545
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785662484.6566136
   },
   "https://2026.youzizizi.top/api/v1/client/subscribe?token=47936a65043f09b98ea9a26cb3068587": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1785650225.2269545,
-    "next_allowed_at": 1785652025.2269545
+    "last_at": 1785658884.6566136,
+    "next_allowed_at": 1785662484.6566136
   }
 }
