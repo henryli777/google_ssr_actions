@@ -2513,11 +2513,11 @@
   },
   {
     "date": "2026-08-04",
-    "google_added": 72,
+    "google_added": 73,
     "github_added": 2,
     "telegram_added": 0,
     "new_total": 1,
-    "removed_total": 1,
-    "alive_total": 74
+    "removed_total": 0,
+    "alive_total": 75
   }
 ]
