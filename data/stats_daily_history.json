@@ -2519,5 +2519,14 @@
     "new_total": 6,
     "removed_total": 1,
     "alive_total": 67
+  },
+  {
+    "date": "2026-08-05",
+    "google_added": 64,
+    "github_added": 2,
+    "telegram_added": 0,
+    "new_total": 0,
+    "removed_total": 1,
+    "alive_total": 66
   }
 ]
