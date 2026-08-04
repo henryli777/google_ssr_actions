@@ -12,10 +12,10 @@
     "next_allowed_at": 1785824545.2198691
   },
   "https://23.158.136.185/api/v1/client/subscribe?token=4ea369013aa69ac5d1c6a419838a4abe": {
-    "hits": 199,
+    "hits": 200,
     "last_reason": "body-hint",
-    "last_at": 1782426086.6415007,
-    "next_allowed_at": 1782512486.6415007
+    "last_at": 1785822423.080981,
+    "next_allowed_at": 1785908823.080981
   },
   "https://45.88.192.79:21666/api/v1/client/subscribe?token=3630d969aac42029606774f5ee7f3789": {
     "hits": 291,
@@ -510,10 +510,10 @@
     "next_allowed_at": 1785824545.2198691
   },
   "https://eeeeehhhoyfhaihfg.qrfly.me/api/v1/client/subscribe?token=d45a097f5670e68cbc7ca00378d98fb6": {
-    "hits": 276,
+    "hits": 277,
     "last_reason": "body-hint",
-    "last_at": 1785563760.4326718,
-    "next_allowed_at": 1785650160.4326718
+    "last_at": 1785822423.080981,
+    "next_allowed_at": 1785908823.080981
   },
   "http://148.135.67.219/api/v1/client/subscribe?token=5fdc037af8a1d09c7": {
     "hits": 286,
@@ -8976,10 +8976,10 @@
     "next_allowed_at": 1785621910.1376436
   },
   "http://gg.gg/11bl3ohttps://catvodtv.github.io/catTV.jsonhttps://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 23,
+    "hits": 24,
     "last_reason": "http 403",
-    "last_at": 1785563760.4326718,
-    "next_allowed_at": 1785650160.4326718
+    "last_at": 1785822423.080981,
+    "next_allowed_at": 1785908823.080981
   },
   "https://dash.pqjc.site/api/v1/client/subscribe?token=26367ffdc23aca63e4736c23b0cccae2": {
     "hits": 61,
@@ -9978,10 +9978,10 @@
     "next_allowed_at": 1785863418.9409637
   },
   "https://mojie.app/api/v1/client/subscribe?token=bd5c3115c5f1c932a7a0a1fa902f597c": {
-    "hits": 13,
+    "hits": 14,
     "last_reason": "http 403",
-    "last_at": 1785724467.406425,
-    "next_allowed_at": 1785810867.406425
+    "last_at": 1785822423.080981,
+    "next_allowed_at": 1785908823.080981
   },
   "https://13sub.yylxjichangonline.top/api/v1/client/subscribe?token=bd1347522ab62841e09bee3880ab0df1": {
     "hits": 13,
@@ -10396,5 +10396,11 @@
     "last_reason": "http 403",
     "last_at": 1785809605.634264,
     "next_allowed_at": 1785824005.634264
+  },
+  "https://shan-cloud.xyz/api/v1/client/subscribe?token=a8484fb8580e351ac02461e979a77c18": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1785822423.080981,
+    "next_allowed_at": 1785823323.080981
   }
 }
