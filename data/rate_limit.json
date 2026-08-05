@@ -1236,10 +1236,10 @@
     "next_allowed_at": 1786015294.587134
   },
   "https://sanfen003.xyz/api/v1/client/subscribe?token=965a9805b26d65b736e88bea4d7e66a0&flag=clash": {
-    "hits": 88,
+    "hits": 89,
     "last_reason": "body-hint",
-    "last_at": 1785832459.2438424,
-    "next_allowed_at": 1785918859.2438424
+    "last_at": 1785938652.2593067,
+    "next_allowed_at": 1786025052.2593067
   },
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=01469aa2996308f7fedf6d35727e1e04": {
     "hits": 287,
@@ -6474,10 +6474,10 @@
     "next_allowed_at": 1784901184.2842126
   },
   "https://api.hbwqf.com/api/v1/client/subscribe?token=0ba019ed51d613aace6fdbe1c6a00c6d": {
-    "hits": 12,
+    "hits": 13,
     "last_reason": "body-hint",
-    "last_at": 1785842650.515623,
-    "next_allowed_at": 1785929050.515623
+    "last_at": 1785938652.2593067,
+    "next_allowed_at": 1786025052.2593067
   },
   "https://101.43.12.60:28364/api/v1/client/subscribe?token=26a7f484d83206fc974d17f61cb2dfce": {
     "hits": 197,
