@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T16:39:59.249590",
+  "timestamp": "2026-08-05T19:25:38.595239",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
+  "total_urls": 1,
   "original_urls": 4,
   "urls": [
-    "https://xxx.com/api/v1/client/subscribe?token=xxx",
-    "http://spi.sapi001.com/api/v1/client/subscribe?token=04bb9de585346a5787c3d8c12edc4f2c"
+    "https://xxx.com/api/v1/client/subscribe?token=xxx"
   ]
 }
