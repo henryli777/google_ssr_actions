@@ -2028,10 +2028,10 @@
     "next_allowed_at": 1786015294.587134
   },
   "https://s2.equinoxaa.com/api/v1/client/subscribe?token=f984d7cafdbb1e2d68cb0fc091bfbe78": {
-    "hits": 247,
+    "hits": 248,
     "last_reason": "body-hint",
-    "last_at": 1785266497.203564,
-    "next_allowed_at": 1785352897.203564
+    "last_at": 1786005187.17798,
+    "next_allowed_at": 1786091587.17798
   },
   "https://sub.nex7.us.kg/api/v1/client/subscribe?token=ee6d1ad168c682e88f6bf92cd344df23": {
     "hits": 272,
@@ -10410,9 +10410,21 @@
     "next_allowed_at": 1786005750.341696
   },
   "https://your-airport.com/api/v1/client/subscribe?token=xxxxxxxx&flag=clash": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1785995324.6935918,
-    "next_allowed_at": 1785998924.6935918
+    "last_at": 1786005187.17798,
+    "next_allowed_at": 1786012387.17798
+  },
+  "https://47.242.128.61:5000/api/v1/client/subscribe?token=09faa57f0d83377a19d5eb22fd26ba22": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1786005187.17798,
+    "next_allowed_at": 1786006087.17798
+  },
+  "https://sep.bbdmfetch.com/api/v1/client/subscribe?token=063a4f7c3a0fc02db303fc808b85569f": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1786005187.17798,
+    "next_allowed_at": 1786006087.17798
   }
 }
