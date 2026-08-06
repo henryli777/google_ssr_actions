@@ -10422,15 +10422,15 @@
     "next_allowed_at": 1786006087.17798
   },
   "https://sep.bbdmfetch.com/api/v1/client/subscribe?token=063a4f7c3a0fc02db303fc808b85569f": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1786015429.4543447,
-    "next_allowed_at": 1786017229.4543447
+    "last_at": 1786024931.5281303,
+    "next_allowed_at": 1786028531.5281303
   },
   "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=2e80291cdea5b76527b7a3c4bc7ed2fd": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1786015429.4543447,
-    "next_allowed_at": 1786016329.4543447
+    "last_at": 1786024931.5281303,
+    "next_allowed_at": 1786026731.5281303
   }
 }
