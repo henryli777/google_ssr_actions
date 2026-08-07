@@ -2540,11 +2540,11 @@
   },
   {
     "date": "2026-08-07",
-    "google_added": 63,
+    "google_added": 64,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 9,
-    "alive_total": 64
+    "new_total": 1,
+    "removed_total": 0,
+    "alive_total": 65
   }
 ]
