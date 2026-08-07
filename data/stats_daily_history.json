@@ -2549,11 +2549,11 @@
   },
   {
     "date": "2026-08-08",
-    "google_added": 64,
+    "google_added": 66,
     "github_added": 1,
     "telegram_added": 0,
     "new_total": 2,
-    "removed_total": 2,
-    "alive_total": 65
+    "removed_total": 0,
+    "alive_total": 67
   }
 ]
