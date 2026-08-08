@@ -4818,10 +4818,10 @@
     "next_allowed_at": 1786289325.056895
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=baec1ecdf428caae62419648aa94a817": {
-    "hits": 17,
+    "hits": 18,
     "last_reason": "body-hint",
-    "last_at": 1786118176.7655811,
-    "next_allowed_at": 1786204576.7655811
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786300550.6592216
   },
   "http://202508281209531.chibaba.ggff.net/api/v1/client/subscribe?token=0498537b22068babd608da6f892578ca": {
     "hits": 262,
@@ -10458,57 +10458,69 @@
     "next_allowed_at": 1786114734.2850497
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=101d6ba3b8ed9f25803d742040967b53": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=19bd828585c700b9012d23ee14616cad": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=1d5a1ff934eb4be982dccd1390948080": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=42ac2835f8fe723dc2e3c4988d9dc5cb": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=795a41a3c771849335a009a8518b2a08": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=94eaeb7276f3d368eee63be85cf2171c": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=96ad260cfa219987e8e6c3e79228266c": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=a6df997086a97337905091c92c0a6622": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=fab2bf8478ef22fa6469b165300bcd29": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786206525.056895
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786221350.6592216
+  },
+  "https://10sub.yylxjichangonline.top/api/v1/client/subscribe?token=120f5c213e62fb3c65b80d891d0b61e2": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786215050.6592216
+  },
+  "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=c3fbf05d1abf805c49842dfc5eccd624": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1786214150.6592216,
+    "next_allowed_at": 1786215050.6592216
   }
 }
