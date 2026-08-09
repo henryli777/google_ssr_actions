@@ -1236,10 +1236,10 @@
     "next_allowed_at": 1786375859.560742
   },
   "https://sanfen003.xyz/api/v1/client/subscribe?token=965a9805b26d65b736e88bea4d7e66a0&flag=clash": {
-    "hits": 91,
+    "hits": 92,
     "last_reason": "body-hint",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786289325.056895
+    "last_at": 1786300700.0255413,
+    "next_allowed_at": 1786387100.0255413
   },
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=01469aa2996308f7fedf6d35727e1e04": {
     "hits": 291,
@@ -2220,10 +2220,10 @@
     "next_allowed_at": 1784773544.6708617
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=6a257f4277ef9aad6bb98b66baf90723": {
-    "hits": 20,
+    "hits": 21,
     "last_reason": "body-hint",
-    "last_at": 1784687144.6708617,
-    "next_allowed_at": 1784773544.6708617
+    "last_at": 1786300700.0255413,
+    "next_allowed_at": 1786387100.0255413
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=73eedd422ae33703e1f3aa504fec25a3": {
     "hits": 21,
@@ -8976,10 +8976,10 @@
     "next_allowed_at": 1786268316.4837577
   },
   "http://gg.gg/11bl3ohttps://catvodtv.github.io/catTV.jsonhttps://crushs.top/api/v1/client/subscribe?token=2fdc83b7d87c795664479e9ccd91981a": {
-    "hits": 26,
+    "hits": 27,
     "last_reason": "http 403",
-    "last_at": 1786060704.1621199,
-    "next_allowed_at": 1786147104.1621199
+    "last_at": 1786300700.0255413,
+    "next_allowed_at": 1786387100.0255413
   },
   "https://dash.pqjc.site/api/v1/client/subscribe?token=26367ffdc23aca63e4736c23b0cccae2": {
     "hits": 67,
