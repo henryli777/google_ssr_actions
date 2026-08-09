@@ -4812,10 +4812,10 @@
     "next_allowed_at": 1786279448.0838807
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=9224f2d3660837fcdfffa696ae4e59f3": {
-    "hits": 16,
+    "hits": 17,
     "last_reason": "body-hint",
-    "last_at": 1786202925.056895,
-    "next_allowed_at": 1786289325.056895
+    "last_at": 1786311075.522448,
+    "next_allowed_at": 1786397475.522448
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=baec1ecdf428caae62419648aa94a817": {
     "hits": 18,
@@ -10434,16 +10434,16 @@
     "next_allowed_at": 1786365907.0108132
   },
   "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=6689cf55233f31c63c44b1dc226d43a8": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1786224671.3990457,
-    "next_allowed_at": 1786311071.3990457
+    "last_at": 1786311075.522448,
+    "next_allowed_at": 1786397475.522448
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=983bc7baa0a9134f0a1ae66dd5e99574": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1786224671.3990457,
-    "next_allowed_at": 1786311071.3990457
+    "last_at": 1786311075.522448,
+    "next_allowed_at": 1786397475.522448
   },
   "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2e1ed6858345946833e3ba651f8cd1cd": {
     "hits": 4,
@@ -10512,15 +10512,15 @@
     "next_allowed_at": 1786337107.0108132
   },
   "https://10sub.yylxjichangonline.top/api/v1/client/subscribe?token=120f5c213e62fb3c65b80d891d0b61e2": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1786279507.0108132,
-    "next_allowed_at": 1786308307.0108132
+    "last_at": 1786311075.522448,
+    "next_allowed_at": 1786368675.522448
   },
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=c3fbf05d1abf805c49842dfc5eccd624": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1786279507.0108132,
-    "next_allowed_at": 1786308307.0108132
+    "last_at": 1786311075.522448,
+    "next_allowed_at": 1786368675.522448
   }
 }
