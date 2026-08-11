@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T09:58:19.281972",
+  "timestamp": "2026-08-11T12:56:50.127291",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 9,
+  "original_urls": 8,
   "urls": [
     "https://example.com/api/v1/client/subscribe?token=xxxxx",
     "https://so.vfast.life/api/v1/client/subscribe?token=a8bd2ca8e45b0362e8eed640e4fd6c4e"
