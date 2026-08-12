@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T04:45:13.510023",
+  "timestamp": "2026-08-12T18:58:38.043445",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 8,
+  "original_urls": 2,
   "urls": [
-    "https://so.vfast.life/api/v1/client/subscribe?token=a8bd2ca8e45b0362e8eed640e4fd6c4e",
-    "https://example.com/api/v1/client/subscribe?token=xxxxx"
+    "https://mytoken-1.huyun.nl/api/v1/client/subscribe?token=b3912ed20639a03de23e64a3981dbd65",
+    "https://times1786120435.subnodejs-catnet.com/v2b/catnet/api/v1/client/subscribe?token=eebab4984a3af8bf63f6a4f9cc6568b7"
   ]
 }

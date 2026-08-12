@@ -1914,5 +1914,7 @@
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=a6df997086a97337905091c92c0a6622": "2026-08-08",
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=fab2bf8478ef22fa6469b165300bcd29": "2026-08-08",
   "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=c3fbf05d1abf805c49842dfc5eccd624": "2026-08-09",
-  "https://tiziyun3.ladderaff.com/api/v1/client/subscribe?token=your": "2026-08-09"
+  "https://tiziyun3.ladderaff.com/api/v1/client/subscribe?token=your": "2026-08-09",
+  "https://mytoken-1.huyun.nl/api/v1/client/subscribe?token=b3912ed20639a03de23e64a3981dbd65": "2026-08-13",
+  "https://times1786120435.subnodejs-catnet.com/v2b/catnet/api/v1/client/subscribe?token=eebab4984a3af8bf63f6a4f9cc6568b7": "2026-08-13"
 }
