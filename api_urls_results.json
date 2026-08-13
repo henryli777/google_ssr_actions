@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T18:59:18.776707",
+  "timestamp": "2026-08-13T21:41:37.199139",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 8,
+  "original_urls": 9,
   "urls": [
-    "https://example.com/api/v1/client/subscribe?token=xxxxx",
-    "https://api-1.cloudclasscaas.com/api/v1/client/subscribe?token=9abe33f3037491a731e0c61ff8f8933c"
+    "https://api-1.cloudclasscaas.com/api/v1/client/subscribe?token=9abe33f3037491a731e0c61ff8f8933c",
+    "https://example.com/api/v1/client/subscribe?token=xxxxx"
   ]
 }
