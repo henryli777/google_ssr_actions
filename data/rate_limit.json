@@ -10530,10 +10530,10 @@
     "next_allowed_at": 1786337091.4298117
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=ecc2d970d20ba72abdb130540b1f57ee": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1786605881.3327262,
-    "next_allowed_at": 1786634681.3327262
+    "last_at": 1786636757.169961,
+    "next_allowed_at": 1786694357.169961
   },
   "https://mytoken-1.huyun.nl/api/v1/client/subscribe?token=b3912ed20639a03de23e64a3981dbd65": {
     "hits": 6,
