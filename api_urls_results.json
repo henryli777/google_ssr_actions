@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T09:57:51.406683",
+  "timestamp": "2026-08-14T21:22:13.760992",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 2,
+  "original_urls": 2,
   "urls": [
-    "https://example.com/api/v1/client/subscribe?token=xxxxx"
+    "https://mytoken-1.huyun.nl/api/v1/client/subscribe?token=b3912ed20639a03de23e64a3981dbd65",
+    "https://www.yywhale.com/api/v1/client/subscribe?token=32a7513050c38998e3189bac2162bb2f"
   ]
 }
