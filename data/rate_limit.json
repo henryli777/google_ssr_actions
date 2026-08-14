@@ -2292,10 +2292,10 @@
     "next_allowed_at": 1786289325.056895
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=fd9c9fc32d43be9c7a75ef72cd73e53f": {
-    "hits": 22,
+    "hits": 23,
     "last_reason": "body-hint",
-    "last_at": 1785777018.9409637,
-    "next_allowed_at": 1785863418.9409637
+    "last_at": 1786733530.0509531,
+    "next_allowed_at": 1786819930.0509531
   },
   "https://oxdtangx.top/api/v1/client/subscribe?token=3bd3501e6cf1fe6cfab7c51f8881631d": {
     "hits": 243,
