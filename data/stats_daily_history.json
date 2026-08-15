@@ -2621,11 +2621,11 @@
   },
   {
     "date": "2026-08-16",
-    "google_added": 27,
+    "google_added": 26,
     "github_added": 1,
     "telegram_added": 0,
     "new_total": 0,
-    "removed_total": 14,
-    "alive_total": 28
+    "removed_total": 1,
+    "alive_total": 27
   }
 ]
