@@ -2612,11 +2612,11 @@
   },
   {
     "date": "2026-08-15",
-    "google_added": 41,
+    "google_added": 39,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 1,
-    "removed_total": 0,
-    "alive_total": 42
+    "new_total": 0,
+    "removed_total": 2,
+    "alive_total": 40
   }
 ]
