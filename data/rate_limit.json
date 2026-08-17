@@ -10596,9 +10596,9 @@
     "next_allowed_at": 1786929584.7311292
   },
   "https://sub.flybit1.homes/api/v1/client/subscribe?token=YOUR": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1786915184.7311292,
-    "next_allowed_at": 1786918784.7311292
+    "last_at": 1786928804.0383003,
+    "next_allowed_at": 1786936004.0383003
   }
 }
