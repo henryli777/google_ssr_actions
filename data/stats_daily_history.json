@@ -2639,11 +2639,11 @@
   },
   {
     "date": "2026-08-18",
-    "google_added": 31,
+    "google_added": 40,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 11,
-    "alive_total": 32
+    "new_total": 11,
+    "removed_total": 2,
+    "alive_total": 41
   }
 ]
