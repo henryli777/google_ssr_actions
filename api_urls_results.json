@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T12:39:52.069096",
+  "timestamp": "2026-08-19T15:28:15.714819",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 1,
+  "total_urls": 3,
+  "original_urls": 6,
   "urls": [
+    "https://api.qihangj.shop/api/v1/client/subscribe?token=617476d8b37b1bb7d23fc835241a1492",
+    "http://120.79.227.62:8883/api/v1/client/subscribe?token=640355e49832b95539c056db1173155a",
     "https://su.anywayfosec.xyz/api/v1/client/subscribe?token=pggknpbhd50stwdys89hjzkibxylwa3t"
   ]
 }
