@@ -2657,11 +2657,11 @@
   },
   {
     "date": "2026-08-20",
-    "google_added": 26,
-    "github_added": 2,
+    "google_added": 25,
+    "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 16,
-    "alive_total": 28
+    "new_total": 2,
+    "removed_total": 4,
+    "alive_total": 26
   }
 ]
