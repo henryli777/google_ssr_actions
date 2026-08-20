@@ -2666,11 +2666,11 @@
   },
   {
     "date": "2026-08-21",
-    "google_added": 26,
+    "google_added": 25,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 2,
-    "removed_total": 1,
-    "alive_total": 27
+    "new_total": 1,
+    "removed_total": 2,
+    "alive_total": 26
   }
 ]
