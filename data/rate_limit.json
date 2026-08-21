@@ -2226,10 +2226,10 @@
     "next_allowed_at": 1787066725.9933417
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=73eedd422ae33703e1f3aa504fec25a3": {
-    "hits": 23,
+    "hits": 24,
     "last_reason": "body-hint",
-    "last_at": 1787067052.4492142,
-    "next_allowed_at": 1787153452.4492142
+    "last_at": 1787316154.67044,
+    "next_allowed_at": 1787402554.67044
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=81f7fb76a46b5dfed793259d0c984e9e": {
     "hits": 23,
@@ -10626,10 +10626,10 @@
     "next_allowed_at": 1787312173.2956042
   },
   "https://api.qihangj.shop/api/v1/client/subscribe?token=617476d8b37b1bb7d23fc835241a1492": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "http 403",
-    "last_at": 1787251040.8183873,
-    "next_allowed_at": 1787308640.8183873
+    "last_at": 1787316154.67044,
+    "next_allowed_at": 1787402554.67044
   },
   "https://nd01.microunsync.org/api/v1/client/subscribe?token=03a07d1ab8049e01cc51599bbc781a94": {
     "hits": 7,
@@ -10644,9 +10644,15 @@
     "next_allowed_at": 1787341829.03762
   },
   "https://proxyinfo.net/api/v1/client/subscribe?token=aa82d901002abe1bed3b23d39af6901e0403653Commenti": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1787294587.8179436,
-    "next_allowed_at": 1787308987.8179436
+    "last_at": 1787316154.67044,
+    "next_allowed_at": 1787344954.67044
+  },
+  "https://sub.bajieurl.com/api/v1/client/subscribe?token=XXXXXX": {
+    "hits": 1,
+    "last_reason": "http 403",
+    "last_at": 1787316154.67044,
+    "next_allowed_at": 1787317054.67044
   }
 }
