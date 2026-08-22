@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T03:39:22.471518",
+  "timestamp": "2026-08-22T06:34:15.218097",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 4,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://qijiavpn.salnc.kuaivpn.app/api/v1/client/subscribe?token=795a41a3c771849335a009a8518b2a08",
     "https://www.youzizizi.top/api/v1/client/subscribe?token=2b63b62fc7fd2838c7addf52fe52dc48"
   ]
 }
