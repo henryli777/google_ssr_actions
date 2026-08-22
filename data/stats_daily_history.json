@@ -2675,11 +2675,11 @@
   },
   {
     "date": "2026-08-22",
-    "google_added": 41,
+    "google_added": 42,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
+    "new_total": 1,
     "removed_total": 0,
-    "alive_total": 42
+    "alive_total": 43
   }
 ]
