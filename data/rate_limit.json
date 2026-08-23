@@ -2220,10 +2220,10 @@
     "next_allowed_at": 1787477176.6903353
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=6a257f4277ef9aad6bb98b66baf90723": {
-    "hits": 23,
+    "hits": 24,
     "last_reason": "body-hint",
-    "last_at": 1787390776.6903353,
-    "next_allowed_at": 1787477176.6903353
+    "last_at": 1787509583.5921247,
+    "next_allowed_at": 1787595983.5921247
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=73eedd422ae33703e1f3aa504fec25a3": {
     "hits": 25,
@@ -10662,10 +10662,10 @@
     "next_allowed_at": 1787574956.1382043
   },
   "https://2.342242.icu/api/v1/client/subscribe?token=2b7ccd90eeff2d84c6a0f2b3c8bdcf15": {
-    "hits": 7,
+    "hits": 8,
     "last_reason": "http 403",
-    "last_at": 1787447379.6689494,
-    "next_allowed_at": 1787504979.6689494
+    "last_at": 1787509583.5921247,
+    "next_allowed_at": 1787595983.5921247
   },
   "https://suuuuuuub.besttelecom.cc/api/v1/client/subscribe?token=e0e268e5d6676ceb520ae695bd4161bd": {
     "hits": 1,
@@ -10680,10 +10680,10 @@
     "next_allowed_at": 1787546156.1382043
   },
   "https://47.242.128.61:5000/api/v1/client/subscribe?token=895650c7fa2642b7c1a7e364de981951": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1787467114.5815828,
-    "next_allowed_at": 1787495914.5815828
+    "last_at": 1787509583.5921247,
+    "next_allowed_at": 1787567183.5921247
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=0886287d7cd3e49d6a6a8151b1718845": {
     "hits": 1,
