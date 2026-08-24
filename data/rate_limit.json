@@ -2028,10 +2028,10 @@
     "next_allowed_at": 1787563642.3340251
   },
   "https://s2.equinoxaa.com/api/v1/client/subscribe?token=f984d7cafdbb1e2d68cb0fc091bfbe78": {
-    "hits": 263,
+    "hits": 264,
     "last_reason": "body-hint",
-    "last_at": 1787433694.4213543,
-    "next_allowed_at": 1787520094.4213543
+    "last_at": 1787533661.9980698,
+    "next_allowed_at": 1787620061.9980698
   },
   "https://sub.nex7.us.kg/api/v1/client/subscribe?token=ee6d1ad168c682e88f6bf92cd344df23": {
     "hits": 289,
