@@ -4860,10 +4860,10 @@
     "next_allowed_at": 1787748217.9434285
   },
   "https://www.huojian1.sbs/api/v1/client/subscribe?token=c40671b3963a317e8170322254036c71": {
-    "hits": 229,
+    "hits": 230,
     "last_reason": "body-hint",
-    "last_at": 1787596719.9666512,
-    "next_allowed_at": 1787683119.9666512
+    "last_at": 1787693249.668797,
+    "next_allowed_at": 1787779649.668797
   },
   "https://xn--9kq85xcu6b.com/api/v1/client/subscribe?token=a811d3ff85af57f060f3f56cf32d43a4": {
     "hits": 277,
@@ -10662,10 +10662,10 @@
     "next_allowed_at": 1787758907.647415
   },
   "https://2.342242.icu/api/v1/client/subscribe?token=2b7ccd90eeff2d84c6a0f2b3c8bdcf15": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1787596719.9666512,
-    "next_allowed_at": 1787683119.9666512
+    "last_at": 1787693249.668797,
+    "next_allowed_at": 1787779649.668797
   },
   "https://suuuuuuub.besttelecom.cc/api/v1/client/subscribe?token=e0e268e5d6676ceb520ae695bd4161bd": {
     "hits": 1,
@@ -10692,10 +10692,10 @@
     "next_allowed_at": 1787448279.6689494
   },
   "https://a.flyintpro05.com/api/v1/client/subscribe?token=8c8dd9876d59d2028939caf56e93ac2e": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1787661817.9434285,
-    "next_allowed_at": 1787690617.9434285
+    "last_at": 1787693249.668797,
+    "next_allowed_at": 1787750849.668797
   },
   "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=035be59cfa5632034bbc9df12b818fbd": {
     "hits": 6,
@@ -10740,9 +10740,9 @@
     "next_allowed_at": 1787711904.8756692
   },
   "https://vot.278986.xyz/api/v1/client/subscribe?token=dea4a912d6ca3a46d9e37d68d6ee3e9a": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1787683104.8756692,
-    "next_allowed_at": 1787686704.8756692
+    "last_at": 1787693249.668797,
+    "next_allowed_at": 1787700449.668797
   }
 }
