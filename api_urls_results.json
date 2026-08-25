@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T15:19:12.311266",
+  "timestamp": "2026-08-25T01:04:27.869479",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,16 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 1,
+  "total_urls": 8,
+  "original_urls": 8,
   "urls": [
-    "https://times1733632330.subxiandan.top:9604/v2b/paopaogou/api/v1/client/subscribe?token=4aa2ae5b6cdee6d54a0295ccc4aa0ec5"
+    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=035be59cfa5632034bbc9df12b818fbd",
+    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=1e5197870ebcfed38f07649c9a905a8e",
+    "https://sub.nnsub.win/api/v1/client/subscribe?token=5fc455006adca11d141bc5dcb11933e5",
+    "https://sub.nnsub.win/api/v1/client/subscribe?token=5fc455006adca11d141bc5dcb11933e57866Anal",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=0ddddf3a3d06c34189054704925df22e56311Anal",
+    "https://www.djjc.cfd/api/v1/client/subscribe?token=41e8b64b7a9f4cc4a3fac2cbf3f858f2",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=0ddddf3a3d06c34189054704925df22e66311Anal",
+    "https://ymjc.cfd/api/v1/client/subscribe?token=0ddddf3a3d06c34189054704925df22e"
   ]
 }
