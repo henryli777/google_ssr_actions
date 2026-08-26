@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T01:06:50.828426",
+  "timestamp": "2026-08-26T03:51:51.911267",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,12 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 4,
-  "original_urls": 4,
+  "total_urls": 2,
+  "original_urls": 2,
   "urls": [
-    "https://hz.dport.top/api/v1/client/subscribe?token=0a4232425a06adfb8fbfb60a806d81ff",
-    "https://submit.mylac.cn:22443/api/v1/client/subscribe?token=00c716aac558725a25a69017e6c3eef0",
-    "https://ihuoqx.281968.xyz/api/v1/client/subscribe?token=ccecd",
-    "https://ihuoqx.281968.xyz/api/v1/client/subscribe?token=ccecdfd9b654e5f29a70e22a1642b5f6"
+    "https://hsy.zcamaf.com/api/v1/client/subscribe?token=e74fc421853933a2071020b196a80176",
+    "https://de.skk.ip-ddns.com/4.2k306193Аналітика2https://hsy.zcamaf.com/api/v1/client/subscribe?token=e74fc421853933a2071020b196a80176"
   ]
 }
