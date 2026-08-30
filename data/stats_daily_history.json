@@ -2747,11 +2747,11 @@
   },
   {
     "date": "2026-08-30",
-    "google_added": 506,
+    "google_added": 514,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 1,
-    "removed_total": 13,
-    "alive_total": 506
+    "new_total": 13,
+    "removed_total": 5,
+    "alive_total": 514
   }
 ]

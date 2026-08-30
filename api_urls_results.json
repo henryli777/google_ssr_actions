@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T22:59:36.674032",
+  "timestamp": "2026-08-30T11:13:05.119148",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 2,
+  "original_urls": 5,
   "urls": [
-    "https://submit.mylac.cn:22443/api/v1/client/subscribe?token=00c716aac558725a25a69017e6c3eef0"
+    "https://example.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
