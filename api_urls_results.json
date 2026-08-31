@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T03:27:07.716775",
+  "timestamp": "2026-08-31T12:37:55.336059",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 4,
   "urls": [
     "https://www.panda-cloud.life/api/v1/client/subscribe?token=ee3639d9047f6fbe32bf70ab4ce051f6"
   ]
