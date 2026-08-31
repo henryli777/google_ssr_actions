@@ -2756,11 +2756,11 @@
   },
   {
     "date": "2026-08-31",
-    "google_added": 519,
+    "google_added": 520,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 5,
-    "removed_total": 1,
-    "alive_total": 519
+    "new_total": 1,
+    "removed_total": 0,
+    "alive_total": 520
   }
 ]
