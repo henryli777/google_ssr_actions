@@ -10368,10 +10368,10 @@
     "next_allowed_at": 1788295291.2443979
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=5ad92ac6d4dc3850e56472aa3526ba7b": {
-    "hits": 25,
+    "hits": 26,
     "last_reason": "body-hint",
-    "last_at": 1788105772.8202744,
-    "next_allowed_at": 1788192172.8202744
+    "last_at": 1788222292.8863814,
+    "next_allowed_at": 1788308692.8863814
   },
   "https://wobushitishen1.xyz/api/v1/client/subscribe?token=27595xxxxxxx7293298385": {
     "hits": 33,
@@ -10668,10 +10668,10 @@
     "next_allowed_at": 1788295291.2443979
   },
   "https://suuuuuuub.besttelecom.cc/api/v1/client/subscribe?token=e0e268e5d6676ceb520ae695bd4161bd": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "http 403",
-    "last_at": 1788208891.2443979,
-    "next_allowed_at": 1788212491.2443979
+    "last_at": 1788222292.8863814,
+    "next_allowed_at": 1788229492.8863814
   },
   "https://b01b.microvmcdn.org/api/v1/client/subscribe?token=c67e2073240f79760b2108289e9d6010": {
     "hits": 15,
@@ -10860,9 +10860,9 @@
     "next_allowed_at": 1788237624.0199423
   },
   "https://www.panda-cloud.life/api/v1/client/subscribe?token=ee3639d9047f6fbe32bf70ab4ce051f6": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1788208891.2443979,
-    "next_allowed_at": 1788212491.2443979
+    "last_at": 1788222292.8863814,
+    "next_allowed_at": 1788229492.8863814
   }
 }

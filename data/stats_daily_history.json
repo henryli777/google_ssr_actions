@@ -2765,11 +2765,11 @@
   },
   {
     "date": "2026-09-01",
-    "google_added": 483,
+    "google_added": 521,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 1,
-    "removed_total": 37,
-    "alive_total": 483
+    "new_total": 38,
+    "removed_total": 0,
+    "alive_total": 521
   }
 ]
