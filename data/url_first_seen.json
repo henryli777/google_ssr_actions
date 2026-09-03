@@ -2440,5 +2440,6 @@
   "https://47.242.128.61:5000/api/v1/client/subscribe?token=92cf554e314ed4b3d37a53214b69d07e": "2026-08-31",
   "https://www.panda-cloud.life/api/v1/client/subscribe?token=ee3639d9047f6fbe32bf70ab4ce051f6": "2026-08-31",
   "https://sub.example.com/api/v1/client/subscribe?token=xxx": "2026-09-03",
-  "https://your-sub-link.com/api/v1/client/subscribe?token=xxx": "2026-09-03"
+  "https://your-sub-link.com/api/v1/client/subscribe?token=xxx": "2026-09-03",
+  "https://sub.airport.com/api/v1/client/subscribe?token=xxxxxx": "2026-09-04"
 }
