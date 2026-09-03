@@ -2783,11 +2783,11 @@
   },
   {
     "date": "2026-09-03",
-    "google_added": 514,
+    "google_added": 306,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 1,
-    "removed_total": 7,
-    "alive_total": 514
+    "new_total": 7,
+    "removed_total": 215,
+    "alive_total": 306
   }
 ]
