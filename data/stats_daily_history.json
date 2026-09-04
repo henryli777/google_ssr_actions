@@ -2792,11 +2792,11 @@
   },
   {
     "date": "2026-09-04",
-    "google_added": 308,
+    "google_added": 304,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 33,
-    "removed_total": 0,
-    "alive_total": 308
+    "new_total": 0,
+    "removed_total": 4,
+    "alive_total": 304
   }
 ]
