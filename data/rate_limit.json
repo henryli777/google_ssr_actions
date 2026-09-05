@@ -198,10 +198,10 @@
     "next_allowed_at": 1788697399.5404298
   },
   "http://23.145.248.232:13389/api/v1/client/subscribe?token=1df0f08cf96675a767ceec9f9336fbf4&flag=clash": {
-    "hits": 321,
+    "hits": 322,
     "last_reason": "body-hint",
-    "last_at": 1788527441.0495741,
-    "next_allowed_at": 1788613841.0495741
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788714635.2366235
   },
   "https://amaoaamaoa.matach.qq.com.scsmpp.com/api/v1/client/subscribe?token=542b26414871bf2ebd3f05251f7c80fb": {
     "hits": 322,
@@ -6456,10 +6456,10 @@
     "next_allowed_at": 1788663196.1949112
   },
   "https://dy.dhh.gay/api/v1/client/subscribe?token=5a525ca1b6ef742cae9a4955d8fccf10": {
-    "hits": 227,
+    "hits": 228,
     "last_reason": "http 403",
-    "last_at": 1788527441.0495741,
-    "next_allowed_at": 1788613841.0495741
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788714635.2366235
   },
   "https://101.43.12.60:28364/api/v1/client/subscribe?token=117e91c511b382393e154361e46cd42f": {
     "hits": 226,
@@ -6924,10 +6924,10 @@
     "next_allowed_at": 1788697399.5404298
   },
   "http://23.145.248.238:13389/api/v1/client/subscribe?token=7df98cd9f7015036aa16ca7f7b84b8b4": {
-    "hits": 203,
+    "hits": 204,
     "last_reason": "body-hint",
-    "last_at": 1788527441.0495741,
-    "next_allowed_at": 1788613841.0495741
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788714635.2366235
   },
   "https://dash.knjc.cfd/api/v1/client/subscribe?token=afaa631bb786f363508851370fe83c08": {
     "hits": 203,
@@ -10368,10 +10368,10 @@
     "next_allowed_at": 1788697399.5404298
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=5ad92ac6d4dc3850e56472aa3526ba7b": {
-    "hits": 29,
+    "hits": 30,
     "last_reason": "body-hint",
-    "last_at": 1788527441.0495741,
-    "next_allowed_at": 1788613841.0495741
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788714635.2366235
   },
   "https://wobushitishen1.xyz/api/v1/client/subscribe?token=27595xxxxxxx7293298385": {
     "hits": 37,
@@ -10812,16 +10812,16 @@
     "next_allowed_at": 1788631604.2149498
   },
   "https://781.jiasu.asia/api/v1/client/subscribe?token=3e8962c7458dfc1cd6a84d1b44f0f341": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1788105772.8202744,
-    "next_allowed_at": 1788107572.8202744
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788631835.2366235
   },
   "https://781.jiasu.asia/api/v1/client/subscribe?token=a4418f479f46eb7eaee1eff4dccccc41": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1788105772.8202744,
-    "next_allowed_at": 1788107572.8202744
+    "last_at": 1788628235.2366235,
+    "next_allowed_at": 1788631835.2366235
   },
   "https://kuajingsuyun.com/api/v1/client/subscribe?token=50f13bde3ef264d722cc17b22ef5b912": {
     "hits": 12,
