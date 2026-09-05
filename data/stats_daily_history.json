@@ -2801,11 +2801,11 @@
   },
   {
     "date": "2026-09-05",
-    "google_added": 290,
+    "google_added": 277,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 17,
-    "alive_total": 290
+    "new_total": 3,
+    "removed_total": 16,
+    "alive_total": 277
   }
 ]
