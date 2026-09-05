@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T22:46:52.344191",
+  "timestamp": "2026-09-05T02:50:50.082866",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
+  "total_urls": 2,
   "original_urls": 3,
   "urls": [
+    "https://example.com/api/v1/client/subscribe?token=xxxx",
     "https://sub.airport.com/api/v1/client/subscribe?token=xxxxxx"
   ]
 }
