@@ -12220,5 +12220,11 @@
     "last_reason": "body-hint",
     "last_at": 1788724857.6210985,
     "next_allowed_at": 1788811257.6210985
+  },
+  "https://your-airport-provider.com/api/v1/client/subscribe?token=YOUR": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1788749326.8918896,
+    "next_allowed_at": 1788750226.8918896
   }
 }
