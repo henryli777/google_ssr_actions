@@ -10530,10 +10530,10 @@
     "next_allowed_at": 1786337091.4298117
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=ecc2d970d20ba72abdb130540b1f57ee": {
-    "hits": 26,
+    "hits": 27,
     "last_reason": "body-hint",
-    "last_at": 1788734585.9435153,
-    "next_allowed_at": 1788820985.9435153
+    "last_at": 1788836391.7620044,
+    "next_allowed_at": 1788922791.7620044
   },
   "https://mytoken-1.huyun.nl/api/v1/client/subscribe?token=b3912ed20639a03de23e64a3981dbd65": {
     "hits": 30,
@@ -12228,9 +12228,9 @@
     "next_allowed_at": 1788837541.4538991
   },
   "https://example-provider.com/api/v1/client/subscribe?token=a1b2c3d4e5": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1788823141.4538991,
-    "next_allowed_at": 1788824041.4538991
+    "last_at": 1788836391.7620044,
+    "next_allowed_at": 1788838191.7620044
   }
 }
