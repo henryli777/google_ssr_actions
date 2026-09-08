@@ -2443,5 +2443,6 @@
   "https://your-sub-link.com/api/v1/client/subscribe?token=xxx": "2026-09-03",
   "https://sub.airport.com/api/v1/client/subscribe?token=xxxxxx": "2026-09-04",
   "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=15034d9c61ccca12684bc73465f42ea4": "2026-09-06",
-  "https://your-airport-provider.com/api/v1/client/subscribe?token=YOUR": "2026-09-07"
+  "https://your-airport-provider.com/api/v1/client/subscribe?token=YOUR": "2026-09-07",
+  "https://example-provider.com/api/v1/client/subscribe?token=a1b2c3d4e5": "2026-09-08"
 }
