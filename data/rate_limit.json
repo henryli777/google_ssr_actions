@@ -2202,10 +2202,10 @@
     "next_allowed_at": 1788766747.3778577
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=35c5ff3a66c759d3e51c480111d61df4": {
-    "hits": 25,
+    "hits": 26,
     "last_reason": "body-hint",
-    "last_at": 1788663046.297185,
-    "next_allowed_at": 1788749446.297185
+    "last_at": 1788854042.75415,
+    "next_allowed_at": 1788940442.75415
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=4f7f084dc38a9539663ed6597412304e": {
     "hits": 27,
@@ -4812,10 +4812,10 @@
     "next_allowed_at": 1788909541.4538991
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=9224f2d3660837fcdfffa696ae4e59f3": {
-    "hits": 27,
+    "hits": 28,
     "last_reason": "body-hint",
-    "last_at": 1788724857.6210985,
-    "next_allowed_at": 1788811257.6210985
+    "last_at": 1788854042.75415,
+    "next_allowed_at": 1788940442.75415
   },
   "https://x2b.eans.top/api/v1/client/subscribe?token=baec1ecdf428caae62419648aa94a817": {
     "hits": 25,
@@ -12222,15 +12222,15 @@
     "next_allowed_at": 1788909541.4538991
   },
   "https://your-airport-provider.com/api/v1/client/subscribe?token=YOUR": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "body-hint",
-    "last_at": 1788823141.4538991,
-    "next_allowed_at": 1788837541.4538991
+    "last_at": 1788854042.75415,
+    "next_allowed_at": 1788882842.75415
   },
   "https://example-provider.com/api/v1/client/subscribe?token=a1b2c3d4e5": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1788836391.7620044,
-    "next_allowed_at": 1788838191.7620044
+    "last_at": 1788854042.75415,
+    "next_allowed_at": 1788857642.75415
   }
 }
