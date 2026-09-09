@@ -2837,11 +2837,11 @@
   },
   {
     "date": "2026-09-09",
-    "google_added": 294,
+    "google_added": 277,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 3,
-    "removed_total": 11,
-    "alive_total": 295
+    "new_total": 11,
+    "removed_total": 28,
+    "alive_total": 278
   }
 ]
