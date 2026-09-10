@@ -2846,11 +2846,11 @@
   },
   {
     "date": "2026-09-10",
-    "google_added": 303,
+    "google_added": 290,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 2,
-    "alive_total": 303
+    "new_total": 2,
+    "removed_total": 15,
+    "alive_total": 290
   }
 ]
