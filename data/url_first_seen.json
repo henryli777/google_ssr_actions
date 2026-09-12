@@ -2446,5 +2446,6 @@
   "https://your-airport-provider.com/api/v1/client/subscribe?token=YOUR": "2026-09-07",
   "https://example-provider.com/api/v1/client/subscribe?token=a1b2c3d4e5": "2026-09-08",
   "https://wwnet.tongtianai.xyz/api/v1/client/subscribe?token=NjUyNjI0OjgwN2U3MWU0ZWVjZGMwYTliZDlhYmY0NjQ3OGZmYmViM2JhMDBlMDk": "2026-09-11",
-  "https://wwnet.tongtianai.xyz/api/v1/client/subscribe?token=NjUyNjI0OjgwN2U3MWU0ZWVjZGMwYTliZDlhYmY0NjQ3OGZmYmViM2JhMDBlM": "2026-09-11"
+  "https://wwnet.tongtianai.xyz/api/v1/client/subscribe?token=NjUyNjI0OjgwN2U3MWU0ZWVjZGMwYTliZDlhYmY0NjQ3OGZmYmViM2JhMDBlM": "2026-09-11",
+  "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxx": "2026-09-12"
 }
