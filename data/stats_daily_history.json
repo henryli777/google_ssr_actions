@@ -2879,5 +2879,14 @@
     "new_total": 0,
     "removed_total": 29,
     "alive_total": 276
+  },
+  {
+    "date": "2026-09-14",
+    "google_added": 292,
+    "github_added": 1,
+    "telegram_added": 0,
+    "new_total": 27,
+    "removed_total": 10,
+    "alive_total": 293
   }
 ]

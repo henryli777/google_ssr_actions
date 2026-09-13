@@ -2274,10 +2274,10 @@
     "next_allowed_at": 1789027135.9993222
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=d4985576dd91f013f646b8b436ece788": {
-    "hits": 27,
+    "hits": 28,
     "last_reason": "body-hint",
-    "last_at": 1788638213.5270998,
-    "next_allowed_at": 1788724613.5270998
+    "last_at": 1789322316.10454,
+    "next_allowed_at": 1789408716.10454
   },
   "http://x2b.eans.top/api/v1/client/subscribe?token=d7096344a577d0e7d16c3051a3902adc": {
     "hits": 25,
@@ -10398,10 +10398,10 @@
     "next_allowed_at": 1789355042.6503766
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=a8484fb8580e351ac02461e979a77c18": {
-    "hits": 34,
+    "hits": 35,
     "last_reason": "body-hint",
-    "last_at": 1789235073.0726337,
-    "next_allowed_at": 1789321473.0726337
+    "last_at": 1789322316.10454,
+    "next_allowed_at": 1789408716.10454
   },
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=ed3c3b592847fdb33b5554126cfa9f7b": {
     "hits": 43,
@@ -10668,10 +10668,10 @@
     "next_allowed_at": 1789355042.6503766
   },
   "https://suuuuuuub.besttelecom.cc/api/v1/client/subscribe?token=e0e268e5d6676ceb520ae695bd4161bd": {
-    "hits": 10,
-    "last_reason": "http 403",
-    "last_at": 1789235073.0726337,
-    "next_allowed_at": 1789321473.0726337
+    "hits": 11,
+    "last_reason": "body-hint",
+    "last_at": 1789322316.10454,
+    "next_allowed_at": 1789408716.10454
   },
   "https://b01b.microvmcdn.org/api/v1/client/subscribe?token=c67e2073240f79760b2108289e9d6010": {
     "hits": 26,
@@ -12306,9 +12306,15 @@
     "next_allowed_at": 1789364479.9644067
   },
   "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=95426e4a3734790fda73b15153493344": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "http 403",
-    "last_at": 1789306879.9644067,
-    "next_allowed_at": 1789308679.9644067
+    "last_at": 1789322316.10454,
+    "next_allowed_at": 1789325916.10454
+  },
+  "https://sub.example.com/api/v1/client/subscribe?token=8f3a2b1c9d4e5f6a": {
+    "hits": 1,
+    "last_reason": "body-hint",
+    "last_at": 1789322316.10454,
+    "next_allowed_at": 1789323216.10454
   }
 }

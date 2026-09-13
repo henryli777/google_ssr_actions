@@ -1720,6 +1720,7 @@
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=b25cfdf979d27ce14bca26a870989e68",
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=c796ed58f9404aa8429bc71ba5a904d7",
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=f84c3d8ec12d0358cf3ded1095ebe95c",
+  "https://sub.example.com/api/v1/client/subscribe?token=8f3a2b1c9d4e5f6a",
   "https://sub.example.com/api/v1/client/subscribe?token=REDACTED",
   "https://sub.example.com/api/v1/client/subscribe?token=xxx",
   "https://sub.example.com/api/v1/client/subscribe?token=your",
