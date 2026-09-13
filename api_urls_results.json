@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T20:10:39.761937",
+  "timestamp": "2026-09-13T03:01:39.254196",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 4,
   "urls": [
-    "https://your-provider.com/api/v1/client/subscribe?token=xxxxx"
+    "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=95426e4a3734790fda73b15153493344"
   ]
 }
