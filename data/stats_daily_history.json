@@ -2882,11 +2882,11 @@
   },
   {
     "date": "2026-09-14",
-    "google_added": 304,
+    "google_added": 270,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 5,
-    "removed_total": 0,
-    "alive_total": 305
+    "new_total": 0,
+    "removed_total": 34,
+    "alive_total": 271
   }
 ]

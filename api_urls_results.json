@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T22:51:49.846378",
+  "timestamp": "2026-09-14T11:48:47.739109",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 4,
+  "original_urls": 3,
   "urls": [
-    "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=95426e4a3734790fda73b15153493344"
+    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2d4836133cfaf503ab8763c596132f88"
   ]
 }
