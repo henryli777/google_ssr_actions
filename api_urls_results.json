@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T21:26:19.237433",
+  "timestamp": "2026-09-15T03:18:10.246847",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 4,
+  "total_urls": 2,
+  "original_urls": 9,
   "urls": [
-    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2d4836133cfaf503ab8763c596132f88"
+    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2d4836133cfaf503ab8763c596132f88",
+    "https://47.242.128.61:2000/api/v1/client/subscribe?token=xxxxx"
   ]
 }
