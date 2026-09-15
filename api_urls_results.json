@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T03:18:10.246847",
+  "timestamp": "2026-09-15T16:13:52.544432",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,19 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 9,
+  "total_urls": 11,
+  "original_urls": 15,
   "urls": [
-    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=2d4836133cfaf503ab8763c596132f88",
-    "https://47.242.128.61:2000/api/v1/client/subscribe?token=xxxxx"
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=4790b181b18fd8aaa56810c445593369",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=07c5d81283809805de5d839845c31bd6",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=0b6cdd76a1fc678b4f52551bae278193",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=e8b4d934931c20a33b707d30604839ad",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=a6029661d2d47d60251e3b5f792d4e05",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=703750a684ab9f382a33f08337d1b1ce",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=78d140434604383a1df49112759e777c",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=d7c6ab9cfa6a8661edc0dc498e5d9d6a",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=a75b1cc805c1c3dcb530a4674324311c",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=dba393fc338b41a96f673d4b3dfcb5e0",
+    "https://go.xfxssr.me/api/v1/client/subscribe?token=a70109bcdeabc1b7357f4a048c765aaf"
   ]
 }
