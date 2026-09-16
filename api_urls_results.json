@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T23:24:48.608686",
+  "timestamp": "2026-09-16T10:49:15.974571",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 2,
   "urls": [
-    "https://go.xfxssr.me/api/v1/client/subscribe?token=4790b181b18fd8aaa56810c445593369"
+    "https://xxx.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
