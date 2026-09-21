@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T10:35:14.345671",
+  "timestamp": "2026-09-21T03:12:32.299180",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 2,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://wzyun.oadvan.cn/api/v1/client/subscribe?token=6c0a065300d9e40c124b462d95340267",
-    "https://api.qihangj.shop/api/v1/client/subscribe?token=47233f752188012ca70fd0b446754570"
+    "https://example.com/api/v1/client/subscribe?token=xxx"
   ]
 }
