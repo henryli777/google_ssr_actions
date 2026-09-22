@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T21:42:04.504971",
+  "timestamp": "2026-09-22T03:11:45.404759",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,18 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 10,
-  "original_urls": 10,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://xxx.com/api/v1/client/subscribe?token=xxxx",
-    "https://openui.n256.com/api/v1/client/subscribe?token=accd20b1fdcdb2fefaf7169a82f854f1",
-    "https://update.glados-config.com/v2ray/446343/7721375f043af8a1http://xn--dlqr72e.top/api/v1/client/subscribe?token=ad80a81805cd0af79e5c5174fad26271https://skylumo.com/api/v1/client/subscribe?token=3fb64a9c1f3629cd2ca57ca24f51339avless://fe5a820e-9f5e-44d7-c368-6e5a3a0a431f@84.32.44.71:22756?type=tcp&security=reality&sni=www.lovelive-anime.jp&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&flow=xtls-rprx-vision&fp=chrome",
-    "https://openui.n256.com/api/v1/client/subscribe?token=accd20b1fdcdb2fefaf7169a82f854f115号到期https://node.flyintpro06.com/api/v1/client/subscribe?token=2ca10bfc27e22fde6a0675118691276016",
-    "http://xn--dlqr72e.top/api/v1/client/subscribe?token=ad80a81805cd0af79e5c5174fad26271",
-    "https://jsjc.cfd/api/v1/client/subscribe?token=947e0a5b4ae2d54bddc040257e32a13e",
-    "https://dash.boboch.it.com/api/v1/client/subscribe?token=ad80a81805cd0af79e5c5174fad26271",
-    "https://node.flyintpro06.com/api/v1/client/subscribe?token=2ca10bfc27e22fde6a06751186912760",
-    "https://skylumo.com/api/v1/client/subscribe?token=3fb64a9c1f3629cd2ca57ca24f51339a",
-    "https://jsjc.cfd/api/v1/client/subscribe?token=41d2cc3da79c5349481197cf934951f1"
+    "https://xxx.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
