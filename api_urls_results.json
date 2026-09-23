@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-22T23:28:43.534062",
+  "timestamp": "2026-09-23T10:44:18.186140",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 2,
+  "original_urls": 4,
   "urls": [
-    "https://机场域名/api/v1/client/subscribe?token=xxxxx"
+    "https://su.gwzxwk.com/api/v1/client/subscribe?token=e5b6daf5bad085c7da5a035cb20e2922"
   ]
 }
