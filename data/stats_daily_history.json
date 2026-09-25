@@ -2981,11 +2981,11 @@
   },
   {
     "date": "2026-09-25",
-    "google_added": 268,
+    "google_added": 254,
     "github_added": 1,
     "telegram_added": 0,
-    "new_total": 6,
-    "removed_total": 3,
-    "alive_total": 269
+    "new_total": 3,
+    "removed_total": 17,
+    "alive_total": 255
   }
 ]
