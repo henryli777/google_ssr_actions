@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-27T11:21:56.664229",
+  "timestamp": "2026-09-27T23:37:55.360485",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 2,
+  "original_urls": 2,
   "urls": [
-    "https://9625mofan01.yunjiexianaff.com/api/v1/client/subscribe?token=YOUR"
+    "https://sub.xxx.com/api/v1/client/subscribe?token=abc123def456",
+    "https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=ff8cc328aab2081e1b397353925d0cac"
   ]
 }
