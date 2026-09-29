@@ -1404,10 +1404,10 @@
     "next_allowed_at": 1790686431.558731
   },
   "https://s.gwzxwk.com/api/v1/client/subscribe?token=f7577a5ef586b00d0774112a337c2d1e": {
-    "hits": 190,
+    "hits": 191,
     "last_reason": "http 403",
-    "last_at": 1790552415.6808457,
-    "next_allowed_at": 1790638815.6808457
+    "last_at": 1790683772.4006195,
+    "next_allowed_at": 1790770172.4006195
   },
   "https://riolu.azure-api.net/api/v1/client/subscribe?token=4881d2ce996e6494d53a0d9598557352": {
     "hits": 330,
@@ -6576,10 +6576,10 @@
     "next_allowed_at": 1790686431.558731
   },
   "https://su.gwzxwk.com/api/v1/client/subscribe?token=beb83b46a24b24976fb5382f3fab7157": {
-    "hits": 193,
+    "hits": 194,
     "last_reason": "http 403",
-    "last_at": 1790552415.6808457,
-    "next_allowed_at": 1790638815.6808457
+    "last_at": 1790683772.4006195,
+    "next_allowed_at": 1790770172.4006195
   },
   "https://www.yuntt.sbs/api/v1/client/subscribe?token=223aa5d1dd79d32ec8aa1b1d25a9f0e4": {
     "hits": 206,
@@ -10398,10 +10398,10 @@
     "next_allowed_at": 1790686431.558731
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=a8484fb8580e351ac02461e979a77c18": {
-    "hits": 47,
+    "hits": 48,
     "last_reason": "body-hint",
-    "last_at": 1790542384.5723207,
-    "next_allowed_at": 1790628784.5723207
+    "last_at": 1790683772.4006195,
+    "next_allowed_at": 1790770172.4006195
   },
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=ed3c3b592847fdb33b5554126cfa9f7b": {
     "hits": 57,
@@ -12606,10 +12606,10 @@
     "next_allowed_at": 1790537728.9309423
   },
   "https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=ff8cc328aab2081e1b397353925d0cac": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1790654958.9923286,
-    "next_allowed_at": 1790669358.9923286
+    "last_at": 1790683772.4006195,
+    "next_allowed_at": 1790712572.4006195
   },
   "https://flycat1.flycatvipaff.cc/api/v1/client/subscribe?token=YOUR": {
     "hits": 1,
@@ -12618,9 +12618,9 @@
     "next_allowed_at": 1790630499.855177
   },
   "https://www.caiguoyun.com/api/v1/client/subscribe?token=xxxxx": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1790654958.9923286,
-    "next_allowed_at": 1790656758.9923286
+    "last_at": 1790683772.4006195,
+    "next_allowed_at": 1790687372.4006195
   }
 }
