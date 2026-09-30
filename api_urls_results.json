@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T19:48:12.931597",
+  "timestamp": "2026-09-30T00:04:46.010783",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,14 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 6,
-  "original_urls": 6,
+  "total_urls": 1,
+  "original_urls": 2,
   "urls": [
-    "https://189.24.64.91:33333/api/v1/client/subscribe?token=b8d6424c3744287240cb3b63e3c55a51",
-    "https://189.24.64.91:33333/api/v1/client/subscribe?token=b5c6b600cd9b5800c68b4f8de3d87e38",
-    "https://189.24.64.91:33333/api/v1/client/subscribe?token=2f443340c96ee3930541982a00d69bec",
-    "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=6ea0bc4c1a5f421ebc4ce2ba79329fe3",
-    "https://189.24.64.91:33333/api/v1/client/subscribe?token=c001630b44b444c16060d2e3005bbba1https://189.24.64.91:33333/api/v1/client/subscribe?token=b8d6424c3744287240cb3b63e3c55a51https://189.24.64.91:33333/api/v1/client/subscribe?token=b5c6b600cd9b5800c68b4f8de3d87e38https://189.24.64.91:33333/api/v1/client/subscribe?token=2f443340c96ee3930541982a00d69bec",
-    "https://189.24.64.91:33333/api/v1/client/subscribe?token=c001630b44b444c16060d2e3005bbba1"
+    "https://example.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
