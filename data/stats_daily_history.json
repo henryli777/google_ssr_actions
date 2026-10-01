@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-09-23",
-    "google_added": 59,
-    "github_added": 5,
-    "new_total": 22,
-    "removed_total": 0,
-    "alive_total": 64
-  },
-  {
     "date": "2025-09-24",
     "google_added": 114,
     "github_added": 5,
@@ -3027,6 +3019,15 @@
   },
   {
     "date": "2026-10-01",
+    "google_added": 224,
+    "github_added": 1,
+    "telegram_added": 0,
+    "new_total": 0,
+    "removed_total": 0,
+    "alive_total": 225
+  },
+  {
+    "date": "2026-10-02",
     "google_added": 224,
     "github_added": 1,
     "telegram_added": 0,
