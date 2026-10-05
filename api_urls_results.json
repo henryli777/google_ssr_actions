@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T00:30:55.131020",
+  "timestamp": "2026-10-05T21:49:52.230144",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 3,
+  "total_urls": 2,
+  "original_urls": 2,
   "urls": [
-    "https://xxx.com/api/v1/client/subscribe?token=abcdef123456"
+    "https://mlshu.com/api/v1/client/subscribe?token=013d13ca43f6be1f279ab2a6133aad7b",
+    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=c980af3a840aedbbd4d0262221e481ae"
   ]
 }
