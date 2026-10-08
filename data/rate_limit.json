@@ -10368,10 +10368,10 @@
     "next_allowed_at": 1791506657.0594258
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=5ad92ac6d4dc3850e56472aa3526ba7b": {
-    "hits": 57,
+    "hits": 58,
     "last_reason": "body-hint",
-    "last_at": 1791366540.7532234,
-    "next_allowed_at": 1791452940.7532234
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791570389.6108851
   },
   "https://wobushitishen1.xyz/api/v1/client/subscribe?token=27595xxxxxxx7293298385": {
     "hits": 66,
@@ -12852,39 +12852,39 @@
     "next_allowed_at": 1791511187.0477278
   },
   "https://xl.xilucloud.top/api/v1/client/subscribe?token=8c466761ac92e70a9f52e5662be5196c": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791482387.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791541589.6108851
   },
   "https://xl.xilucloud.top/api/v1/client/subscribe?token=8c466761ac92e70a9f52e5662be5196c&flag=meta": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791482387.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791541589.6108851
   },
   "https://xn--mesz9ptugxg.com/api/v1/client/subscribe?token=dcb2eb6379a152bbe397572220e8e4a8": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791460787.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791498389.6108851
   },
   "https://sub.example.com/api/v1/client/subscribe?token=token": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791457187.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791491189.6108851
   },
   "https://your-airport-provider.com/api/v1/client/subscribe?token=demo": {
-    "hits": 3,
+    "hits": 4,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791457187.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791491189.6108851
   },
   "https://sub.your-airport-domain.com/api/v1/client/subscribe?token=SecretToken": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1791453587.0477278,
-    "next_allowed_at": 1791454487.0477278
+    "last_at": 1791483989.6108851,
+    "next_allowed_at": 1791485789.6108851
   }
 }
