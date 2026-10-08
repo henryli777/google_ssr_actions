@@ -2495,5 +2495,6 @@
   "https://mlshu.com/api/v1/client/subscribe?token=013d13ca43f6be1f279ab2a6133aad7b": "2026-10-06",
   "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=85f2afa53a41c6543ed070a3278b34ae": "2026-10-06",
   "https://sub.example.com/api/v1/client/subscribe?token=token": "2026-10-08",
-  "https://your-airport-provider.com/api/v1/client/subscribe?token=demo": "2026-10-08"
+  "https://your-airport-provider.com/api/v1/client/subscribe?token=demo": "2026-10-08",
+  "https://sub.your-airport-domain.com/api/v1/client/subscribe?token=SecretToken": "2026-10-08"
 }
