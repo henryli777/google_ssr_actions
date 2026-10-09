@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T09:57:19.805011",
+  "timestamp": "2026-10-09T10:00:34.033738",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 2,
+  "original_urls": 3,
   "urls": [
-    "https://sub.your-airport-domain.com/api/v1/client/subscribe?token=SecretToken"
+    "https://your-airport.com/api/v1/client/subscribe?token=xxxx"
   ]
 }
