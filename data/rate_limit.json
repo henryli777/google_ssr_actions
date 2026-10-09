@@ -9840,10 +9840,10 @@
     "next_allowed_at": 1786433647.2288284
   },
   "https://ktm.buyxuyao.top/api/v1/client/subscribe?token=df8f16b42c6158a27500fd224a793448": {
-    "hits": 13,
+    "hits": 14,
     "last_reason": "body-hint",
-    "last_at": 1790334480.1874907,
-    "next_allowed_at": 1790420880.1874907
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791670754.1786225
   },
   "https://sub3.7878787878.top/api/v1/client/subscribe?token=43aeca2d89826152cc25c066de8a1c82": {
     "hits": 12,
@@ -10368,10 +10368,10 @@
     "next_allowed_at": 1791594032.3842728
   },
   "https://shan-cloud.xyz/api/v1/client/subscribe?token=5ad92ac6d4dc3850e56472aa3526ba7b": {
-    "hits": 58,
+    "hits": 59,
     "last_reason": "body-hint",
-    "last_at": 1791483989.6108851,
-    "next_allowed_at": 1791570389.6108851
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791670754.1786225
   },
   "https://wobushitishen1.xyz/api/v1/client/subscribe?token=27595xxxxxxx7293298385": {
     "hits": 67,
@@ -12552,16 +12552,16 @@
     "next_allowed_at": 1791484111.3678904
   },
   "https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=aa8ef4a9a6763eafedb7e886c4e12581": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1791397711.3678904,
-    "next_allowed_at": 1791484111.3678904
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791670754.1786225
   },
   "https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=e248388cb20938c963420bec1638b6de": {
-    "hits": 9,
+    "hits": 10,
     "last_reason": "http 403",
-    "last_at": 1791397711.3678904,
-    "next_allowed_at": 1791484111.3678904
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791670754.1786225
   },
   "https://hqkeu.louwangzhiyu.shop/api/v1/client/subscribe?token=cc955c6c0b8245879b0ac433d9c6240f": {
     "hits": 2,
@@ -12870,45 +12870,45 @@
     "next_allowed_at": 1791597795.1249695
   },
   "https://sub.example.com/api/v1/client/subscribe?token=token": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1791540195.1249695,
-    "next_allowed_at": 1791568995.1249695
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791641954.1786225
   },
   "https://your-airport-provider.com/api/v1/client/subscribe?token=demo": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "body-hint",
-    "last_at": 1791540195.1249695,
-    "next_allowed_at": 1791568995.1249695
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791641954.1786225
   },
   "https://sub.your-airport-domain.com/api/v1/client/subscribe?token=SecretToken": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "body-hint",
-    "last_at": 1791568779.5165699,
-    "next_allowed_at": 1791583179.5165699
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791613154.1786225
   },
   "http://103.36.135.125:8123/api/v1/client/subscribe?token=2a6d47a7472af6c6c29d7bc56a859ebf": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1791568779.5165699,
-    "next_allowed_at": 1791570579.5165699
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791587954.1786225
   },
   "https://download.8886698.xyz/api/v1/client/subscribe?token=211a780c0135fca07b8f2049ad174828": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1791568779.5165699,
-    "next_allowed_at": 1791569679.5165699
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791586154.1786225
   },
   "https://download.8886698.xyz/api/v1/client/subscribe?token=3f7e88fc740e2ce4638bcc04a8973415": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1791568779.5165699,
-    "next_allowed_at": 1791569679.5165699
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791586154.1786225
   },
   "https://download.8886698.xyz/api/v1/client/subscribe?token=8f554686a899ff98a7cd50aedaec98eb": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "body-hint",
-    "last_at": 1791568779.5165699,
-    "next_allowed_at": 1791569679.5165699
+    "last_at": 1791584354.1786225,
+    "next_allowed_at": 1791586154.1786225
   }
 }
