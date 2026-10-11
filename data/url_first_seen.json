@@ -2497,5 +2497,6 @@
   "https://sub.example.com/api/v1/client/subscribe?token=token": "2026-10-08",
   "https://your-airport-provider.com/api/v1/client/subscribe?token=demo": "2026-10-08",
   "https://sub.your-airport-domain.com/api/v1/client/subscribe?token=SecretToken": "2026-10-08",
-  "https://sub.example.com/api/v1/client/subscribe?token=YOUR": "2026-10-11"
+  "https://sub.example.com/api/v1/client/subscribe?token=YOUR": "2026-10-11",
+  "https://sub.dukadi.shop/api/v1/client/subscribe?token=5a03e18a35042193814805cb99e0ab49": "2026-10-12"
 }
