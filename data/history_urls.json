@@ -1759,6 +1759,7 @@
   "https://sub.easyinternet.one/api/v1/client/subscribe?token=f84c3d8ec12d0358cf3ded1095ebe95c",
   "https://sub.example.com/api/v1/client/subscribe?token=8f3a2b1c9d4e5f6a",
   "https://sub.example.com/api/v1/client/subscribe?token=REDACTED",
+  "https://sub.example.com/api/v1/client/subscribe?token=YOUR",
   "https://sub.example.com/api/v1/client/subscribe?token=token",
   "https://sub.example.com/api/v1/client/subscribe?token=xxx",
   "https://sub.example.com/api/v1/client/subscribe?token=your",
