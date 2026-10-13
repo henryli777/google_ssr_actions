@@ -1,6 +1,10 @@
 name: Publish public support navigation
 
 on:
+  workflow_run:
+    workflows: [build-and-publish-subscriptions]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       source_run_id:
@@ -15,18 +19,24 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: public-support-navigation
   cancel-in-progress: false
 
 jobs:
   publish:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.repository.full_name == github.repository &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       GH_TOKEN: ${{ github.token }}
-      SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+      SOURCE_RUN_ID: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.id || inputs.source_run_id }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,15 +45,15 @@ jobs:
       - name: Verify original build provenance
         env:
           SOURCE_WORKFLOW: .github/workflows/build-and-publish-subscriptions.yml
+          EXPECTED_REPOSITORY: ${{ github.repository }}
         run: |
           gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}" > source-run.json
           python - <<'PY'
           import json, os
+          from project_support import validate_source_run
           with open('source-run.json') as stream:
               run = json.load(stream)
-          assert str(run['id']) == os.environ['SOURCE_RUN_ID']
-          assert run['conclusion'] == 'success' and run['head_branch'] == 'main'
-          assert run['path'] == os.environ['SOURCE_WORKFLOW']
+          validate_source_run(run, os.environ['SOURCE_RUN_ID'], os.environ['EXPECTED_REPOSITORY'], os.environ['SOURCE_WORKFLOW'])
           print('Preserving published snapshot from run', run['id'], 'commit', run['head_sha'])
           PY
       - name: Download only original public artifact

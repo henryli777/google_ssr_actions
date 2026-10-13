@@ -21,6 +21,21 @@ STYLE = """<style data-project-support>
 </style>"""
 
 
+def validate_source_run(run, source_run_id, repository, workflow):
+    if str(run.get("id")) != str(source_run_id):
+        raise ValueError("Unexpected source run id")
+    if run.get("path") != workflow:
+        raise ValueError("Unexpected source build workflow")
+    if (
+        run.get("status") != "completed"
+        or run.get("conclusion") != "success"
+        or run.get("head_branch") != "main"
+        or (run.get("repository") or {}).get("full_name") != repository
+        or (run.get("head_repository") or {}).get("full_name") != repository
+    ):
+        raise ValueError("Source build must be a completed successful main run in the expected repository")
+
+
 class DocumentBoundaries(HTMLParser):
     def __init__(self, document):
         super().__init__(convert_charrefs=False)

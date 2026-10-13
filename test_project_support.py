@@ -2,10 +2,46 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from project_support import PUBLIC_PAGES, STYLE, add_public_support, apply_to_directory
+from project_support import PUBLIC_PAGES, STYLE, add_public_support, apply_to_directory, validate_source_run
 
 
 class ProjectSupportTest(unittest.TestCase):
+    def test_source_run_provenance_accepts_original_successful_build(self):
+        run = {
+            "id": 123,
+            "status": "completed",
+            "conclusion": "success",
+            "head_branch": "main",
+            "path": ".github/workflows/build-and-publish-subscriptions.yml",
+            "repository": {"full_name": "henryli777/google_ssr_actions"},
+            "head_repository": {"full_name": "henryli777/google_ssr_actions"},
+        }
+        validate_source_run(run, "123", "henryli777/google_ssr_actions", run["path"])
+
+    def test_source_run_provenance_rejects_foreign_and_failed_builds(self):
+        original = {
+            "id": 123,
+            "status": "completed",
+            "conclusion": "success",
+            "head_branch": "main",
+            "path": ".github/workflows/build-and-publish-subscriptions.yml",
+            "repository": {"full_name": "henryli777/google_ssr_actions"},
+            "head_repository": {"full_name": "henryli777/google_ssr_actions"},
+        }
+        invalid = (
+            {"id": 999},
+            {"status": "in_progress"},
+            {"conclusion": "failure"},
+            {"head_branch": "feature"},
+            {"path": ".github/workflows/foreign.yml"},
+            {"repository": {"full_name": "other/google_ssr_actions"}},
+            {"head_repository": {"full_name": "other/google_ssr_actions"}},
+            {"head_repository": None},
+        )
+        for change in invalid:
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                validate_source_run(original | change, "123", "henryli777/google_ssr_actions", original["path"])
+
     def test_public_html_has_persistent_header_and_footer(self):
         document = "<html><head><title>Fixture</title></head><body><main>Existing content</main></body></html>"
         result = add_public_support(document)
