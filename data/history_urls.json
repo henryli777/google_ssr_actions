@@ -467,6 +467,7 @@
   "https://api.dyljstar.sbs/api/v1/client/subscribe?token=1860c63e31e0fce7b2a014005f9a3142",
   "https://api.eehk.net/api/v1/client/subscribe?token=abcdefgh",
   "https://api.example.com/api/v1/client/subscribe?token=YOUR",
+  "https://api.example.com/api/v1/client/subscribe?token=a1b2c3d4e5",
   "https://api.example.com/api/v1/client/subscribe?token=xxx",
   "https://api.hbwqf.com/api/v1/client/subscribe?token=0ba019ed51d613aace6fdbe1c6a00c6d",
   "https://api.mtvpn.net/api/v1/client/subscribe?token=0575e6a763cc5da7d6708695247104fc",

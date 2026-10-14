@@ -2501,5 +2501,6 @@
   "https://sub.dukadi.shop/api/v1/client/subscribe?token=5a03e18a35042193814805cb99e0ab49": "2026-10-12",
   "https://afeisubscription.18934569.xyz/api/v1/client/subscribe?token=defaff8dda0d96ee4c": "2026-10-14",
   "https://afeisubscription.18934569.xyz/api/v1/client/subscribe?token=defaff8dda0d96ee4c70cfbc665d6f1f": "2026-10-14",
-  "https://api.example.com/api/v1/client/subscribe?token=xxx": "2026-10-14"
+  "https://api.example.com/api/v1/client/subscribe?token=xxx": "2026-10-14",
+  "https://api.example.com/api/v1/client/subscribe?token=a1b2c3d4e5": "2026-10-14"
 }
