@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T14:20:06.677057",
+  "timestamp": "2026-10-14T19:10:06.934193",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,11 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 3,
-  "original_urls": 7,
+  "total_urls": 2,
+  "original_urls": 4,
   "urls": [
     "https://example.com/api/v1/client/subscribe?token=xxxxx",
-    "https://api.example.com/api/v1/client/subscribe?token=a1b2c3d4e5",
-    "https://edp01.breezenetaff.com/api/v1/client/subscribe?token=xxxx"
+    "https://api.example.com/api/v1/client/subscribe?token=a1b2c3d4e5"
   ]
 }
