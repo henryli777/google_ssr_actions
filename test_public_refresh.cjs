@@ -1,6 +1,8 @@
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
 const {createReader, watch, preserveText} = require('./static/public-refresh.js');
+const {readFileSync} = require('node:fs');
+const vm = require('node:vm');
 
 function server(files) {
   return async path => {
@@ -93,4 +95,23 @@ test('source text updates preserve selection and scroll and do not rewrite uncha
   assert.equal(field.selectionStart, 2);
   assert.equal(field.selectionEnd, 5);
   assert.equal(field.scrollTop, 70);
+});
+
+test('trend recovers after an empty published generation', async () => {
+  let values = [];
+  const context2d = new Proxy({}, {get:() => () => {}});
+  const canvas = {style:{}, clientWidth:400, getContext:() => context2d};
+  const scope = vm.createContext({
+    console,
+    document:{getElementById:() => canvas},
+    GoogleSSRRefresh:{response:async () => new Response(JSON.stringify(values))}
+  });
+  const template = readFileSync('./static/index.html.tpl', 'utf8');
+  const scripts = [...template.matchAll(/<script>([\s\S]*?)<\/script>/g)];
+  vm.runInContext(scripts[1][1], scope);
+  await scope.loadTrend7Day();
+  assert.equal(canvas.style.display, 'none');
+  values = [{date:'2026-10-15', new_added:2, alive_count:5}, {date:'2026-10-16', new_added:1, alive_count:6}];
+  await scope.loadTrend7Day();
+  assert.notEqual(canvas.style.display, 'none');
 });

@@ -10,6 +10,12 @@ from persist_history import capture, git, merge_history, persist, HISTORY_FILES
 
 
 class PublishSafetyTest(unittest.TestCase):
+    def test_optional_history_job_has_an_explicit_time_budget(self):
+        workflow = (Path(__file__).parent / '.github/workflows/build-and-publish-subscriptions.yml').read_text()
+        history = workflow.split('  persist-history:', 1)[1]
+        self.assertIn('    continue-on-error: true', history)
+        self.assertIn('    timeout-minutes: 10', history)
+
     def run_fixture(self, number=10, **changes):
         return dict(id=number, run_number=number, run_attempt=1, status='completed',
                     conclusion='success', head_branch='main',

@@ -66,6 +66,8 @@ to three times. Distinct history entries survive merges; concurrent live
 membership and conflicting daily records retain the remote snapshot.
 First-seen dates retain the earliest value. Only explicit state files can be
 saved; `data/serpapi_keys.json` and arbitrary `data/*.json` are excluded.
+The optional persistence job has a ten-minute budget so network failures cannot
+hold the shared publication queue indefinitely.
 If persistence fails, inspect the optional job and retained history artifact;
 the already-generated public Pages artifact remains deployable.
 

@@ -208,6 +208,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     continue-on-error: true
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:

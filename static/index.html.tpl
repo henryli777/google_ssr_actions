@@ -173,7 +173,7 @@
       <div class="stat quota" data-hide="q"><div class="num">__QLEFT__</div><div>剩余额度</div></div>
       <div class="stat quota" data-hide="q"><div class="num">__QCAP__</div><div>总额度</div></div>
       <div class="stat quota" data-hide="q"><div class="num">__KOK__/__KTOTAL__</div><div>可用密钥/总密钥</div></div>
-      <div class="stat"><div class="num">__NEXT_CN__</div><div>下次更新时间</div></div>
+      <div class="stat"><div class="num">__NEXT_CN__</div><div>预计下次更新时间</div></div>
     </div>
 
     <div class="grid">
@@ -710,7 +710,7 @@
         <h3>健康信息</h3>
         <ul class="health-list">
           <li>构建时间(中国时区)：<b>__TS_CN__</b></li>
-          <li>下次更新时间(中国时区)：<b>__NEXT_CN__</b></li>
+          <li>预计下次更新时间(中国时区)：<b>__NEXT_CN__</b></li>
           <li>源：<b>__ALIVE__/__TOTAL__</b> · 新增 <b>__NEW__</b> · 移除 <b>__REMOVED__</b></li>
           <li>节点：<b>__NODES__</b> · 协议 SS <b>__SS__</b> | VMess <b>__VMESS__</b> | VLESS <b>__VLESS__</b> | Trojan <b>__TROJAN__</b> | HY2 <b>__HY2__</b></li>
           <li>来源：Google <b>__GCOUNT__</b> | GitHub <b>__GHCOUNT__</b> | Telegram <b>__TGCOUNT__</b></li>
@@ -1090,6 +1090,7 @@
               // 绘制7天趋势图表
               const canvas = document.getElementById('trend7day-chart');
               if (!canvas) return;
+              canvas.style.display = '';
               
               const ctx = canvas.getContext('2d');
               const W = canvas.width = canvas.clientWidth || 400;
@@ -1274,7 +1275,7 @@
       </div>
     </div>
 
-    <p><small>仅展示可用源（自动过滤失效/超额/限速来源）。 构建(UTC)：__TS__ · 下次(UTC)：__NEXT__</small></p>
+    <p><small>仅展示可用源（自动过滤失效/超额/限速来源）。 构建(UTC)：__TS__ · 预计下次(UTC)：__NEXT__</small></p>
   </div>
 </body>
 </html>

@@ -6,6 +6,12 @@ from project_support import PUBLIC_PAGES, STYLE, add_public_support, apply_to_di
 
 
 class ProjectSupportTest(unittest.TestCase):
+    def test_next_update_is_labeled_as_an_estimate(self):
+        from public_pages import render_index
+        document = render_index({'build_time_utc':'2026-10-15T00:07:00Z'})
+        self.assertIn('预计下次更新时间', document)
+        self.assertNotIn('>下次更新时间', document)
+
     def test_source_run_provenance_accepts_original_successful_build(self):
         run = {
             "id": 123,
