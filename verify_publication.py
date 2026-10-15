@@ -3,6 +3,7 @@
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 
 from project_support import validate_latest_source_run
@@ -18,6 +19,12 @@ def api(path):
 def main():
     if os.environ.get('GITHUB_REPOSITORY') != REPOSITORY or os.environ.get('GITHUB_REF') != 'refs/heads/main':
         raise ValueError('UI-only publication must run on the Henry-owned main branch')
+    checkout_sha = os.environ.get('GITHUB_SHA', '')
+    if not re.fullmatch(r'[a-f0-9]{40}', checkout_sha):
+        raise ValueError('UI-only publication requires a valid checkout SHA')
+    current_main = api(f'repos/{REPOSITORY}/git/ref/heads/main')
+    if (current_main.get('object') or {}).get('sha') != checkout_sha:
+        raise ValueError('UI checkout must match current remote main; dispatch again from the latest main')
     run_id = os.environ['SOURCE_RUN_ID']
     if not run_id.isdecimal():
         raise ValueError('Source run id must be numeric')

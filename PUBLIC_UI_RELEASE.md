@@ -31,7 +31,8 @@ After approved code reaches the Henry-owned `main` and its UI tests pass:
 The workflow serializes with scheduled collection using the same `pages`
 concurrency group. It checks source ownership, main branch, workflow,
 successful completion, latest successful run, and unchanged run attempt.
-It checks again immediately before deployment. If a newer source succeeds
+It also requires the UI workflow's checkout SHA to match current remote main.
+Both checks run again immediately before deployment. If a newer source succeeds
 while this request waits, it refuses to deploy the older data. Retry with
 the new successful run ID rather than bypassing this check.
 
@@ -51,6 +52,8 @@ snapshot still matches. Requests, including their bodies, have a 12-second
 deadline. Failure preserves the last complete success and retries later.
 Optional speed ranking may be absent. Automatic refresh never runs upstream
 speed tests. Manual speed buttons remain available with an 8-second deadline.
+Transient optional failures retry on subsequent checks even when health is
+unchanged; recovery redraws only the ranking without resetting primary views.
 
 No page reload or navigation occurs, preserving the URL query and page state.
 Source text refresh preserves selection and scroll. Existing index has no

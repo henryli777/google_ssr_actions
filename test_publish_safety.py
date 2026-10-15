@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 import subprocess
 import tempfile
@@ -7,6 +8,7 @@ from unittest.mock import patch
 
 from project_support import validate_latest_source_run
 from persist_history import capture, git, merge_history, persist, HISTORY_FILES
+from verify_publication import main as verify_publication
 
 
 class PublishSafetyTest(unittest.TestCase):
@@ -31,6 +33,35 @@ class PublishSafetyTest(unittest.TestCase):
             validate_latest_source_run(source, [self.run_fixture(11), source], *args)
         with self.assertRaises(ValueError):
             validate_latest_source_run(source, [], *args)
+
+    def test_ui_only_publication_rechecks_current_main_checkout(self):
+        source = self.run_fixture(head_sha='c' * 40)
+        remote_sha = 'a' * 40
+        def api(path):
+            if path.endswith('/git/ref/heads/main'):
+                return {'object':{'sha':remote_sha}}
+            if '/actions/runs/' in path:
+                return source
+            return {'workflow_runs':[source]}
+
+        environment = {'GITHUB_REPOSITORY':'henryli777/google_ssr_actions',
+                       'GITHUB_REF':'refs/heads/main', 'GITHUB_SHA':'a' * 40,
+                       'SOURCE_RUN_ID':str(source['id'])}
+        with tempfile.TemporaryDirectory() as directory, patch.dict(os.environ, environment, clear=True), \
+             patch('verify_publication.api', side_effect=api), \
+             patch('verify_publication.Path', return_value=Path(directory) / 'source-run.json'):
+            verify_publication()
+            remote_sha = 'b' * 40
+            with self.assertRaisesRegex(ValueError, 'current.*main'):
+                verify_publication()
+
+    def test_ui_only_publication_requires_checkout_sha(self):
+        source = self.run_fixture(head_sha='c' * 40)
+        with patch.dict(os.environ, {'GITHUB_REPOSITORY':'henryli777/google_ssr_actions',
+                                    'GITHUB_REF':'refs/heads/main', 'SOURCE_RUN_ID':str(source['id'])}, clear=True), \
+             patch('verify_publication.api', return_value={'workflow_runs':[source]}):
+            with self.assertRaisesRegex(ValueError, 'checkout'):
+                verify_publication()
 
     def test_concurrent_snapshots_keep_remote_live_and_all_history(self):
         self.assertEqual(merge_history('data/live_urls.json', ['base'], ['remote'], ['incoming']), ['remote'])

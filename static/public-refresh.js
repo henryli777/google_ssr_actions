@@ -3,6 +3,7 @@
   function createReader(options = {}) {
     const fetcher = options.fetch || root.fetch.bind(root);
     const resources = options.resources || [];
+    const optional = options.optional || [];
     let snapshot = null, pending = null;
     async function read(path) {
       if (/^(?:[a-z]+:|\/|\.\.)/i.test(path)) throw new Error('Only relative same-origin data is allowed');
@@ -23,11 +24,27 @@
         ]);
       } finally {clearTimeout(timer);}
     }
+    async function readOptional(paths, values) {
+      await Promise.all(paths.map(async path => {
+        try {values[path] = await read(path);} catch (_) {values[path] = null;}
+      }));
+    }
     async function collect() {
       const before = await read('health.json');
       if (!before || typeof before.build_time_utc !== 'string' || !before.build_time_utc) throw new Error('Invalid build health');
       const key = JSON.stringify(before);
-      if (snapshot && snapshot.key === key) return {changed:false, snapshot};
+      if (snapshot && snapshot.key === key) {
+        const missing = optional.filter(path => snapshot.values[path] == null);
+        if (!missing.length) return {changed:false, snapshot};
+        const values = {...snapshot.values};
+        await readOptional(missing, values);
+        const optionalChanged = missing.filter(path => values[path] != null);
+        if (!optionalChanged.length) return {changed:false, snapshot};
+        const after = await read('health.json');
+        if (key !== JSON.stringify(after)) throw new Error('Publication changed during data reads; retry later');
+        snapshot = {...snapshot, values};
+        return {changed:false, optionalChanged, snapshot};
+      }
       const values = {'health.json':before};
       await Promise.all(resources.map(async path => {
         const value = await read(path);
@@ -36,9 +53,7 @@
         }
         values[path] = value;
       }));
-      await Promise.all((options.optional || []).map(async path => {
-        try {values[path] = await read(path);} catch (_) {values[path] = null;}
-      }));
+      await readOptional(optional, values);
       const after = await read('health.json');
       if (key !== JSON.stringify(after)) throw new Error('Publication changed during data reads; retry later');
       snapshot = {key, health:before, values};
@@ -122,6 +137,8 @@
           if (isSource) await root.renderSource(result.snapshot.values['sub/providers/'+id+'.json'], result.snapshot.values['sub/providers/'+id+'.txt']);
           else await Promise.all(['loadMeta','loadDailyChart','loadSparklines','loadSerpAPIKeys',
             'loadRecentUrls','loadTrend7Day','loadSpeedRanking'].map(name => typeof root[name] === 'function' ? root[name]() : undefined));
+        } else if (result.optionalChanged?.includes('data/speed_ranking.json') && typeof root.loadSpeedRanking === 'function') {
+          await root.loadSpeedRanking();
         }
         status.textContent = '已发布数据：' + (result.snapshot.health.build_time_cn || result.snapshot.health.build_time_utc);
       } catch (_) {
