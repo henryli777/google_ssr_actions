@@ -98,3 +98,49 @@ class ProjectSupportTest(unittest.TestCase):
             self.assertIn("project-support-nav", error)
             self.assertNotIn('<link rel="stylesheet"', error)
             self.assertIn("https://henryli777.github.io/", error)
+
+    def test_ui_only_upgrade_preserves_data_and_private_pages(self):
+        import json
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'index.html').write_text('<html><head></head><body>Old UI</body></html>')
+            (root / 'source.html').write_text('<html><head></head><body>Old detail</body></html>')
+            (root / 'private.html').write_bytes(b'private untouched')
+            data = json.dumps({'build_time_utc':'2026-10-15T00:07:00Z','nodes_total':12}).encode()
+            (root / 'health.json').write_bytes(data)
+            apply_to_directory(root, upgrade_public_pages=True)
+            index = (root / 'index.html').read_text()
+            self.assertIn('public-refresh.js', index)
+            self.assertIn('data-health="nodes_total">12</span>', index)
+            self.assertIn('GoogleSSRRefresh.response', index)
+            self.assertNotIn('runBatchSpeed(urls, 6)', index)
+            self.assertTrue((root / 'public-refresh.js').is_file())
+            self.assertEqual((root / 'health.json').read_bytes(), data)
+            self.assertEqual((root / 'private.html').read_bytes(), b'private untouched')
+
+    def test_rendered_public_inline_scripts_have_valid_syntax(self):
+        from html.parser import HTMLParser
+        import subprocess
+        from public_pages import render_index
+
+        class Scripts(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.inside = False
+                self.parts = []
+            def handle_starttag(self, tag, attrs):
+                if tag == 'script':
+                    self.inside = True
+            def handle_endtag(self, tag):
+                if tag == 'script':
+                    self.inside = False
+            def handle_data(self, data):
+                if self.inside:
+                    self.parts.append(data)
+
+        for document in [render_index({'build_time_utc':'2026-10-15T00:07:00Z'}),
+                         (Path(__file__).parent / 'static/source.html').read_text()]:
+            parser = Scripts()
+            parser.feed(document)
+            result = subprocess.run(['node','--check'], input='\n'.join(parser.parts), text=True, capture_output=True)
+            self.assertEqual(result.returncode, 0, result.stderr)

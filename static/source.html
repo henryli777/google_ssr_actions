@@ -7,10 +7,10 @@
   <style>
     body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; margin:0; background:#0f172a; color:#e5e7eb; }
     .wrap { max-width: 1000px; margin: 0 auto; padding: 20px; }
-    .card { background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; }
+    .card { background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; overflow-wrap:anywhere; }
     h1 { font-size: 20px; margin:0 0 10px 0; }
     code { background:#0b1220; padding:2px 6px; border-radius:6px; border:1px solid #1f2937; color:#d1d5db; }
-    textarea { width:100%; min-height: 380px; background:#0b1220; color:#e5e7eb; border:1px solid #1f2937; border-radius:12px; padding:10px; }
+    textarea { box-sizing:border-box; width:100%; min-height: 380px; background:#0b1220; color:#e5e7eb; border:1px solid #1f2937; border-radius:12px; padding:10px; }
     a { color:#60a5fa; text-decoration:none; }
   </style>
 </head>
@@ -24,32 +24,41 @@
     </div>
   </div>
   <script>
-    function qs(k){ const u=new URL(location.href); return u.searchParams.get(k); }
     function copyText(t){ navigator.clipboard.writeText(t).then(()=>alert('已复制')).catch(()=>{}); }
-    async function init(){
-      const id = qs('id');
-      if(!id){ document.getElementById('meta').innerHTML = '<small>缺少 id</small>'; return; }
-      try{
-        const metaRes = await fetch('sub/providers/' + id + '.json', { cache:'no-cache' });
-        const meta = metaRes.ok ? await metaRes.json() : null;
-        const txtRes = await fetch('sub/providers/' + id + '.txt', { cache:'no-cache' });
-        const txt = txtRes.ok ? await txtRes.text() : '';
-        if(meta){
-          document.getElementById('meta').innerHTML =
-            '<div>机场：<b>' + (meta.provider||meta.host||'') + '</b></div>' +
-            '<div>URL：<a href="' + (meta.url||'#') + '" target="_blank">' + (meta.url||'') + '</a></div>' +
-            '<div>节点：' + (meta.nodes_total||0) + '</div>' +
-            '<div>协议：' + (Object.entries(meta.protocol_counts||{}).map(([k,v])=>k+':'+v).join(', ')||'-') + '</div>' +
-            '<div>流量：' + ((meta.traffic?.remaining ?? '-') + ' / ' + (meta.traffic?.total ?? '-') + ' ' + (meta.traffic?.unit ?? '')) + '</div>' +
-            '<div>延迟：' + (meta.response_ms ?? '-') + ' ms</div>' +
-            '<div>更新：' + (meta.updated_at || '-') + '</div>';
-          document.getElementById('actions').innerHTML =
-            '<button onclick="copyText(\'' + (meta.url||'') + '\')">复制订阅链接</button>';
+    function renderSource(meta, txt){
+      const container = document.getElementById('meta');
+      container.replaceChildren();
+      const fields = [
+        ['机场', meta.provider || meta.host || ''], ['URL', meta.url || ''],
+        ['节点', meta.nodes_total || 0],
+        ['协议', Object.entries(meta.protocol_counts || {}).map(([k,v])=>k+':'+v).join(', ') || '-'],
+        ['流量', (meta.traffic?.remaining ?? '-') + ' / ' + (meta.traffic?.total ?? '-') + ' ' + (meta.traffic?.unit ?? '')],
+        ['延迟', (meta.response_ms ?? '-') + ' ms'], ['更新', meta.updated_at || '-']
+      ];
+      for(const [label,value] of fields){
+        const row = document.createElement('div');
+        row.textContent = label + '：' + value;
+        if(label === 'URL' && /^https?:\/\//i.test(value)){
+          row.textContent = label + '：';
+          const link = document.createElement('a');
+          link.textContent = value;
+          link.href = value;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          row.append(link);
         }
-        document.getElementById('nodes').value = txt || '';
-      }catch(e){ document.getElementById('meta').innerHTML = '<small>加载失败</small>'; }
+        container.append(row);
+      }
+      const actions = document.getElementById('actions');
+      if(!actions.firstChild){
+        const copy = document.createElement('button');
+        copy.textContent = '复制订阅链接';
+        copy.addEventListener('click', () => copyText(actions.dataset.url));
+        actions.append(copy);
+      }
+      actions.dataset.url = meta.url || '';
+      GoogleSSRRefresh.preserveText(document.getElementById('nodes'), txt);
     }
-    init();
   </script>
 </body>
 </html>

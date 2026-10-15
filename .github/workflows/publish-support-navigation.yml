@@ -1,14 +1,10 @@
 name: Publish public support navigation
 
 on:
-  workflow_run:
-    workflows: [build-and-publish-subscriptions]
-    types: [completed]
-    branches: [main]
   workflow_dispatch:
     inputs:
       source_run_id:
-        description: "Successful original Pages build whose published snapshot must be preserved"
+        description: "Latest successful original Pages build whose data snapshot must be preserved"
         required: true
         type: string
 
@@ -19,43 +15,26 @@ permissions:
   id-token: write
 
 concurrency:
-  group: public-support-navigation
+  group: pages
   cancel-in-progress: false
 
 jobs:
   publish:
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      (github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.head_branch == 'main' &&
-       github.event.workflow_run.repository.full_name == github.repository &&
-       github.event.workflow_run.head_repository.full_name == github.repository)
+    if: github.repository == 'henryli777/google_ssr_actions' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       GH_TOKEN: ${{ github.token }}
-      SOURCE_RUN_ID: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.id || inputs.source_run_id }}
+      SOURCE_RUN_ID: ${{ inputs.source_run_id }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: Verify original build provenance
-        env:
-          SOURCE_WORKFLOW: .github/workflows/build-and-publish-subscriptions.yml
-          EXPECTED_REPOSITORY: ${{ github.repository }}
-        run: |
-          gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}" > source-run.json
-          python - <<'PY'
-          import json, os
-          from project_support import validate_source_run
-          with open('source-run.json') as stream:
-              run = json.load(stream)
-          validate_source_run(run, os.environ['SOURCE_RUN_ID'], os.environ['EXPECTED_REPOSITORY'], os.environ['SOURCE_WORKFLOW'])
-          print('Preserving published snapshot from run', run['id'], 'commit', run['head_sha'])
-          PY
+        run: python verify_publication.py
       - name: Download only original public artifact
         run: |
           gh run download "$SOURCE_RUN_ID" --repo "$GITHUB_REPOSITORY" --name github-pages --dir snapshot
@@ -64,9 +43,9 @@ jobs:
           with tarfile.open('snapshot/artifact.tar') as archive:
               archive.extractall('dist', filter='data')
           PY
-      - name: Add navigation without refreshing data
+      - name: Update public UI without refreshing or modifying original data
         run: |
-          python -m unittest test_project_support -v
+          python -m unittest test_project_support test_publish_safety -v
           python - <<'PY'
           from hashlib import sha256
           from pathlib import Path
@@ -74,8 +53,8 @@ jobs:
           root = Path('dist')
           assert (root / 'index.html').is_file()
           before = {path.relative_to(root): sha256(path.read_bytes()).hexdigest() for path in root.rglob('*') if path.is_file()}
-          apply_to_directory(root)
-          allowed = set(PUBLIC_PAGES) | {'404.html'}
+          apply_to_directory(root, upgrade_public_pages=True)
+          allowed = set(PUBLIC_PAGES) | {'404.html', 'public-refresh.js'}
           for name, digest in before.items():
               if str(name) not in allowed:
                   assert sha256((root / name).read_bytes()).hexdigest() == digest, f'Unexpected snapshot change: {name}'
@@ -85,6 +64,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      - name: Recheck latest successful source immediately before deployment
+        run: python verify_publication.py
       - name: Deploy original snapshot with updated navigation
         id: deployment
         uses: actions/deploy-pages@v4

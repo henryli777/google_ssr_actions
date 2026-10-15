@@ -995,58 +995,8 @@ def write_text(path: str, content: str) -> None:
 
 
 def generate_index_html(base_url_paths: Dict[str, str], health: Dict[str, object]) -> str:
-    try:
-        template_path = os.path.join(PROJECT_ROOT, "static", "index.html.tpl")
-        with open(template_path, "r", encoding="utf-8") as f:
-            template = f.read()
-    except Exception:
-        return "<html><body><p>index template missing</p></body></html>"
-
-    protocol_counts = health.get("protocol_counts", {}) or {}
-    region_counts = health.get("region_counts", {}) or {}
-    
-    mapping = {
-        "__AUTH_HASH__": str(health.get("auth_sha256", "")),
-        "__AUTH_USER__": str(health.get("auth_user", "")),
-        "__TS__": str(health.get("build_time_utc", "")),
-        "__TS_CN__": str(health.get("build_time_cn", "")),
-        "__NEXT__": str(health.get("next_run_utc", "")),
-        "__NEXT_CN__": str(health.get("next_run_cn", "")),
-        "__ALIVE__": str(health.get("source_alive", 0)),
-        "__TOTAL__": str(health.get("source_total", 0)),
-        "__NODES__": str(health.get("nodes_total", 0)),
-        "__NEW__": str(health.get("sources_new", 0)),
-        "__REMOVED__": str(health.get("sources_removed", 0)),
-        "__DAILY_NEW__": str(health.get("daily_new_urls", 0)),  # 新增：每日新增URL
-        "__QLEFT__": str(health.get("quota_total_left", 0)),
-        "__QCAP__": str(health.get("quota_total_capacity", 0)),
-        "__KOK__": str(health.get("keys_ok", 0)),
-        "__KTOTAL__": str(health.get("keys_total", 0)),
-        "__GCOUNT__": str(health.get("google_urls_count", 0)),
-        "__GHCOUNT__": str(health.get("github_urls_count", 0)),
-        "__TGCOUNT__": str(health.get("telegram_urls_count", 0)),
-        "__SS__": str(protocol_counts.get("ss", 0)),
-        "__VMESS__": str(protocol_counts.get("vmess", 0)),
-        "__VLESS__": str(protocol_counts.get("vless", 0)),
-        "__TROJAN__": str(protocol_counts.get("trojan", 0)),
-        "__HY2__": str(protocol_counts.get("hysteria2", 0)),
-        # 协议统计
-        "__SS_COUNT__": str(protocol_counts.get("ss", 0)),
-        "__TROJAN_COUNT__": str(protocol_counts.get("trojan", 0)),
-        "__VMESS_COUNT__": str(protocol_counts.get("vmess", 0)),
-        "__VLESS_COUNT__": str(protocol_counts.get("vless", 0)),
-        "__HYSTERIA2_COUNT__": str(protocol_counts.get("hysteria2", 0)),
-        # 地区统计
-        "__HK_COUNT__": str(region_counts.get("hk", 0)),
-        "__JP_COUNT__": str(region_counts.get("jp", 0)),
-        "__US_COUNT__": str(region_counts.get("us", 0)),
-        "__SG_COUNT__": str(region_counts.get("sg", 0)),
-        "__TW_COUNT__": str(region_counts.get("tw", 0)),
-        "__KR_COUNT__": str(region_counts.get("kr", 0)),
-    }
-    for k, v in mapping.items():
-        template = template.replace(k, v)
-    return template
+    from public_pages import render_index
+    return render_index(health)
 
 
 def main():
@@ -2532,6 +2482,9 @@ def main():
                 write_text(os.path.join(output_dir, "styles.css"), css_text)
         except Exception:
             pass
+
+        from project_support import apply_to_directory
+        apply_to_directory(output_dir)
 
     print(f"[ok] sources: {len(candidates)}, alive: {len(alive_urls)}, verified: {len(refined_alive_urls)}, nodes: {len(verified_nodes)}")
 

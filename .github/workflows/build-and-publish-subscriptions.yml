@@ -1,7 +1,5 @@
 name: build-and-publish-subscriptions
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: "0 */3 * * *"
   workflow_dispatch:
@@ -13,10 +11,11 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.repository == 'henryli777/google_ssr_actions' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -114,15 +113,20 @@ jobs:
           echo "=== index.html 内容预览 ==="
           head -10 dist/index.html
 
-      - name: Persist history back to repo
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json api_urls*.json discovered_urls.json visited_urls.json || true
-          git diff --cached --quiet || git commit -m "chore(data): update history/live/discovered urls [skip ci]"
-          git push
+      - name: Snapshot allowlisted history for independent persistence
+        id: history-snapshot
+        continue-on-error: true
+        run: python persist_history.py snapshot history-snapshot/history.json
+
+      - name: Retain history backup even if persistence later fails
+        if: steps.history-snapshot.outcome == 'success'
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: collected-history-${{ github.run_id }}
+          path: history-snapshot/history.json
+          retention-days: 30
+          if-no-files-found: error
 
       - name: Add public support navigation
         run: |
@@ -199,3 +203,21 @@ jobs:
         run: |
           echo "Deployment completed successfully"
           echo "Page URL: ${{ steps.deployment.outputs.page_url }}"
+
+  persist-history:
+    needs: build
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/download-artifact@v4
+        with:
+          name: collected-history-${{ github.run_id }}
+          path: history-snapshot
+      - name: Merge history onto current origin main with bounded non-force retries
+        run: python persist_history.py persist history-snapshot/history.json

@@ -793,7 +793,10 @@
           }
           async function testSpeed(url){
             const t0 = performance.now();
-            try{ await fetch(url, {method:'HEAD', mode:'no-cors'}); }catch(e){}
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), 8000);
+            try{ await fetch(url, {method:'HEAD', mode:'no-cors', signal:controller.signal}); }catch(e){}
+            finally{ clearTimeout(timer); }
             const t1 = performance.now();
             return Math.round(t1 - t0);
           }
@@ -819,7 +822,7 @@
           }
           async function loadMeta() {
             try {
-              const res = await fetch('sub/url_meta.json', { cache: 'no-cache' });
+              const res = await GoogleSSRRefresh.response('sub/url_meta.json');
               if (!res.ok) throw new Error('fetch failed');
               let data = await res.json();
               // 只展示可用源
@@ -871,21 +874,19 @@
               // 绑定单击测速
               document.querySelectorAll('.btn-speed').forEach(btn=>{
                 btn.addEventListener('click', async (e)=>{
-                  const u = e.currentTarget.getAttribute('data-url');
+                  const button = e.currentTarget;
+                  const u = button.getAttribute('data-url');
                   const ms = await testSpeed(u);
-                  e.currentTarget.closest('tr').querySelector('[data-url-id]').textContent = ms;
+                  if(button.isConnected) button.closest('tr').querySelector('[data-url-id]').textContent = ms;
                 });
               });
-              // 批量测速（限并发 6）
-              const urls = data.map(x=>x.url);
-              runBatchSpeed(urls, 6);
             } catch(e) {
               document.getElementById('url-meta').innerHTML = '<small>未获取到源详情</small>';
             }
           }
           async function loadDailyChart() {
             try {
-              const r = await fetch('sub/stats_daily.json', { cache:'no-cache' });
+              const r = await GoogleSSRRefresh.response('sub/stats_daily.json');
               if (!r.ok) return;
               const d = await r.json();
               const labels = d.map(x=>x.date);
@@ -921,7 +922,7 @@
           }
           async function loadSparklines(){
             try{
-              const r = await fetch('sub/stats_daily.json', { cache:'no-cache' }); if(!r.ok) return;
+              const r = await GoogleSSRRefresh.response('sub/stats_daily.json'); if(!r.ok) return;
               const d = await r.json();
               const last7 = d.slice(-7);
               const last30 = d.slice(-30);
@@ -944,7 +945,7 @@
           // 加载最新有效URL
           async function loadRecentUrls() {
             try {
-              const res = await fetch('sub/url_meta.json', { cache: 'no-cache' });
+              const res = await GoogleSSRRefresh.response('sub/url_meta.json');
               if (!res.ok) throw new Error('fetch failed');
               let data = await res.json();
               
@@ -1004,7 +1005,7 @@
           async function loadSerpAPIKeys() {
             console.log('🔑 开始加载SerpAPI密钥详情...');
             try {
-              const r = await fetch('health.json', { cache:'no-cache' });
+              const r = await GoogleSSRRefresh.response('health.json');
               if(!r.ok) {
                 console.error('❌ 获取health.json失败:', r.status);
                 return;
@@ -1074,7 +1075,7 @@
           
           async function loadTrend7Day() {
             try {
-              const r = await fetch('sub/stats_7day_enhanced.json', { cache:'no-cache' });
+              const r = await GoogleSSRRefresh.response('sub/stats_7day_enhanced.json');
               if (!r.ok) {
                 document.getElementById('trend7day-chart').style.display = 'none';
                 return;
@@ -1194,35 +1195,15 @@
             }
           }
           
-          // 确保所有函数都正确定义后再调用
-        setTimeout(() => {
-          console.log('🚀 开始加载所有内容...');
-          if (typeof loadMeta === 'function') loadMeta();
-          if (typeof loadDailyChart === 'function') loadDailyChart();
-          if (typeof loadSparklines === 'function') loadSparklines();
-          if (typeof loadSerpAPIKeys === 'function') {
-            console.log('🔑 调用loadSerpAPIKeys函数');
-            loadSerpAPIKeys();
-          } else {
-            console.error('❌ loadSerpAPIKeys函数未定义');
-          }
-          if (typeof loadRecentUrls === 'function') loadRecentUrls();
-          if (typeof loadTrend7Day === 'function') loadTrend7Day();
-          if (typeof loadSpeedRanking === 'function') {
-            console.log('🚀 调用loadSpeedRanking函数');
-            loadSpeedRanking();
-          } else {
-            console.error('❌ loadSpeedRanking函数未定义');
-          }
-          console.log('✅ 所有内容加载函数调用完成');
-        }, 100);
         
         async function loadSpeedRanking() {
           console.log('🚀 开始加载标注式速度排行数据...');
           try {
-            const response = await fetch('data/speed_ranking.json', { cache: 'no-cache' });
+            const response = await GoogleSSRRefresh.response('data/speed_ranking.json');
             if (!response.ok) {
-              throw new Error('HTTP ' + response.status);
+              const section = document.getElementById('speed-ranking-section');
+              if(section) section.style.display = 'none';
+              return;
             }
             const data = await response.json();
             console.log('📊 获取到标注式速度排行数据:', data);

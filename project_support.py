@@ -2,6 +2,7 @@
 
 import argparse
 import html
+import json
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -34,6 +35,19 @@ def validate_source_run(run, source_run_id, repository, workflow):
         or (run.get("head_repository") or {}).get("full_name") != repository
     ):
         raise ValueError("Source build must be a completed successful main run in the expected repository")
+
+
+def validate_latest_source_run(source, runs, repository, workflow):
+    validate_source_run(source, source.get("id"), repository, workflow)
+    successful = []
+    for run in runs:
+        try:
+            validate_source_run(run, run.get("id"), repository, workflow)
+        except ValueError:
+            continue
+        successful.append(run)
+    if not successful or str(max(successful, key=lambda run: int(run["run_number"]))["id"]) != str(source["id"]):
+        raise ValueError("Manual republish requires the latest successful own-main source build")
 
 
 class DocumentBoundaries(HTMLParser):
@@ -89,16 +103,32 @@ def render_not_found():
     return add_public_support(document)
 
 
-def apply_to_directory(directory):
+def apply_to_directory(directory, upgrade_public_pages=False):
     root = Path(directory)
+    if upgrade_public_pages:
+        from public_pages import render_index
+        health = json.loads((root / 'health.json').read_text(encoding='utf-8'))
+        if not health.get('build_time_utc'):
+            raise ValueError('UI-only upgrade requires the original published build health')
+        (root / 'index.html').write_text(render_index(health), encoding='utf-8')
+        (root / 'source.html').write_bytes((Path(__file__).parent / 'static/source.html').read_bytes())
     for name in PUBLIC_PAGES:
         path = root / name
         if path.is_file():
-            path.write_bytes(add_public_support(path.read_bytes().decode("utf-8")).encode("utf-8"))
+            document = add_public_support(path.read_bytes().decode("utf-8"))
+            if 'src="public-refresh.js"' not in document:
+                parser = DocumentBoundaries(document)
+                parser.feed(document)
+                head_end, _, _ = parser.insertion_points()
+                document = document[:head_end] + '<script src="public-refresh.js"></script>' + document[head_end:]
+            path.write_bytes(document.encode("utf-8"))
+    (root / 'public-refresh.js').write_bytes((Path(__file__).parent / 'static/public-refresh.js').read_bytes())
     (root / "404.html").write_text(render_not_found(), encoding="utf-8")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path)
-    apply_to_directory(parser.parse_args().directory)
+    parser.add_argument('--upgrade-public-pages', action='store_true')
+    args = parser.parse_args()
+    apply_to_directory(args.directory, args.upgrade_public_pages)
