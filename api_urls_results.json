@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-17T12:41:02.224273",
+  "timestamp": "2026-10-17T22:52:48.462570",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,9 +11,9 @@
   ],
   "regions_count": 4,
   "total_urls": 2,
-  "original_urls": 4,
+  "original_urls": 5,
   "urls": [
-    "https://api.example.com/api/v1/client/subscribe?token=xxxxxx",
-    "https://sub.yifenjichang.click/api/v1/client/subscribe?token=bSnymFll"
+    "https://sub.domain.com/api/v1/client/subscribe?token=abc123xyz",
+    "https://sub.domain.com/api/v1/client/subscribe?token=abc123xyz错误：https://sub.domain.com/api/v1/client/subscribe?token=abc123xyz"
   ]
 }
