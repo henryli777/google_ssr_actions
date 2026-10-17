@@ -4,6 +4,8 @@
     const fetcher = options.fetch || root.fetch.bind(root);
     const resources = options.resources || [];
     const optional = options.optional || [];
+    const now = options.now || Date.now;
+    const absentOptional = new Map();
     let snapshot = null, pending = null;
     async function read(path) {
       if (/^(?:[a-z]+:|\/|\.\.)/i.test(path)) throw new Error('Only relative same-origin data is allowed');
@@ -13,7 +15,7 @@
         return await Promise.race([
           (async () => {
             const response = await fetcher(path, {cache:'no-store', credentials:'same-origin', redirect:'error', signal:controller.signal});
-            if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + path);
+            if (!response.ok) throw Object.assign(new Error('HTTP ' + response.status + ': ' + path), {status:response.status});
             const text = await response.text();
             return path.endsWith('.json') ? JSON.parse(text) : text;
           })(),
@@ -24,9 +26,17 @@
         ]);
       } finally {clearTimeout(timer);}
     }
-    async function readOptional(paths, values) {
+    async function readOptional(paths, values, key) {
       await Promise.all(paths.map(async path => {
-        try {values[path] = await read(path);} catch (_) {values[path] = null;}
+        try {
+          values[path] = await read(path);
+          absentOptional.delete(path);
+        } catch (error) {
+          values[path] = null;
+          if (error.status === 404 || error.status === 410) {
+            absentOptional.set(path, {key, retryAt:now() + 15 * 60000});
+          } else absentOptional.delete(path);
+        }
       }));
     }
     async function collect() {
@@ -34,10 +44,13 @@
       if (!before || typeof before.build_time_utc !== 'string' || !before.build_time_utc) throw new Error('Invalid build health');
       const key = JSON.stringify(before);
       if (snapshot && snapshot.key === key) {
-        const missing = optional.filter(path => snapshot.values[path] == null);
+        const missing = optional.filter(path => {
+          const absent = absentOptional.get(path);
+          return snapshot.values[path] == null && (!absent || absent.key !== key || now() >= absent.retryAt);
+        });
         if (!missing.length) return {changed:false, snapshot};
         const values = {...snapshot.values};
-        await readOptional(missing, values);
+        await readOptional(missing, values, key);
         const optionalChanged = missing.filter(path => values[path] != null);
         if (!optionalChanged.length) return {changed:false, snapshot};
         const after = await read('health.json');
@@ -53,7 +66,7 @@
         }
         values[path] = value;
       }));
-      await readOptional(optional, values);
+      await readOptional(optional, values, key);
       const after = await read('health.json');
       if (key !== JSON.stringify(after)) throw new Error('Publication changed during data reads; retry later');
       snapshot = {key, health:before, values};

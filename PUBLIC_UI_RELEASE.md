@@ -54,11 +54,18 @@ Optional speed ranking may be absent. Automatic refresh never runs upstream
 speed tests. Manual speed buttons remain available with an 8-second deadline.
 Transient optional failures retry on subsequent checks even when health is
 unchanged; recovery redraws only the ranking without resetting primary views.
+Confirmed optional 404/410 responses retry after 15 minutes, or immediately
+when a new publication is detected. Missing speed data is labeled unavailable;
+no ranking, speed, or measurement time is invented.
 
 No page reload or navigation occurs, preserving the URL query and page state.
 Source text refresh preserves selection and scroll. Existing index has no
 search or pagination controls to reset. Public support navigation remains
 sticky on desktop and mobile; private/admin/login pages are not modified.
+Narrow public index layouts wrap file controls and keep the source table in a
+keyboard-accessible scroll region without widening the document. The next
+update shown in the original health is an estimate of build time plus three
+hours, not a promise of the scheduler's completion time.
 
 ## History Persistence
 

@@ -5,6 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Google SSR Actions - 订阅聚合</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Keep the public layout responsive even when republishing an older stylesheet. */
+    .header { flex-wrap:wrap; gap:8px; }
+    .header > *, .grid > *, .card, .file-info, .file-name, .url-title, .metric-item { min-width:0; }
+    .header h1, .card, .stat, .subtitle { overflow-wrap:anywhere; }
+    .grid { grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr)); }
+    .stats { grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr)); }
+    .metrics-grid { grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr)); }
+    .protocol-grid, .region-grid { grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr)); }
+    .file-item, .file-info, .file-stats, .url-header, .key-header { flex-wrap:wrap; gap:8px; }
+    .file-item .copy-btn, .url-actions { flex-shrink:0; }
+    .protocol-links, .region-links { flex-wrap:wrap; }
+    .card canvas { display:block; width:100%; max-width:100%; }
+    .legend-item { min-width:0; }
+    .legend-color { flex-shrink:0; }
+    .table-scroll { width:100%; max-width:100%; max-height:720px; overflow:auto; }
+    .table-scroll:focus-visible { outline:2px solid #60a5fa; outline-offset:3px; }
+    #url-meta table { display:table; min-width:1000px; table-layout:fixed; max-height:none; overflow:visible; }
+    #url-meta thead { display:table-header-group; }
+    #url-meta tbody { display:table-row-group; max-height:none; overflow:visible; }
+    #url-meta th, #url-meta td { width:auto; }
+    #url-meta th:first-child, #url-meta td:first-child { width:20%; }
+    #url-meta th:last-child, #url-meta td:last-child { width:14%; }
+    #url-meta td:first-child small { min-width:0; }
+    @media(max-width:480px) { .wrap { padding:20px 12px; } .card { padding:16px; } }
+  </style>
   <script>
     // ====================
     // 🔐 安全认证系统 v2
@@ -715,11 +741,13 @@
           <li>节点：<b>__NODES__</b> · 协议 SS <b>__SS__</b> | VMess <b>__VMESS__</b> | VLESS <b>__VLESS__</b> | Trojan <b>__TROJAN__</b> | HY2 <b>__HY2__</b></li>
           <li>来源：Google <b>__GCOUNT__</b> | GitHub <b>__GHCOUNT__</b> | Telegram <b>__TGCOUNT__</b></li>
         </ul>
+        <p><small>预计下次更新时间按本次构建后 3 小时估算，实际发布以构建完成为准。</small></p>
         
         <!-- 标注式速度排行显示 -->
-        <div id="speed-ranking-section" class="speed-ranking-section" style="display: none;">
+        <div id="speed-ranking-section" class="speed-ranking-section">
           <h3>🚀 速度排行 (标注式)</h3>
-          <div class="speed-disclaimer">
+          <p id="speed-ranking-status" role="status">测速数据正在加载...</p>
+          <div id="speed-ranking-disclaimer" class="speed-disclaimer" hidden>
             <p><strong>⚠️ 重要说明：</strong>此测速基于云环境，不代表国内用户真实速度。建议用户自行测试验证。</p>
           </div>
           <div id="speed-ranking-list" class="speed-ranking-list">
@@ -855,7 +883,7 @@
                   '</td>' +
                 '</tr>';
               }).join('');
-              const html = '<table>' +
+              const html = '<div class="table-scroll" role="region" aria-label="源详细信息表格" tabindex="0"><table>' +
                 '<thead><tr>' +
                 '<th style="text-align:left">URL/机场</th>' +
                 '<th>可用</th>' +
@@ -869,7 +897,7 @@
                 '<th>操作</th>' +
                 '</tr></thead>' +
                 '<tbody>' + rows + '</tbody>' +
-                '</table>';
+                '</table></div>';
               document.getElementById('url-meta').innerHTML = html;
               // 绑定单击测速
               document.querySelectorAll('.btn-speed').forEach(btn=>{
@@ -1198,33 +1226,35 @@
           
         
         async function loadSpeedRanking() {
-          console.log('🚀 开始加载标注式速度排行数据...');
+          const section = document.getElementById('speed-ranking-section');
+          const container = document.getElementById('speed-ranking-list');
+          const status = document.getElementById('speed-ranking-status');
+          const disclaimer = document.getElementById('speed-ranking-disclaimer');
+          if (!section || !container || !status || !disclaimer) return;
+          function unavailable() {
+            section.style.display = 'block';
+            container.textContent = '';
+            status.textContent = '当前发布未提供测速数据，速度排行暂不可用。';
+            disclaimer.hidden = true;
+          }
           try {
             const response = await GoogleSSRRefresh.response('data/speed_ranking.json');
             if (!response.ok) {
-              const section = document.getElementById('speed-ranking-section');
-              if(section) section.style.display = 'none';
+              unavailable();
               return;
             }
             const data = await response.json();
-            console.log('📊 获取到标注式速度排行数据:', data);
-            
-            const ranking = data.ranking || [];
-            const section = document.getElementById('speed-ranking-section');
-            const container = document.getElementById('speed-ranking-list');
-            
-            if (!section || !container) {
-              console.error('❌ 找不到速度排行容器');
-              return;
-            }
+            const ranking = Array.isArray(data.ranking) ? data.ranking : [];
             
             if (ranking.length === 0) {
-              section.style.display = 'none';
+              unavailable();
               return;
             }
             
             // 显示速度排行区域
             section.style.display = 'block';
+            status.textContent = '';
+            disclaimer.hidden = false;
             
             let html = '';
             ranking.slice(0, 10).forEach((node, index) => {
@@ -1264,11 +1294,7 @@
             container.innerHTML = html;
             console.log('✅ 标注式速度排行数据加载完成');
           } catch (error) {
-            console.error('❌ 加载标注式速度排行数据失败:', error);
-            const section = document.getElementById('speed-ranking-section');
-            if (section) {
-              section.style.display = 'none';
-            }
+            unavailable();
           }
         }
         </script>
