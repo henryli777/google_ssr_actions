@@ -12990,15 +12990,15 @@
     "next_allowed_at": 1792288101.8249788
   },
   "https://api.example.com/api/v1/client/subscribe?token=xxxxxx": {
-    "hits": 4,
+    "hits": 5,
     "last_reason": "body-hint",
-    "last_at": 1792259301.8249788,
-    "next_allowed_at": 1792266501.8249788
+    "last_at": 1792267595.4721992,
+    "next_allowed_at": 1792281995.4721992
   },
   "https://sub.yifenjichang.click/api/v1/client/subscribe?token=bSnymFll": {
-    "hits": 2,
+    "hits": 3,
     "last_reason": "body-hint",
-    "last_at": 1792259301.8249788,
-    "next_allowed_at": 1792261101.8249788
+    "last_at": 1792267595.4721992,
+    "next_allowed_at": 1792271195.4721992
   }
 }
