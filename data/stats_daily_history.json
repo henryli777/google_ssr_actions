@@ -3049,11 +3049,11 @@
   },
   {
     "date": "2026-10-23",
-    "google_added": 220,
-    "github_added": 0,
+    "google_added": 223,
+    "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 4,
-    "alive_total": 220
+    "new_total": 4,
+    "removed_total": 0,
+    "alive_total": 224
   }
 ]
