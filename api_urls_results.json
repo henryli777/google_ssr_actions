@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T15:21:28.019929",
+  "timestamp": "2026-10-24T20:10:33.174172",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 1,
+  "original_urls": 2,
   "urls": [
     "https://sub2.kaixinsub.click/api/v1/client/subscribe?token=ca181b38f5ebfd6688df5880bac3e275"
   ]
