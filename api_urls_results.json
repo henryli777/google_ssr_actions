@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T11:06:56.289712",
+  "timestamp": "2026-10-24T10:15:16.148063",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,10 +10,9 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 2,
-  "original_urls": 5,
+  "total_urls": 1,
+  "original_urls": 1,
   "urls": [
-    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=b702e3fec2ed28a90f25b6f17d0eae3c",
-    "https://example.com/api/v1/client/subscribe?token=xxxx"
+    "https://sub2.kaixinsub.click/api/v1/client/subscribe?token=ca181b38f5ebfd6688df5880bac3e275"
   ]
 }
