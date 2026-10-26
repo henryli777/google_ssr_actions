@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T03:05:03.402699",
+  "timestamp": "2026-10-26T12:13:18.385367",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,13 +11,13 @@
   ],
   "regions_count": 4,
   "total_urls": 6,
-  "original_urls": 8,
+  "original_urls": 12,
   "urls": [
-    "https://iuenc35ziec.684821.xyz/api/v1/client/subscribe?token=f4fce375b56a3524fb3329872fff971e",
-    "https://downloads.onelighter.site/api/v1/client/subscribe?token=4262978952ee4782e8fad9e0a4f6f059&flag=shadowrocket",
+    "https://vps.example.com/api/v1/client/subscribe?token=abc123def456",
     "http://120.79.227.62:8883/api/v1/client/subscribe?token=723602a336ac7ab944d498ac9f1d3717",
+    "https://downloads.onelighter.site/api/v1/client/subscribe?token=4262978952ee4782e8fad9e0a4f6f059",
     "https://atvpn.cc/api/v1/client/subscribe?token=619d9dc2812c8e2065818b6f94960d96",
     "https://atvpn.cc/api/v1/client/subscribe?token=1b62fe19ebb056b3db9b9e10cfb03d9f",
-    "https://z-sub.xn--8pr28c250c1edz9a.xn--fiqs8s/api/v1/client/subscribe?token=6a75364d4a6820ce8941073768faf5d1"
+    "https://iuenc35ziec.684821.xyz/api/v1/client/subscribe?token=f4fce375b56a3524fb3329872fff971e"
   ]
 }
