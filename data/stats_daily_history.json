@@ -3058,11 +3058,11 @@
   },
   {
     "date": "2026-11-01",
-    "google_added": 269,
-    "github_added": 1,
+    "google_added": 246,
+    "github_added": 0,
     "telegram_added": 0,
     "new_total": 0,
-    "removed_total": 1,
-    "alive_total": 270
+    "removed_total": 24,
+    "alive_total": 246
   }
 ]
