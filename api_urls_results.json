@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T12:03:44.948906",
+  "timestamp": "2026-11-01T04:55:45.887464",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,9 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 1,
-  "original_urls": 1,
+  "total_urls": 2,
+  "original_urls": 3,
   "urls": [
-    "https://your-airport.com/api/v1/client/subscribe?token=xxxx"
+    "https://your-airport.com/api/v1/client/subscribe?token=xxx",
+    "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=a9418d481f2c4005ae01ac74f59aff9f"
   ]
 }
