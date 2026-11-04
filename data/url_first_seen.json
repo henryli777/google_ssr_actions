@@ -2530,5 +2530,6 @@
   "https://vps.example.com/api/v1/client/subscribe?token=abc123def456": "2026-10-26",
   "https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=a9418d481f2c4005ae01ac74f59aff9f": "2026-11-01",
   "https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=4966e6541091c0e61eee1ca0ffb66cba": "2026-11-02",
-  "https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=f7050677633805bdf7b39c36410094b8": "2026-11-02"
+  "https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=f7050677633805bdf7b39c36410094b8": "2026-11-02",
+  "https://login.yfjc.xyz/api/v1/client/subscribe?token=6151b8a2e1884331d5a914bc351xxxx": "2026-11-04"
 }
