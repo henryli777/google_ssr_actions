@@ -3062,11 +3062,11 @@
   },
   {
     "date": "2026-11-05",
-    "google_added": 213,
-    "github_added": 0,
+    "google_added": 260,
+    "github_added": 1,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 0,
-    "alive_total": 213
+    "new_total": 49,
+    "removed_total": 1,
+    "alive_total": 261
   }
 ]
