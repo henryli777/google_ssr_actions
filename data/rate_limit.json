@@ -2754,10 +2754,10 @@
     "next_allowed_at": 1794098346.8019655
   },
   "https://sub.372372.xyz/api/v1/client/subscribe?token=024e356371111d8f84b0d93052868143": {
-    "hits": 6,
+    "hits": 7,
     "last_reason": "http 403",
-    "last_at": 1794044301.6825385,
-    "next_allowed_at": 1794073101.6825385
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794144463.704841
   },
   "https://sub.372372.xyz/api/v1/client/subscribe?token=365e6b573c7f1b3c6f1f7f8fd83351a5": {
     "hits": 2,
@@ -4488,10 +4488,10 @@
     "next_allowed_at": 1783354167.4514406
   },
   "https://fanyun.pro/api/v1/client/subscribe?token=9404b0873a8d01bbce258e58853e7e49": {
-    "hits": 44,
-    "last_reason": "http 403",
-    "last_at": 1783267767.4514406,
-    "next_allowed_at": 1783354167.4514406
+    "hits": 45,
+    "last_reason": "body-hint",
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794173263.704841
   },
   "https://fanyun.pro/api/v1/client/subscribe?token=af27fb8e944a5e2a66ec3c817f51229d": {
     "hits": 44,
@@ -4608,10 +4608,10 @@
     "next_allowed_at": 1794014614.215588
   },
   "https://fanyun.pro/api/v1/client/subscribe?token=165fb372c35c31c415f728b3f53606ae": {
-    "hits": 43,
-    "last_reason": "http 403",
-    "last_at": 1783267767.4514406,
-    "next_allowed_at": 1783354167.4514406
+    "hits": 44,
+    "last_reason": "body-hint",
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794173263.704841
   },
   "https://fanyun.pro/api/v1/client/subscribe?token=1e085e066ca8b3957d3a952a0fe3d465": {
     "hits": 43,
@@ -7464,16 +7464,16 @@
     "next_allowed_at": 1779536851.4595008
   },
   "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw": {
-    "hits": 167,
+    "hits": 168,
     "last_reason": "http 403",
-    "last_at": 1793907034.4352608,
-    "next_allowed_at": 1793993434.4352608
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794173263.704841
   },
   "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw1": {
-    "hits": 166,
+    "hits": 167,
     "last_reason": "http 403",
-    "last_at": 1793907034.4352608,
-    "next_allowed_at": 1793993434.4352608
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794173263.704841
   },
   "https://onlysub.mjurl.com/api/v1/client/subscribe?token=89102b4372f59d05f8c9a1422478f9a1": {
     "hits": 220,
@@ -13182,10 +13182,10 @@
     "next_allowed_at": 1794098346.8019655
   },
   "https://x1.344211.cc/api/v1/client/subscribe?token=74f7ca994193946b8c31772d92a57a51": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1794072381.4399388,
-    "next_allowed_at": 1794086781.4399388
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794115663.704841
   },
   "https://x1.344211.cc/api/v1/client/subscribe?token=8252720a0320a6faad5eccb23c40569a": {
     "hits": 1,
@@ -13536,10 +13536,10 @@
     "next_allowed_at": 1794158781.4399388
   },
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=03484c70445a6a4d515c3b2ea28c30ec": {
-    "hits": 8,
+    "hits": 9,
     "last_reason": "http 403",
-    "last_at": 1793991238.7498817,
-    "next_allowed_at": 1794077638.7498817
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794173263.704841
   },
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=8b90d14c3e99f76e450c9b4419e9cd03": {
     "hits": 8,
@@ -13566,16 +13566,16 @@
     "next_allowed_at": 1794101901.6825385
   },
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=306bfeae887181537bc908df4eccf382": {
-    "hits": 5,
+    "hits": 6,
     "last_reason": "http 403",
-    "last_at": 1794072381.4399388,
-    "next_allowed_at": 1794086781.4399388
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794115663.704841
   },
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=b77be2d2dea8be25daa01597ae7dc411": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1794072381.4399388,
-    "next_allowed_at": 1794073281.4399388
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794088663.704841
   },
   "https://dreamlinkc.top/api/v1/client/subscribe?token=11d8ca1411cfa5553fdddf879e8ae905": {
     "hits": 1,
@@ -13584,9 +13584,9 @@
     "next_allowed_at": 1794073281.4399388
   },
   "https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=f7050677633805bdf7b39c36410094b8": {
-    "hits": 1,
+    "hits": 2,
     "last_reason": "http 403",
-    "last_at": 1794072381.4399388,
-    "next_allowed_at": 1794073281.4399388
+    "last_at": 1794086863.704841,
+    "next_allowed_at": 1794088663.704841
   }
 }
