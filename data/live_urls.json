@@ -31,7 +31,6 @@
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=42b058b9504f9e8a4f13a2c0865472c9",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=44d0872a5399a74a8152c4756ee3c213",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=463e3faf6f6cdde475118a42b17c94a8",
-  "https://api.ddgou.xyz/api/v1/client/subscribe?token=4680469a04c018947e47ec8d1a0b4d49",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=4d9b44c8855252b4dc7d63392ece5649",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=4e5ebbef0aeb7cb8470ac03f75bdfadb",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=532c2e7101798ef7a960b85f8e575a64",
@@ -92,9 +91,6 @@
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=f749796bb36a032000e06fb2083f9453",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=f8a34ca54cbf33f4e318588ee9a1bf0f",
   "https://api.ddgou.xyz/api/v1/client/subscribe?token=ff85d09d2972185e4fda09e5566dde2e",
-  "https://bajie.info/api/v1/client/subscribe?token=3c44e4ff71d81e58cf915b44677ea683",
-  "https://bajie.info/api/v1/client/subscribe?token=b78803cf9d070374b55b0f686b778e05",
-  "https://bajie.xyz/api/v1/client/subscribe?token=c731d8fbfd3fdd470b1f46dd6707bb40",
   "https://bnsss.cc/api/v1/client/subscribe?token=55417c096c8f7a4340ea46efc6861998",
   "https://bnsss.cc/api/v1/client/subscribe?token=7671a76bda7ccb5e6af8ea4df1ffbed0",
   "https://bnsss.cc/api/v1/client/subscribe?token=fb38f82604870da7ebf27b51f68b843e",
@@ -227,6 +223,7 @@
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f015",
   "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=f9f6ecc1d8d278a22cf02367c74e8f01SKU",
   "https://sub3.7878787878.top/api/v1/client/subscribe?token=43aeca2d89826152cc25c066de8a1c82",
+  "https://sub3.7878787878.top/api/v1/client/subscribe?token=6503784ef836827b00f86dec46210cbd",
   "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=1f7d1a413c0d66084515a82dbc48cd81",
   "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=354fdb4ddb27ae85e7af7d9b262f515b",
   "https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=4248c4f4a5f3aa240757177ee134e410",
@@ -250,7 +247,6 @@
   "https://subscr.easyinternet.one/api/v1/client/subscribe?token=a604357595a10e788a95d4f5130662b0",
   "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf",
   "https://subscription.mbyd-cloud.com/api/v1/client/subscribe?token=378588af81500f9890e95db64ac33aaf&flag=shadowrocket",
-  "https://times1786120435.subnodejs-catnet.com/v2b/catnet/api/v1/client/subscribe?token=eebab4984a3af8bf63f6a4f9cc6568b7",
   "https://x1.344211.cc/api/v1/client/subscribe?token=8252720a0320a6faad5eccb23c40569a",
   "https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=0a3ddb884774ff7f193af58ba127e4c5"
 ]
