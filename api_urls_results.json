@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T00:29:53.289635",
+  "timestamp": "2026-11-09T21:54:19.841639",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -13,6 +13,6 @@
   "total_urls": 1,
   "original_urls": 1,
   "urls": [
-    "https://jkun.waimaosass.icu/api/v1/client/subscribe?token=1469b2b0f3fae7e6fb9a4fb1cdba2ee5"
+    "https://sub.cucloud.top/api/v1/client/subscribe?token=MTk4OTY6NDk1NWY0ZDY1MTkzMDRiZWZhYWVkZTYyNGIxYjJkNGY0NTQ4MGJhMw"
   ]
 }
