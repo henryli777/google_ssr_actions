@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T05:52:36.327733",
+  "timestamp": "2026-11-10T21:11:18.540034",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,12 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 4,
-  "original_urls": 4,
+  "total_urls": 3,
+  "original_urls": 3,
   "urls": [
-    "https://chenxing.shop/api/v1/client/subscribe?token=ad5f221fd8cc7be8b2835ac0a05e661e",
     "https://shsub001.dingzhi01.cfd/api/v1/client/subscribe?token=cd5e6d1d74b917d4276e928842b87d16",
     "https://link123.52pokemon66.cc/api/v1/client/subscribe?token=97d3c36efba88204b82ae876ff88efa5",
-    "https://ymjc.cfd/api/v1/client/subscribe?token=8cb05f27c6902aa01481b0af84d8f417"
+    "https://chenxing.shop/api/v1/client/subscribe?token=ad5f221fd8cc7be8b2835ac0a05e661e"
   ]
 }
