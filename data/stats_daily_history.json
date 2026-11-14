@@ -3071,11 +3071,11 @@
   },
   {
     "date": "2026-11-14",
-    "google_added": 215,
+    "google_added": 222,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 14,
-    "alive_total": 215
+    "new_total": 12,
+    "removed_total": 5,
+    "alive_total": 222
   }
 ]
