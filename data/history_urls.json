@@ -913,6 +913,7 @@
   "https://example.com/api/v1/client/subscribe?token=xxxxxxxx",
   "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxx",
   "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxxxxx",
+  "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxx",
   "https://example.com/api/v1/client/subscribe?token=xyz",
   "https://example.com/api/v1/client/subscribe?token=your",
   "https://example.domain.com/api/v1/client/subscribe?token=000000000000000000000000000000",
