@@ -2541,5 +2541,6 @@
   "https://sub.gsyvip.com/api/v1/client/subscribe?token=YOUR": "2026-11-11",
   "https://sub.twilight.com/api/v1/client/subscribe?token=YOUR": "2026-11-11",
   "https://peiqian-sub.homes/api/v1/client/subscribe?token=your": "2026-11-12",
-  "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxx": "2026-11-17"
+  "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxx": "2026-11-17",
+  "https://sub.example.com/api/v1/client/subscribe?token=abc123": "2026-11-21"
 }
