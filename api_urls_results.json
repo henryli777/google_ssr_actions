@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21T10:38:19.379006",
+  "timestamp": "2026-11-21T18:40:56.528858",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -11,8 +11,8 @@
   ],
   "regions_count": 4,
   "total_urls": 1,
-  "original_urls": 3,
+  "original_urls": 4,
   "urls": [
-    "https://sub.example.com/api/v1/client/subscribe?token=abc123"
+    "https://jkun.1qqdg.cn/api/v1/client/subscribe?token=fd2d3fe807830f65b5539a8e2cd91b1d"
   ]
 }
