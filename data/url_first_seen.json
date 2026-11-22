@@ -2543,5 +2543,8 @@
   "https://peiqian-sub.homes/api/v1/client/subscribe?token=your": "2026-11-12",
   "https://example.com/api/v1/client/subscribe?token=xxxxxxxxxxxxxxxx": "2026-11-17",
   "https://sub.example.com/api/v1/client/subscribe?token=abc123": "2026-11-21",
-  "https://jkun.1qqdg.cn/api/v1/client/subscribe?token=fd2d3fe807830f65b5539a8e2cd91b1d": "2026-11-22"
+  "https://jkun.1qqdg.cn/api/v1/client/subscribe?token=fd2d3fe807830f65b5539a8e2cd91b1d": "2026-11-22",
+  "https://dash.djjc.cfd/api/v1/client/subscribe?token=608": "2026-11-22",
+  "https://dash.djjc.cfd/api/v1/client/subscribe?token=608&flag=meta": "2026-11-22",
+  "https://sub-gateway.example-panel.com/api/v1/client/subscribe?token=9f8e7d6c5b4a3210": "2026-11-22"
 }
