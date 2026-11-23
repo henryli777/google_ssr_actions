@@ -2549,5 +2549,8 @@
   "https://sub-gateway.example-panel.com/api/v1/client/subscribe?token=9f8e7d6c5b4a3210": "2026-11-22",
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=d7eb608": "2026-11-23",
   "https://dash.djjc.cfd/api/v1/client/subscribe?token=d7eb608&flag=meta": "2026-11-23",
-  "https://panel.example.com/api/v1/client/subscribe?token=a1b2c3d4e5f67890abcd": "2026-11-23"
+  "https://panel.example.com/api/v1/client/subscribe?token=a1b2c3d4e5f67890abcd": "2026-11-23",
+  "https://my-airport.com/api/v1/client/subscribe?token=SECRET": "2026-11-23",
+  "https://sjc.hief.store/api/v1/client/subscribe?token=a78a7493778548000977cdd29737374d": "2026-11-23",
+  "https://www.yfjc.xyz/api/v1/client/subscribe?token=e1054c0d6d600e4963558b1f5d779608": "2026-11-23"
 }
