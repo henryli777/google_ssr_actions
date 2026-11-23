@@ -3080,11 +3080,11 @@
   },
   {
     "date": "2026-11-23",
-    "google_added": 128,
+    "google_added": 124,
     "github_added": 0,
     "telegram_added": 0,
-    "new_total": 0,
-    "removed_total": 3,
-    "alive_total": 128
+    "new_total": 2,
+    "removed_total": 6,
+    "alive_total": 124
   }
 ]
