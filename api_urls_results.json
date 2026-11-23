@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T11:52:44.948816",
+  "timestamp": "2026-11-23T23:21:32.667447",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,14 +10,11 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 6,
-  "original_urls": 7,
+  "total_urls": 3,
+  "original_urls": 6,
   "urls": [
-    "https://sjc.hief.store/api/v1/client/subscribe?token=c35be70a3b3274b97650ea5bb0cea865",
     "https://www.yfjc.xyz/api/v1/client/subscribe?token=e1054c0d6d600e4963558b1f5d779608",
-    "https://sjc.hief.store/api/v1/client/subscribe?token=b30dad4bd5475bdb2482317501e24d9e",
-    "https://jiasu.one/api/v1/client/subscribe?token=7ea72eab53a9cbc33636f00b99df330f",
-    "https://jiasu.one/api/v1/client/subscribe?token=1fa5d9d4723b0328bd157e38011887da",
-    "https://sjc.hief.store/api/v1/client/subscribe?token=a78a7493778548000977cdd29737374d"
+    "https://iuenc35ziec.684821.xyz/api/v1/client/subscribe?token=f4fce375b56a3524fb3329872fff971e",
+    "https://jsjc.cfd/api/v1/client/subscribe?token=2dc6b0bee7629dde3e94c40b23e546cc"
   ]
 }
