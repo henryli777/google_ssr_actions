@@ -2561,5 +2561,8 @@
   "https://sublink01.flycatyun.cc/api/v1/client/subscribe?token=73a7b93596b0261bcbf487f102223e6c": "2026-11-24",
   "https://example.invalid/api/v1/client/subscribe?token=REPLACE": "2026-11-25",
   "https://sub.example.invalid/api/v1/client/subscribe?token=REDACTED": "2026-11-25",
-  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=9db4e2b73e58b5e1e0550699b116cee9": "2026-11-25"
+  "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=9db4e2b73e58b5e1e0550699b116cee9": "2026-11-25",
+  "https://jsjc.cfd/api/v1/client/subscribe?token=5650a53d21ac0b67e2c3e487312f01c6": "2026-11-26",
+  "https://jsjc.cfd/api/v1/client/subscribe?token=977b59b3cebd0afb2400c6a6abc2a6a6": "2026-11-26",
+  "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=01f5dd48179407e059f73793c965ea1b": "2026-11-26"
 }
