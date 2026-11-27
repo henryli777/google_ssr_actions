@@ -2567,5 +2567,6 @@
   "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=01f5dd48179407e059f73793c965ea1b": "2026-11-26",
   "https://new-airport.com/api/v1/client/subscribe?token=xxx": "2026-11-26",
   "https://nano.nachoneko.cn/api/v1/client/subscribe?token=8302339a3bcd3e745beee243cc726e9a": "2026-11-27",
-  "https://example.invalid/api/v1/client/subscribe?token=DEMO": "2026-11-27"
+  "https://example.invalid/api/v1/client/subscribe?token=DEMO": "2026-11-27",
+  "https://43.129.78.33:5000/api/v1/client/subscribe?token=57b624045644813dca534917c95b9983": "2026-11-28"
 }
