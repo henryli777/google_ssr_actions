@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T20:54:39.146224",
+  "timestamp": "2026-11-27T03:28:30.518039",
   "query": "\"api/v1/client/subscribe?token=\"",
   "search_type": "batch_regions",
   "regions_summary": "批量搜索 4 个地区: 沙特阿拉伯, 土耳其, 以色列, 印度",
@@ -10,11 +10,10 @@
     "印度 (gl=in, hl=hi, lr=lang_hi|lang_en|lang_zh-CN)"
   ],
   "regions_count": 4,
-  "total_urls": 3,
-  "original_urls": 7,
+  "total_urls": 2,
+  "original_urls": 4,
   "urls": [
-    "https://nano.nachoneko.cn/api/v1/client/subscribe?token=8302339a3bcd3e745beee243cc726e9a",
     "https://jsjc.cfd/api/v1/client/subscribe?token=977b59b3cebd0afb2400c6a6abc2a6a6",
-    "https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=9db4e2b73e58b5e1e0550699b116cee9"
+    "https://example.invalid/api/v1/client/subscribe?token=DEMO"
   ]
 }

@@ -921,6 +921,7 @@
   "https://example.com/api/v1/client/subscribe?token=xyz",
   "https://example.com/api/v1/client/subscribe?token=your",
   "https://example.domain.com/api/v1/client/subscribe?token=000000000000000000000000000000",
+  "https://example.invalid/api/v1/client/subscribe?token=DEMO",
   "https://example.invalid/api/v1/client/subscribe?token=REPLACE",
   "https://f-sub.xn--8pr28c250c1edz9a.xn--fiqs8s/api/v1/client/subscribe?token=ca03c034b7f44ed2924576087f11ce1a",
   "https://f2.bbdmfetch.com/api/v1/client/subscribe?token=08118ea398dcf729b6a758a865b9648c",
