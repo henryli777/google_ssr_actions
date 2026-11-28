@@ -905,6 +905,7 @@
   "https://example.com/api/v1/client/subscribe?token=11451419198101145141919810114514",
   "https://example.com/api/v1/client/subscribe?token=YOUR",
   "https://example.com/api/v1/client/subscribe?token=abc123",
+  "https://example.com/api/v1/client/subscribe?token=abcd",
   "https://example.com/api/v1/client/subscribe?token=abcd1234",
   "https://example.com/api/v1/client/subscribe?token=abcdef123456",
   "https://example.com/api/v1/client/subscribe?token=abcdefg",
